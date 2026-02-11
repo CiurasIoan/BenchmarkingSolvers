@@ -1,0 +1,29 @@
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Read_DataCheck                          1
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.00 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.00 ticks)
+
+FINAL SOLUTION
+solution for: CPLEX_deployment
+objective: 0
+status: OPTIMAL_SOLUTION(2)
+C1_VM1=1
+C2_VM1=1
+C3_VM1=1
+C4_VM1=1
+C5_VM1=1
+VM_1=1
+VM_2=1
+VM_3=1
+VM_4=1
+VM_5=1
+VM1_offer_CPU=19
+VM1_offer_Memory=20864
+VM1_offer_Storage=4750
