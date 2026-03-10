@@ -16,8 +16,8 @@ class CPLEX_Solver:
         self.model = Model("CPLEX_deployment")
 
         # Variabile
-        self.alloc_vars = {}   # (c, v) -> bin
-        self.type_vars = {}    # (v, o) -> bin
+        self.alloc_vars = {}   # (c, v) -> bin --> alocarea ofertei cumparate pe masina
+        self.type_vars = {}    # (v, o) -> bin ---> ce tip de oferta punem pe masina
         self.vm_price = {}     # v -> float
 
     def load_data(self):
@@ -35,6 +35,8 @@ class CPLEX_Solver:
             raw = json.load(f)
             for c in raw.get("components", []):
                 self.components.append({
+                    "id": c.get("id", 0),
+                    "name": c.get("name", "Unknown"),
                     "cpu": c.get("Compute", {}).get("CPU", 0),
                     "memory": c.get("Compute", {}).get("Memory", 0),
                     "storage": c.get("Storage", {}).get("StorageSize", 0)
@@ -161,54 +163,20 @@ class CPLEX_Solver:
             for o in range(nr_offers):
                 offer = self.offers[o]
                 condition = self.model.logical_and(self.vm_active[v] == 1, self.type_vars[(v, o)] == 1) == 1
-                condition2 = self.model.logical_and(self.vm_price[v] == offer["price"],
-                                                        self.CPU[v] == offer["cpu"],
-                                                        self.Memory[v] == offer["memory"],
-                                                        self.Storage[v] == offer["storage"])
+                #Condiție => (CPU = X  /  RAM = Y  /  STO = Z)  and  Preț = P
+                #la fel e si conditie => cpu=x and conditie => ram etc
+                consecinte = [
+                    self.vm_price[v] == offer["price"],   # pk = Ptk
+                    self.CPU[v]      == offer["cpu"],     # r_cpu = F_cpu
+                    self.Memory[v]   == offer["memory"],  # r_mem = F_mem
+                    self.Storage[v]  == offer["storage"]  # r_sto = F_sto
+                ]
 
-                self.model.add_constraint(
-                    self.model.if_then(
-                        condition,
-                        condition2
-                    ),
-                    ctname=f"Link_VM{v}_Off{o}"
-                )
-
-                #price
-                # self.model.add_constraint(
-                #     self.model.if_then(
-                #         condition,
-                #         self.vm_price[v] == offer["price"]
-                #     ),
-                #     ctname=f"Link_Price_VM{v+1}_Off{o}"
-                # )
-
-                # # CPU
-                # self.model.add_constraint(
-                #     self.model.if_then(
-                #         condition,
-                #         self.CPU[v] == offer["cpu"]
-                #     ),
-                #     ctname=f"Link_CPU_VM{v+1}_Off{o}"
-                # )
-                #
-                # # Memory
-                # self.model.add_constraint(
-                #     self.model.if_then(
-                #         condition,
-                #         self.Memory[v] == offer["memory"]
-                #     ),
-                #     ctname=f"Link_Mem_VM{v+1}_Off{o}"
-                # )
-                #
-                # # Storage
-                # self.model.add_constraint(
-                #     self.model.if_then(
-                #         condition,
-                #         self.Storage[v] == offer["storage"]
-                #     ),
-                #     ctname=f"Link_Sto_VM{v+1}_Off{o}"
-                # )
+                for eq in consecinte:
+                    self.model.add_constraint(
+                        self.model.if_then(condition, eq),
+                        ctname=f"Link_VM{v+1}_Off{o+1}"
+                    )
 
     def link_deactivation(self):
         #print(self.vm_type(v))
@@ -217,10 +185,9 @@ class CPLEX_Solver:
             for o in range(nr_offers):
                 self.model.add_constraint(
                     self.model.if_then(
-                        self.vm_active[v]==0, self.type_vars[(v, o)] == 0),
-                        #self.vm_active[v] == 0, self.vm_price[v]==0),
-
-                ctname=f"Deactivation_{v}"
+                        # self.vm_active[v]==0, self.type_vars[(v, o)] == 0),
+                        self.vm_active[v] == 0, self.vm_price[v]==0),
+                ctname=f"Deactivation_{v+1}"
                 )
 
     def objective(self):
@@ -294,15 +261,19 @@ class CPLEX_Solver:
 
                 # VM detalii
                 vm_details = []
-                f.write("\nVM Minimum Requirements\n")
-                f.write(f"{'VM ID':<6} {'Req CPU':<10} {'Req Memory':<12} {'Req Storage':<12}\n")
+                f.write("\nComponent Requirements\n")
+                f.write(f"{'C ID':<6} {'Name':<15} {'Req CPU':<10} {'Req Memory':<12} {'Req Storage':<12}\n")
                 f.write("-" * 60 + "\n")
 
                 for v in range(self.nr_vms):
+
                     total_req_cpu = 0
                     total_req_mem = 0
                     total_req_sto = 0
                     is_used = False
+
+                    c_names = []
+                    c_ids = []
 
                     for c in range(nr_comp):
                         if a_mat[c][v] == 1:
@@ -311,8 +282,13 @@ class CPLEX_Solver:
                             total_req_mem += self.components[c]["memory"]
                             total_req_sto += self.components[c]["storage"]
 
+                            c_ids.append(str(self.components[c].get("id", c + 1)))
+                            c_names.append(self.components[c].get("name", f"Comp_{c + 1}"))
+
                     if is_used:
-                        f.write(f"VM {v + 1:<3} {total_req_cpu:<10} {total_req_mem:<12} {total_req_sto:<12}\n")
+                        ids_str = ", ".join(c_ids)
+                        names_str = ", ".join(c_names)
+                        f.write(f"{ids_str:<6} {names_str:<15} {total_req_cpu:<10} {total_req_mem:<12} {total_req_sto:<12}\n")
 
                 f.write("-" * 60 + "\n")
 
