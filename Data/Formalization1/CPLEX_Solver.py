@@ -206,17 +206,23 @@ class CPLEX_Solver:
         sol_path = os.path.join(output_dir, f"{dynamic_base_name}.sol")
 
         self.model.export_as_lp(lp_path)
+        #scriere in sol file
 
-        # Time
-        start_time = time.time()
-        solution = self.model.solve()
-        solve_details = self.model.solve_details
-
-
-        duration = time.time() - start_time
-
-        # scriere in fisier solutie
         with open(sol_path, "w") as f:
+            self.model.parameters.preprocessing.presolve = 0
+            self.model.parameters.preprocessing.symmetry = 0
+            self.model.parameters.read.datacheck = 0
+            #pus limita ticks - 5.000.000
+            self.model.parameters.dettimelimit = 5000000
+
+            start_time = time.time()
+            solution = self.model.solve(log_output=f)
+            solve_details = self.model.solve_details
+
+
+
+            duration = time.time() - start_time
+
             if solution:
                 f.write(f"Price = {solution.objective_value}\n")
                 f.write(f"Time = {duration:.6f}\n")
