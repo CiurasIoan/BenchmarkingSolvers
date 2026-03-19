@@ -4,7 +4,7 @@ from Data.Formalization1.CPLEX_Solver import CPLEX_Solver
 
 res = CPLEX_Solver.solve(
     "../Data/Case_Studies/SecureWebContainer.json",
-    "../Data/Offers/offers_40.json"
+    "../Data/Offers/offers_500.json"
 )
 print(res)
 

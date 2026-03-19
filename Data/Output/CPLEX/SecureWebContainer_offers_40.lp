@@ -1138,1803 +1138,1608 @@ Subject To
  lc11: _bool#6 = 1 <-> VM_1#240 = 1
  lc12: _bool#7 = 1 <-> VM1_Type1 = 1
  lc13: _bool#8 = 1 <-> _and268 = 1
- Link_VM1_Off1: _bool#8 = 1 -> PriceProv1 = 8403
- Link_VM1_Off1#14: _bool#8 = 1 -> VM1_offer_CPU = 64
- Link_VM1_Off1#15: _bool#8 = 1 -> VM1_offer_Memory = 976000
- Link_VM1_Off1#16: _bool#8 = 1 -> VM1_offer_Storage = 1000
+ Link_VM1_Offer1: _bool#8 = 1 -> PriceProv1 = 8403
+ Link_VM1_Offer1#14: _bool#8 = 1 -> VM1_offer_CPU = 64
+ Link_VM1_Offer1#15: _bool#8 = 1 -> VM1_offer_Memory = 976000
+ Link_VM1_Offer1#16: _bool#8 = 1 -> VM1_offer_Storage = 1000
  lc18: _bool#9 = 1 <-> VM_1#240 = 1
  lc19: _bool#10 = 1 <-> VM1_Type2 = 1
  lc20: _bool#11 = 1 <-> _and272 = 1
- Link_VM1_Off2: _bool#11 = 1 -> PriceProv1 = 9152
- Link_VM1_Off2#21: _bool#11 = 1 -> VM1_offer_CPU = 64
- Link_VM1_Off2#22: _bool#11 = 1 -> VM1_offer_Memory = 488000
- Link_VM1_Off2#23: _bool#11 = 1 -> VM1_offer_Storage = 8000
+ Link_VM1_Offer2: _bool#11 = 1 -> PriceProv1 = 9152
+ Link_VM1_Offer2#21: _bool#11 = 1 -> VM1_offer_CPU = 64
+ Link_VM1_Offer2#22: _bool#11 = 1 -> VM1_offer_Memory = 488000
+ Link_VM1_Offer2#23: _bool#11 = 1 -> VM1_offer_Storage = 8000
  lc25: _bool#12 = 1 <-> VM_1#240 = 1
  lc26: _bool#13 = 1 <-> VM1_Type3 = 1
  lc27: _bool#14 = 1 <-> _and276 = 1
- Link_VM1_Off3: _bool#14 = 1 -> PriceProv1 = 10638
- Link_VM1_Off3#28: _bool#14 = 1 -> VM1_offer_CPU = 64
- Link_VM1_Off3#29: _bool#14 = 1 -> VM1_offer_Memory = 976000
- Link_VM1_Off3#30: _bool#14 = 1 -> VM1_offer_Storage = 1000
+ Link_VM1_Offer3: _bool#14 = 1 -> PriceProv1 = 10638
+ Link_VM1_Offer3#28: _bool#14 = 1 -> VM1_offer_CPU = 64
+ Link_VM1_Offer3#29: _bool#14 = 1 -> VM1_offer_Memory = 976000
+ Link_VM1_Offer3#30: _bool#14 = 1 -> VM1_offer_Storage = 1000
  lc32: _bool#15 = 1 <-> VM_1#240 = 1
  lc33: _bool#16 = 1 <-> VM1_Type4 = 1
  lc34: _bool#17 = 1 <-> _and280 = 1
- Link_VM1_Off4: _bool#17 = 1 -> PriceProv1 = 16000
- Link_VM1_Off4#35: _bool#17 = 1 -> VM1_offer_CPU = 64
- Link_VM1_Off4#36: _bool#17 = 1 -> VM1_offer_Memory = 1952
- Link_VM1_Off4#37: _bool#17 = 1 -> VM1_offer_Storage = 1000
+ Link_VM1_Offer4: _bool#17 = 1 -> PriceProv1 = 16000
+ Link_VM1_Offer4#35: _bool#17 = 1 -> VM1_offer_CPU = 64
+ Link_VM1_Offer4#36: _bool#17 = 1 -> VM1_offer_Memory = 1952
+ Link_VM1_Offer4#37: _bool#17 = 1 -> VM1_offer_Storage = 1000
  lc39: _bool#18 = 1 <-> VM_1#240 = 1
  lc40: _bool#19 = 1 <-> VM1_Type5 = 1
  lc41: _bool#20 = 1 <-> _and284 = 1
- Link_VM1_Off5: _bool#20 = 1 -> PriceProv1 = 13005
- Link_VM1_Off5#42: _bool#20 = 1 -> VM1_offer_CPU = 64
- Link_VM1_Off5#43: _bool#20 = 1 -> VM1_offer_Memory = 976000
- Link_VM1_Off5#44: _bool#20 = 1 -> VM1_offer_Storage = 1000
+ Link_VM1_Offer5: _bool#20 = 1 -> PriceProv1 = 13005
+ Link_VM1_Offer5#42: _bool#20 = 1 -> VM1_offer_CPU = 64
+ Link_VM1_Offer5#43: _bool#20 = 1 -> VM1_offer_Memory = 976000
+ Link_VM1_Offer5#44: _bool#20 = 1 -> VM1_offer_Storage = 1000
  lc46: _bool#21 = 1 <-> VM_1#240 = 1
  lc47: _bool#22 = 1 <-> VM1_Type6 = 1
  lc48: _bool#23 = 1 <-> _and288 = 1
- Link_VM1_Off6: _bool#23 = 1 -> PriceProv1 = 4105
- Link_VM1_Off6#49: _bool#23 = 1 -> VM1_offer_CPU = 32
- Link_VM1_Off6#50: _bool#23 = 1 -> VM1_offer_Memory = 244000
- Link_VM1_Off6#51: _bool#23 = 1 -> VM1_offer_Storage = 2000
+ Link_VM1_Offer6: _bool#23 = 1 -> PriceProv1 = 4105
+ Link_VM1_Offer6#49: _bool#23 = 1 -> VM1_offer_CPU = 32
+ Link_VM1_Offer6#50: _bool#23 = 1 -> VM1_offer_Memory = 244000
+ Link_VM1_Offer6#51: _bool#23 = 1 -> VM1_offer_Storage = 2000
  lc53: _bool#24 = 1 <-> VM_1#240 = 1
  lc54: _bool#25 = 1 <-> VM1_Type7 = 1
  lc55: _bool#26 = 1 <-> _and292 = 1
- Link_VM1_Off7: _bool#26 = 1 -> PriceProv1 = 2752
- Link_VM1_Off7#56: _bool#26 = 1 -> VM1_offer_CPU = 32
- Link_VM1_Off7#57: _bool#26 = 1 -> VM1_offer_Memory = 244000
- Link_VM1_Off7#58: _bool#26 = 1 -> VM1_offer_Storage = 4000
+ Link_VM1_Offer7: _bool#26 = 1 -> PriceProv1 = 2752
+ Link_VM1_Offer7#56: _bool#26 = 1 -> VM1_offer_CPU = 32
+ Link_VM1_Offer7#57: _bool#26 = 1 -> VM1_offer_Memory = 244000
+ Link_VM1_Offer7#58: _bool#26 = 1 -> VM1_offer_Storage = 4000
  lc60: _bool#27 = 1 <-> VM_1#240 = 1
  lc61: _bool#28 = 1 <-> VM1_Type8 = 1
  lc62: _bool#29 = 1 <-> _and296 = 1
- Link_VM1_Off8: _bool#29 = 1 -> PriceProv1 = 4576
- Link_VM1_Off8#63: _bool#29 = 1 -> VM1_offer_CPU = 32
- Link_VM1_Off8#64: _bool#29 = 1 -> VM1_offer_Memory = 244000
- Link_VM1_Off8#65: _bool#29 = 1 -> VM1_offer_Storage = 4000
+ Link_VM1_Offer8: _bool#29 = 1 -> PriceProv1 = 4576
+ Link_VM1_Offer8#63: _bool#29 = 1 -> VM1_offer_CPU = 32
+ Link_VM1_Offer8#64: _bool#29 = 1 -> VM1_offer_Memory = 244000
+ Link_VM1_Offer8#65: _bool#29 = 1 -> VM1_offer_Storage = 4000
  lc67: _bool#30 = 1 <-> VM_1#240 = 1
  lc68: _bool#31 = 1 <-> VM1_Type9 = 1
  lc69: _bool#32 = 1 <-> _and300 = 1
- Link_VM1_Off9: _bool#32 = 1 -> PriceProv1 = 6672
- Link_VM1_Off9#70: _bool#32 = 1 -> VM1_offer_CPU = 32
- Link_VM1_Off9#71: _bool#32 = 1 -> VM1_offer_Memory = 976000
- Link_VM1_Off9#72: _bool#32 = 1 -> VM1_offer_Storage = 1000
+ Link_VM1_Offer9: _bool#32 = 1 -> PriceProv1 = 6672
+ Link_VM1_Offer9#70: _bool#32 = 1 -> VM1_offer_CPU = 32
+ Link_VM1_Offer9#71: _bool#32 = 1 -> VM1_offer_Memory = 976000
+ Link_VM1_Offer9#72: _bool#32 = 1 -> VM1_offer_Storage = 1000
  lc74: _bool#33 = 1 <-> VM_1#240 = 1
  lc75: _bool#34 = 1 <-> VM1_Type10 = 1
  lc76: _bool#35 = 1 <-> _and304 = 1
- Link_VM1_Off10: _bool#35 = 1 -> PriceProv1 = 5570
- Link_VM1_Off10#77: _bool#35 = 1 -> VM1_offer_CPU = 17
- Link_VM1_Off10#78: _bool#35 = 1 -> VM1_offer_Memory = 117000
- Link_VM1_Off10#79: _bool#35 = 1 -> VM1_offer_Storage = 24000
+ Link_VM1_Offer10: _bool#35 = 1 -> PriceProv1 = 5570
+ Link_VM1_Offer10#77: _bool#35 = 1 -> VM1_offer_CPU = 17
+ Link_VM1_Offer10#78: _bool#35 = 1 -> VM1_offer_Memory = 117000
+ Link_VM1_Offer10#79: _bool#35 = 1 -> VM1_offer_Storage = 24000
  lc81: _bool#36 = 1 <-> VM_1#240 = 1
  lc82: _bool#37 = 1 <-> VM1_Type11 = 1
  lc83: _bool#38 = 1 <-> _and308 = 1
- Link_VM1_Off11: _bool#38 = 1 -> PriceProv1 = 1373
- Link_VM1_Off11#84: _bool#38 = 1 -> VM1_offer_CPU = 16
- Link_VM1_Off11#85: _bool#38 = 1 -> VM1_offer_Memory = 122000
- Link_VM1_Off11#86: _bool#38 = 1 -> VM1_offer_Storage = 2000
+ Link_VM1_Offer11: _bool#38 = 1 -> PriceProv1 = 1373
+ Link_VM1_Offer11#84: _bool#38 = 1 -> VM1_offer_CPU = 16
+ Link_VM1_Offer11#85: _bool#38 = 1 -> VM1_offer_Memory = 122000
+ Link_VM1_Offer11#86: _bool#38 = 1 -> VM1_offer_Storage = 2000
  lc88: _bool#39 = 1 <-> VM_1#240 = 1
  lc89: _bool#40 = 1 <-> VM1_Type12 = 1
  lc90: _bool#41 = 1 <-> _and312 = 1
- Link_VM1_Off12: _bool#41 = 1 -> PriceProv1 = 1430
- Link_VM1_Off12#91: _bool#41 = 1 -> VM1_offer_CPU = 16
- Link_VM1_Off12#92: _bool#41 = 1 -> VM1_offer_Memory = 30000
- Link_VM1_Off12#93: _bool#41 = 1 -> VM1_offer_Storage = 2000
+ Link_VM1_Offer12: _bool#41 = 1 -> PriceProv1 = 1430
+ Link_VM1_Offer12#91: _bool#41 = 1 -> VM1_offer_CPU = 16
+ Link_VM1_Offer12#92: _bool#41 = 1 -> VM1_offer_Memory = 30000
+ Link_VM1_Offer12#93: _bool#41 = 1 -> VM1_offer_Storage = 2000
  lc95: _bool#42 = 1 <-> VM_1#240 = 1
  lc96: _bool#43 = 1 <-> VM1_Type13 = 1
  lc97: _bool#44 = 1 <-> _and316 = 1
- Link_VM1_Off13: _bool#44 = 1 -> PriceProv1 = 5400
- Link_VM1_Off13#98: _bool#44 = 1 -> VM1_offer_CPU = 17
- Link_VM1_Off13#99: _bool#44 = 1 -> VM1_offer_Memory = 117000
- Link_VM1_Off13#100: _bool#44 = 1 -> VM1_offer_Storage = 24000
+ Link_VM1_Offer13: _bool#44 = 1 -> PriceProv1 = 5400
+ Link_VM1_Offer13#98: _bool#44 = 1 -> VM1_offer_CPU = 17
+ Link_VM1_Offer13#99: _bool#44 = 1 -> VM1_offer_Memory = 117000
+ Link_VM1_Offer13#100: _bool#44 = 1 -> VM1_offer_Storage = 24000
  lc102: _bool#45 = 1 <-> VM_1#240 = 1
  lc103: _bool#46 = 1 <-> VM1_Type14 = 1
  lc104: _bool#47 = 1 <-> _and320 = 1
- Link_VM1_Off14: _bool#47 = 1 -> PriceProv1 = 1654
- Link_VM1_Off14#105: _bool#47 = 1 -> VM1_offer_CPU = 16
- Link_VM1_Off14#106: _bool#47 = 1 -> VM1_offer_Memory = 122000
- Link_VM1_Off14#107: _bool#47 = 1 -> VM1_offer_Storage = 2000
+ Link_VM1_Offer14: _bool#47 = 1 -> PriceProv1 = 1654
+ Link_VM1_Offer14#105: _bool#47 = 1 -> VM1_offer_CPU = 16
+ Link_VM1_Offer14#106: _bool#47 = 1 -> VM1_offer_Memory = 122000
+ Link_VM1_Offer14#107: _bool#47 = 1 -> VM1_offer_Storage = 2000
  lc109: _bool#48 = 1 <-> VM_1#240 = 1
  lc110: _bool#49 = 1 <-> VM1_Type15 = 1
  lc111: _bool#50 = 1 <-> _and324 = 1
- Link_VM1_Off15: _bool#50 = 1 -> PriceProv1 = 5520
- Link_VM1_Off15#112: _bool#50 = 1 -> VM1_offer_CPU = 17
- Link_VM1_Off15#113: _bool#50 = 1 -> VM1_offer_Memory = 117000
- Link_VM1_Off15#114: _bool#50 = 1 -> VM1_offer_Storage = 24000
+ Link_VM1_Offer15: _bool#50 = 1 -> PriceProv1 = 5520
+ Link_VM1_Offer15#112: _bool#50 = 1 -> VM1_offer_CPU = 17
+ Link_VM1_Offer15#113: _bool#50 = 1 -> VM1_offer_Memory = 117000
+ Link_VM1_Offer15#114: _bool#50 = 1 -> VM1_offer_Storage = 24000
  lc116: _bool#51 = 1 <-> VM_1#240 = 1
  lc117: _bool#52 = 1 <-> VM1_Type16 = 1
  lc118: _bool#53 = 1 <-> _and328 = 1
- Link_VM1_Off16: _bool#53 = 1 -> PriceProv1 = 3079
- Link_VM1_Off16#119: _bool#53 = 1 -> VM1_offer_CPU = 16
- Link_VM1_Off16#120: _bool#53 = 1 -> VM1_offer_Memory = 122000
- Link_VM1_Off16#121: _bool#53 = 1 -> VM1_offer_Storage = 1000
+ Link_VM1_Offer16: _bool#53 = 1 -> PriceProv1 = 3079
+ Link_VM1_Offer16#119: _bool#53 = 1 -> VM1_offer_CPU = 16
+ Link_VM1_Offer16#120: _bool#53 = 1 -> VM1_offer_Memory = 122000
+ Link_VM1_Offer16#121: _bool#53 = 1 -> VM1_offer_Storage = 1000
  lc123: _bool#54 = 1 <-> VM_1#240 = 1
  lc124: _bool#55 = 1 <-> VM1_Type17 = 1
  lc125: _bool#56 = 1 <-> _and332 = 1
- Link_VM1_Off17: _bool#56 = 1 -> PriceProv1 = 1637
- Link_VM1_Off17#126: _bool#56 = 1 -> VM1_offer_CPU = 16
- Link_VM1_Off17#127: _bool#56 = 1 -> VM1_offer_Memory = 122000
- Link_VM1_Off17#128: _bool#56 = 1 -> VM1_offer_Storage = 2000
+ Link_VM1_Offer17: _bool#56 = 1 -> PriceProv1 = 1637
+ Link_VM1_Offer17#126: _bool#56 = 1 -> VM1_offer_CPU = 16
+ Link_VM1_Offer17#127: _bool#56 = 1 -> VM1_offer_Memory = 122000
+ Link_VM1_Offer17#128: _bool#56 = 1 -> VM1_offer_Storage = 2000
  lc130: _bool#57 = 1 <-> VM_1#240 = 1
  lc131: _bool#58 = 1 <-> VM1_Type18 = 1
  lc132: _bool#59 = 1 <-> _and336 = 1
- Link_VM1_Off18: _bool#59 = 1 -> PriceProv1 = 1470
- Link_VM1_Off18#133: _bool#59 = 1 -> VM1_offer_CPU = 8
- Link_VM1_Off18#134: _bool#59 = 1 -> VM1_offer_Memory = 61000
- Link_VM1_Off18#135: _bool#59 = 1 -> VM1_offer_Storage = 6000
+ Link_VM1_Offer18: _bool#59 = 1 -> PriceProv1 = 1470
+ Link_VM1_Offer18#133: _bool#59 = 1 -> VM1_offer_CPU = 8
+ Link_VM1_Offer18#134: _bool#59 = 1 -> VM1_offer_Memory = 61000
+ Link_VM1_Offer18#135: _bool#59 = 1 -> VM1_offer_Storage = 6000
  lc137: _bool#60 = 1 <-> VM_1#240 = 1
  lc138: _bool#61 = 1 <-> VM1_Type19 = 1
  lc139: _bool#62 = 1 <-> _and340 = 1
- Link_VM1_Off19: _bool#62 = 1 -> PriceProv1 = 1301
- Link_VM1_Off19#140: _bool#62 = 1 -> VM1_offer_CPU = 8
- Link_VM1_Off19#141: _bool#62 = 1 -> VM1_offer_Memory = 68400
- Link_VM1_Off19#142: _bool#62 = 1 -> VM1_offer_Storage = 2000
+ Link_VM1_Offer19: _bool#62 = 1 -> PriceProv1 = 1301
+ Link_VM1_Offer19#140: _bool#62 = 1 -> VM1_offer_CPU = 8
+ Link_VM1_Offer19#141: _bool#62 = 1 -> VM1_offer_Memory = 68400
+ Link_VM1_Offer19#142: _bool#62 = 1 -> VM1_offer_Storage = 2000
  lc144: _bool#63 = 1 <-> VM_1#240 = 1
  lc145: _bool#64 = 1 <-> VM1_Type20 = 1
  lc146: _bool#65 = 1 <-> _and344 = 1
- Link_VM1_Off20: _bool#65 = 1 -> PriceProv1 = 665
- Link_VM1_Off20#147: _bool#65 = 1 -> VM1_offer_CPU = 8
- Link_VM1_Off20#148: _bool#65 = 1 -> VM1_offer_Memory = 61000
- Link_VM1_Off20#149: _bool#65 = 1 -> VM1_offer_Storage = 1000
+ Link_VM1_Offer20: _bool#65 = 1 -> PriceProv1 = 665
+ Link_VM1_Offer20#147: _bool#65 = 1 -> VM1_offer_CPU = 8
+ Link_VM1_Offer20#148: _bool#65 = 1 -> VM1_offer_Memory = 61000
+ Link_VM1_Offer20#149: _bool#65 = 1 -> VM1_offer_Storage = 1000
  lc151: _bool#66 = 1 <-> VM_1#240 = 1
  lc152: _bool#67 = 1 <-> VM1_Type21 = 1
  lc153: _bool#68 = 1 <-> _and348 = 1
- Link_VM1_Off21: _bool#68 = 1 -> PriceProv1 = 632
- Link_VM1_Off21#154: _bool#68 = 1 -> VM1_offer_CPU = 8
- Link_VM1_Off21#155: _bool#68 = 1 -> VM1_offer_Memory = 7000
- Link_VM1_Off21#156: _bool#68 = 1 -> VM1_offer_Storage = 4000
+ Link_VM1_Offer21: _bool#68 = 1 -> PriceProv1 = 632
+ Link_VM1_Offer21#154: _bool#68 = 1 -> VM1_offer_CPU = 8
+ Link_VM1_Offer21#155: _bool#68 = 1 -> VM1_offer_Memory = 7000
+ Link_VM1_Offer21#156: _bool#68 = 1 -> VM1_offer_Storage = 4000
  lc158: _bool#69 = 1 <-> VM_1#240 = 1
  lc159: _bool#70 = 1 <-> VM1_Type22 = 1
  lc160: _bool#71 = 1 <-> _and352 = 1
- Link_VM1_Off22: _bool#71 = 1 -> PriceProv1 = 1288
- Link_VM1_Off22#161: _bool#71 = 1 -> VM1_offer_CPU = 8
- Link_VM1_Off22#162: _bool#71 = 1 -> VM1_offer_Memory = 68400
- Link_VM1_Off22#163: _bool#71 = 1 -> VM1_offer_Storage = 2000
+ Link_VM1_Offer22: _bool#71 = 1 -> PriceProv1 = 1288
+ Link_VM1_Offer22#161: _bool#71 = 1 -> VM1_offer_CPU = 8
+ Link_VM1_Offer22#162: _bool#71 = 1 -> VM1_offer_Memory = 68400
+ Link_VM1_Offer22#163: _bool#71 = 1 -> VM1_offer_Storage = 2000
  lc165: _bool#72 = 1 <-> VM_1#240 = 1
  lc166: _bool#73 = 1 <-> VM1_Type23 = 1
  lc167: _bool#74 = 1 <-> _and356 = 1
- Link_VM1_Off23: _bool#74 = 1 -> PriceProv1 = 402
- Link_VM1_Off23#168: _bool#74 = 1 -> VM1_offer_CPU = 4
- Link_VM1_Off23#169: _bool#74 = 1 -> VM1_offer_Memory = 15000
- Link_VM1_Off23#170: _bool#74 = 1 -> VM1_offer_Storage = 2000
+ Link_VM1_Offer23: _bool#74 = 1 -> PriceProv1 = 402
+ Link_VM1_Offer23#168: _bool#74 = 1 -> VM1_offer_CPU = 4
+ Link_VM1_Offer23#169: _bool#74 = 1 -> VM1_offer_Memory = 15000
+ Link_VM1_Offer23#170: _bool#74 = 1 -> VM1_offer_Storage = 2000
  lc172: _bool#75 = 1 <-> VM_1#240 = 1
  lc173: _bool#76 = 1 <-> VM1_Type24 = 1
  lc174: _bool#77 = 1 <-> _and360 = 1
- Link_VM1_Off24: _bool#77 = 1 -> PriceProv1 = 827
- Link_VM1_Off24#175: _bool#77 = 1 -> VM1_offer_CPU = 4
- Link_VM1_Off24#176: _bool#77 = 1 -> VM1_offer_Memory = 30500
- Link_VM1_Off24#177: _bool#77 = 1 -> VM1_offer_Storage = 3000
+ Link_VM1_Offer24: _bool#77 = 1 -> PriceProv1 = 827
+ Link_VM1_Offer24#175: _bool#77 = 1 -> VM1_offer_CPU = 4
+ Link_VM1_Offer24#176: _bool#77 = 1 -> VM1_offer_Memory = 30500
+ Link_VM1_Offer24#177: _bool#77 = 1 -> VM1_offer_Storage = 3000
  lc179: _bool#78 = 1 <-> VM_1#240 = 1
  lc180: _bool#79 = 1 <-> VM1_Type25 = 1
  lc181: _bool#80 = 1 <-> _and364 = 1
- Link_VM1_Off25: _bool#80 = 1 -> PriceProv1 = 266
- Link_VM1_Off25#182: _bool#80 = 1 -> VM1_offer_CPU = 4
- Link_VM1_Off25#183: _bool#80 = 1 -> VM1_offer_Memory = 15000
- Link_VM1_Off25#184: _bool#80 = 1 -> VM1_offer_Storage = 2000
+ Link_VM1_Offer25: _bool#80 = 1 -> PriceProv1 = 266
+ Link_VM1_Offer25#182: _bool#80 = 1 -> VM1_offer_CPU = 4
+ Link_VM1_Offer25#183: _bool#80 = 1 -> VM1_offer_Memory = 15000
+ Link_VM1_Offer25#184: _bool#80 = 1 -> VM1_offer_Storage = 2000
  lc186: _bool#81 = 1 <-> VM_1#240 = 1
  lc187: _bool#82 = 1 <-> VM1_Type26 = 1
  lc188: _bool#83 = 1 <-> _and368 = 1
- Link_VM1_Off26: _bool#83 = 1 -> PriceProv1 = 252
- Link_VM1_Off26#189: _bool#83 = 1 -> VM1_offer_CPU = 4
- Link_VM1_Off26#190: _bool#83 = 1 -> VM1_offer_Memory = 7500
- Link_VM1_Off26#191: _bool#83 = 1 -> VM1_offer_Storage = 2000
+ Link_VM1_Offer26: _bool#83 = 1 -> PriceProv1 = 252
+ Link_VM1_Offer26#189: _bool#83 = 1 -> VM1_offer_CPU = 4
+ Link_VM1_Offer26#190: _bool#83 = 1 -> VM1_offer_Memory = 7500
+ Link_VM1_Offer26#191: _bool#83 = 1 -> VM1_offer_Storage = 2000
  lc193: _bool#84 = 1 <-> VM_1#240 = 1
  lc194: _bool#85 = 1 <-> VM1_Type27 = 1
  lc195: _bool#86 = 1 <-> _and372 = 1
- Link_VM1_Off27: _bool#86 = 1 -> PriceProv1 = 252
- Link_VM1_Off27#196: _bool#86 = 1 -> VM1_offer_CPU = 4
- Link_VM1_Off27#197: _bool#86 = 1 -> VM1_offer_Memory = 7500
- Link_VM1_Off27#198: _bool#86 = 1 -> VM1_offer_Storage = 2000
+ Link_VM1_Offer27: _bool#86 = 1 -> PriceProv1 = 252
+ Link_VM1_Offer27#196: _bool#86 = 1 -> VM1_offer_CPU = 4
+ Link_VM1_Offer27#197: _bool#86 = 1 -> VM1_offer_Memory = 7500
+ Link_VM1_Offer27#198: _bool#86 = 1 -> VM1_offer_Storage = 2000
  lc200: _bool#87 = 1 <-> VM_1#240 = 1
  lc201: _bool#88 = 1 <-> VM1_Type28 = 1
  lc202: _bool#89 = 1 <-> _and376 = 1
- Link_VM1_Off28: _bool#89 = 1 -> PriceProv1 = 809
- Link_VM1_Off28#203: _bool#89 = 1 -> VM1_offer_CPU = 4
- Link_VM1_Off28#204: _bool#89 = 1 -> VM1_offer_Memory = 30500
- Link_VM1_Off28#205: _bool#89 = 1 -> VM1_offer_Storage = 3000
+ Link_VM1_Offer28: _bool#89 = 1 -> PriceProv1 = 809
+ Link_VM1_Offer28#203: _bool#89 = 1 -> VM1_offer_CPU = 4
+ Link_VM1_Offer28#204: _bool#89 = 1 -> VM1_offer_Memory = 30500
+ Link_VM1_Offer28#205: _bool#89 = 1 -> VM1_offer_Storage = 3000
  lc207: _bool#90 = 1 <-> VM_1#240 = 1
  lc208: _bool#91 = 1 <-> VM1_Type29 = 1
  lc209: _bool#92 = 1 <-> _and380 = 1
- Link_VM1_Off29: _bool#92 = 1 -> PriceProv1 = 379
- Link_VM1_Off29#210: _bool#92 = 1 -> VM1_offer_CPU = 4
- Link_VM1_Off29#211: _bool#92 = 1 -> VM1_offer_Memory = 30500
- Link_VM1_Off29#212: _bool#92 = 1 -> VM1_offer_Storage = 1000
+ Link_VM1_Offer29: _bool#92 = 1 -> PriceProv1 = 379
+ Link_VM1_Offer29#210: _bool#92 = 1 -> VM1_offer_CPU = 4
+ Link_VM1_Offer29#211: _bool#92 = 1 -> VM1_offer_Memory = 30500
+ Link_VM1_Offer29#212: _bool#92 = 1 -> VM1_offer_Storage = 1000
  lc214: _bool#93 = 1 <-> VM_1#240 = 1
  lc215: _bool#94 = 1 <-> VM1_Type30 = 1
  lc216: _bool#95 = 1 <-> _and384 = 1
- Link_VM1_Off30: _bool#95 = 1 -> PriceProv1 = 146
- Link_VM1_Off30#217: _bool#95 = 1 -> VM1_offer_CPU = 2
- Link_VM1_Off30#218: _bool#95 = 1 -> VM1_offer_Memory = 7500
- Link_VM1_Off30#219: _bool#95 = 1 -> VM1_offer_Storage = 1000
+ Link_VM1_Offer30: _bool#95 = 1 -> PriceProv1 = 146
+ Link_VM1_Offer30#217: _bool#95 = 1 -> VM1_offer_CPU = 2
+ Link_VM1_Offer30#218: _bool#95 = 1 -> VM1_offer_Memory = 7500
+ Link_VM1_Offer30#219: _bool#95 = 1 -> VM1_offer_Storage = 1000
  lc221: _bool#96 = 1 <-> VM_1#240 = 1
  lc222: _bool#97 = 1 <-> VM1_Type31 = 1
  lc223: _bool#98 = 1 <-> _and388 = 1
- Link_VM1_Off31: _bool#98 = 1 -> PriceProv1 = 207
- Link_VM1_Off31#224: _bool#98 = 1 -> VM1_offer_CPU = 2
- Link_VM1_Off31#225: _bool#98 = 1 -> VM1_offer_Memory = 15250
- Link_VM1_Off31#226: _bool#98 = 1 -> VM1_offer_Storage = 1000
+ Link_VM1_Offer31: _bool#98 = 1 -> PriceProv1 = 207
+ Link_VM1_Offer31#224: _bool#98 = 1 -> VM1_offer_CPU = 2
+ Link_VM1_Offer31#225: _bool#98 = 1 -> VM1_offer_Memory = 15250
+ Link_VM1_Offer31#226: _bool#98 = 1 -> VM1_offer_Storage = 1000
  lc228: _bool#99 = 1 <-> VM_1#240 = 1
  lc229: _bool#100 = 1 <-> VM1_Type32 = 1
  lc230: _bool#101 = 1 <-> _and392 = 1
- Link_VM1_Off32: _bool#101 = 1 -> PriceProv1 = 293
- Link_VM1_Off32#231: _bool#101 = 1 -> VM1_offer_CPU = 2
- Link_VM1_Off32#232: _bool#101 = 1 -> VM1_offer_Memory = 17100
- Link_VM1_Off32#233: _bool#101 = 1 -> VM1_offer_Storage = 1000
+ Link_VM1_Offer32: _bool#101 = 1 -> PriceProv1 = 293
+ Link_VM1_Offer32#231: _bool#101 = 1 -> VM1_offer_CPU = 2
+ Link_VM1_Offer32#232: _bool#101 = 1 -> VM1_offer_Memory = 17100
+ Link_VM1_Offer32#233: _bool#101 = 1 -> VM1_offer_Storage = 1000
  lc235: _bool#102 = 1 <-> VM_1#240 = 1
  lc236: _bool#103 = 1 <-> VM1_Type33 = 1
  lc237: _bool#104 = 1 <-> _and396 = 1
- Link_VM1_Off33: _bool#104 = 1 -> PriceProv1 = 220
- Link_VM1_Off33#238: _bool#104 = 1 -> VM1_offer_CPU = 2
- Link_VM1_Off33#239: _bool#104 = 1 -> VM1_offer_Memory = 15250
- Link_VM1_Off33#240: _bool#104 = 1 -> VM1_offer_Storage = 1000
+ Link_VM1_Offer33: _bool#104 = 1 -> PriceProv1 = 220
+ Link_VM1_Offer33#238: _bool#104 = 1 -> VM1_offer_CPU = 2
+ Link_VM1_Offer33#239: _bool#104 = 1 -> VM1_offer_Memory = 15250
+ Link_VM1_Offer33#240: _bool#104 = 1 -> VM1_offer_Storage = 1000
  lc242: _bool#105 = 1 <-> VM_1#240 = 1
  lc243: _bool#106 = 1 <-> VM1_Type34 = 1
  lc244: _bool#107 = 1 <-> _and400 = 1
- Link_VM1_Off34: _bool#107 = 1 -> PriceProv1 = 197
- Link_VM1_Off34#245: _bool#107 = 1 -> VM1_offer_CPU = 2
- Link_VM1_Off34#246: _bool#107 = 1 -> VM1_offer_Memory = 1700
- Link_VM1_Off34#247: _bool#107 = 1 -> VM1_offer_Storage = 1000
+ Link_VM1_Offer34: _bool#107 = 1 -> PriceProv1 = 197
+ Link_VM1_Offer34#245: _bool#107 = 1 -> VM1_offer_CPU = 2
+ Link_VM1_Offer34#246: _bool#107 = 1 -> VM1_offer_Memory = 1700
+ Link_VM1_Offer34#247: _bool#107 = 1 -> VM1_offer_Storage = 1000
  lc249: _bool#108 = 1 <-> VM_1#240 = 1
  lc250: _bool#109 = 1 <-> VM1_Type35 = 1
  lc251: _bool#110 = 1 <-> _and404 = 1
- Link_VM1_Off35: _bool#110 = 1 -> PriceProv1 = 180
- Link_VM1_Off35#252: _bool#110 = 1 -> VM1_offer_CPU = 2
- Link_VM1_Off35#253: _bool#110 = 1 -> VM1_offer_Memory = 1700
- Link_VM1_Off35#254: _bool#110 = 1 -> VM1_offer_Storage = 1000
+ Link_VM1_Offer35: _bool#110 = 1 -> PriceProv1 = 180
+ Link_VM1_Offer35#252: _bool#110 = 1 -> VM1_offer_CPU = 2
+ Link_VM1_Offer35#253: _bool#110 = 1 -> VM1_offer_Memory = 1700
+ Link_VM1_Offer35#254: _bool#110 = 1 -> VM1_offer_Storage = 1000
  lc256: _bool#111 = 1 <-> VM_1#240 = 1
  lc257: _bool#112 = 1 <-> VM1_Type36 = 1
  lc258: _bool#113 = 1 <-> _and408 = 1
- Link_VM1_Off36: _bool#113 = 1 -> PriceProv1 = 275
- Link_VM1_Off36#259: _bool#113 = 1 -> VM1_offer_CPU = 2
- Link_VM1_Off36#260: _bool#113 = 1 -> VM1_offer_Memory = 17100
- Link_VM1_Off36#261: _bool#113 = 1 -> VM1_offer_Storage = 1000
+ Link_VM1_Offer36: _bool#113 = 1 -> PriceProv1 = 275
+ Link_VM1_Offer36#259: _bool#113 = 1 -> VM1_offer_CPU = 2
+ Link_VM1_Offer36#260: _bool#113 = 1 -> VM1_offer_Memory = 17100
+ Link_VM1_Offer36#261: _bool#113 = 1 -> VM1_offer_Storage = 1000
  lc263: _bool#114 = 1 <-> VM_1#240 = 1
  lc264: _bool#115 = 1 <-> VM1_Type37 = 1
  lc265: _bool#116 = 1 <-> _and412 = 1
- Link_VM1_Off37: _bool#116 = 1 -> PriceProv1 = 128
- Link_VM1_Off37#266: _bool#116 = 1 -> VM1_offer_CPU = 2
- Link_VM1_Off37#267: _bool#116 = 1 -> VM1_offer_Memory = 3750
- Link_VM1_Off37#268: _bool#116 = 1 -> VM1_offer_Storage = 2000
+ Link_VM1_Offer37: _bool#116 = 1 -> PriceProv1 = 128
+ Link_VM1_Offer37#266: _bool#116 = 1 -> VM1_offer_CPU = 2
+ Link_VM1_Offer37#267: _bool#116 = 1 -> VM1_offer_Memory = 3750
+ Link_VM1_Offer37#268: _bool#116 = 1 -> VM1_offer_Storage = 2000
  lc270: _bool#117 = 1 <-> VM_1#240 = 1
  lc271: _bool#118 = 1 <-> VM1_Type38 = 1
  lc272: _bool#119 = 1 <-> _and416 = 1
- Link_VM1_Off38: _bool#119 = 1 -> PriceProv1 = 58
- Link_VM1_Off38#273: _bool#119 = 1 -> VM1_offer_CPU = 1
- Link_VM1_Off38#274: _bool#119 = 1 -> VM1_offer_Memory = 1700
- Link_VM1_Off38#275: _bool#119 = 1 -> VM1_offer_Storage = 1000
+ Link_VM1_Offer38: _bool#119 = 1 -> PriceProv1 = 58
+ Link_VM1_Offer38#273: _bool#119 = 1 -> VM1_offer_CPU = 1
+ Link_VM1_Offer38#274: _bool#119 = 1 -> VM1_offer_Memory = 1700
+ Link_VM1_Offer38#275: _bool#119 = 1 -> VM1_offer_Storage = 1000
  lc277: _bool#120 = 1 <-> VM_1#240 = 1
  lc278: _bool#121 = 1 <-> VM1_Type39 = 1
  lc279: _bool#122 = 1 <-> _and420 = 1
- Link_VM1_Off39: _bool#122 = 1 -> PriceProv1 = 93
- Link_VM1_Off39#280: _bool#122 = 1 -> VM1_offer_CPU = 1
- Link_VM1_Off39#281: _bool#122 = 1 -> VM1_offer_Memory = 3750
- Link_VM1_Off39#282: _bool#122 = 1 -> VM1_offer_Storage = 1000
+ Link_VM1_Offer39: _bool#122 = 1 -> PriceProv1 = 93
+ Link_VM1_Offer39#280: _bool#122 = 1 -> VM1_offer_CPU = 1
+ Link_VM1_Offer39#281: _bool#122 = 1 -> VM1_offer_Memory = 3750
+ Link_VM1_Offer39#282: _bool#122 = 1 -> VM1_offer_Storage = 1000
  lc284: _bool#123 = 1 <-> VM_1#240 = 1
  lc285: _bool#124 = 1 <-> VM1_Type40 = 1
  lc286: _bool#125 = 1 <-> _and424 = 1
- Link_VM1_Off40: _bool#125 = 1 -> PriceProv1 = 98
- Link_VM1_Off40#287: _bool#125 = 1 -> VM1_offer_CPU = 1
- Link_VM1_Off40#288: _bool#125 = 1 -> VM1_offer_Memory = 3750
- Link_VM1_Off40#289: _bool#125 = 1 -> VM1_offer_Storage = 1000
+ Link_VM1_Offer40: _bool#125 = 1 -> PriceProv1 = 98
+ Link_VM1_Offer40#287: _bool#125 = 1 -> VM1_offer_CPU = 1
+ Link_VM1_Offer40#288: _bool#125 = 1 -> VM1_offer_Memory = 3750
+ Link_VM1_Offer40#289: _bool#125 = 1 -> VM1_offer_Storage = 1000
  lc291: _bool#126 = 1 <-> VM_2#241 = 1
  lc292: _bool#127 = 1 <-> VM2_Type1 = 1
  lc293: _bool#128 = 1 <-> _and428 = 1
- Link_VM2_Off1: _bool#128 = 1 -> PriceProv2 = 8403
- Link_VM2_Off1#294: _bool#128 = 1 -> VM2_offer_CPU = 64
- Link_VM2_Off1#295: _bool#128 = 1 -> VM2_offer_Memory = 976000
- Link_VM2_Off1#296: _bool#128 = 1 -> VM2_offer_Storage = 1000
+ Link_VM2_Offer1: _bool#128 = 1 -> PriceProv2 = 8403
+ Link_VM2_Offer1#294: _bool#128 = 1 -> VM2_offer_CPU = 64
+ Link_VM2_Offer1#295: _bool#128 = 1 -> VM2_offer_Memory = 976000
+ Link_VM2_Offer1#296: _bool#128 = 1 -> VM2_offer_Storage = 1000
  lc298: _bool#129 = 1 <-> VM_2#241 = 1
  lc299: _bool#130 = 1 <-> VM2_Type2 = 1
  lc300: _bool#131 = 1 <-> _and432 = 1
- Link_VM2_Off2: _bool#131 = 1 -> PriceProv2 = 9152
- Link_VM2_Off2#301: _bool#131 = 1 -> VM2_offer_CPU = 64
- Link_VM2_Off2#302: _bool#131 = 1 -> VM2_offer_Memory = 488000
- Link_VM2_Off2#303: _bool#131 = 1 -> VM2_offer_Storage = 8000
+ Link_VM2_Offer2: _bool#131 = 1 -> PriceProv2 = 9152
+ Link_VM2_Offer2#301: _bool#131 = 1 -> VM2_offer_CPU = 64
+ Link_VM2_Offer2#302: _bool#131 = 1 -> VM2_offer_Memory = 488000
+ Link_VM2_Offer2#303: _bool#131 = 1 -> VM2_offer_Storage = 8000
  lc305: _bool#132 = 1 <-> VM_2#241 = 1
  lc306: _bool#133 = 1 <-> VM2_Type3 = 1
  lc307: _bool#134 = 1 <-> _and436 = 1
- Link_VM2_Off3: _bool#134 = 1 -> PriceProv2 = 10638
- Link_VM2_Off3#308: _bool#134 = 1 -> VM2_offer_CPU = 64
- Link_VM2_Off3#309: _bool#134 = 1 -> VM2_offer_Memory = 976000
- Link_VM2_Off3#310: _bool#134 = 1 -> VM2_offer_Storage = 1000
+ Link_VM2_Offer3: _bool#134 = 1 -> PriceProv2 = 10638
+ Link_VM2_Offer3#308: _bool#134 = 1 -> VM2_offer_CPU = 64
+ Link_VM2_Offer3#309: _bool#134 = 1 -> VM2_offer_Memory = 976000
+ Link_VM2_Offer3#310: _bool#134 = 1 -> VM2_offer_Storage = 1000
  lc312: _bool#135 = 1 <-> VM_2#241 = 1
  lc313: _bool#136 = 1 <-> VM2_Type4 = 1
  lc314: _bool#137 = 1 <-> _and440 = 1
- Link_VM2_Off4: _bool#137 = 1 -> PriceProv2 = 16000
- Link_VM2_Off4#315: _bool#137 = 1 -> VM2_offer_CPU = 64
- Link_VM2_Off4#316: _bool#137 = 1 -> VM2_offer_Memory = 1952
- Link_VM2_Off4#317: _bool#137 = 1 -> VM2_offer_Storage = 1000
+ Link_VM2_Offer4: _bool#137 = 1 -> PriceProv2 = 16000
+ Link_VM2_Offer4#315: _bool#137 = 1 -> VM2_offer_CPU = 64
+ Link_VM2_Offer4#316: _bool#137 = 1 -> VM2_offer_Memory = 1952
+ Link_VM2_Offer4#317: _bool#137 = 1 -> VM2_offer_Storage = 1000
  lc319: _bool#138 = 1 <-> VM_2#241 = 1
  lc320: _bool#139 = 1 <-> VM2_Type5 = 1
  lc321: _bool#140 = 1 <-> _and444 = 1
- Link_VM2_Off5: _bool#140 = 1 -> PriceProv2 = 13005
- Link_VM2_Off5#322: _bool#140 = 1 -> VM2_offer_CPU = 64
- Link_VM2_Off5#323: _bool#140 = 1 -> VM2_offer_Memory = 976000
- Link_VM2_Off5#324: _bool#140 = 1 -> VM2_offer_Storage = 1000
+ Link_VM2_Offer5: _bool#140 = 1 -> PriceProv2 = 13005
+ Link_VM2_Offer5#322: _bool#140 = 1 -> VM2_offer_CPU = 64
+ Link_VM2_Offer5#323: _bool#140 = 1 -> VM2_offer_Memory = 976000
+ Link_VM2_Offer5#324: _bool#140 = 1 -> VM2_offer_Storage = 1000
  lc326: _bool#141 = 1 <-> VM_2#241 = 1
  lc327: _bool#142 = 1 <-> VM2_Type6 = 1
  lc328: _bool#143 = 1 <-> _and448 = 1
- Link_VM2_Off6: _bool#143 = 1 -> PriceProv2 = 4105
- Link_VM2_Off6#329: _bool#143 = 1 -> VM2_offer_CPU = 32
- Link_VM2_Off6#330: _bool#143 = 1 -> VM2_offer_Memory = 244000
- Link_VM2_Off6#331: _bool#143 = 1 -> VM2_offer_Storage = 2000
+ Link_VM2_Offer6: _bool#143 = 1 -> PriceProv2 = 4105
+ Link_VM2_Offer6#329: _bool#143 = 1 -> VM2_offer_CPU = 32
+ Link_VM2_Offer6#330: _bool#143 = 1 -> VM2_offer_Memory = 244000
+ Link_VM2_Offer6#331: _bool#143 = 1 -> VM2_offer_Storage = 2000
  lc333: _bool#144 = 1 <-> VM_2#241 = 1
  lc334: _bool#145 = 1 <-> VM2_Type7 = 1
  lc335: _bool#146 = 1 <-> _and452 = 1
- Link_VM2_Off7: _bool#146 = 1 -> PriceProv2 = 2752
- Link_VM2_Off7#336: _bool#146 = 1 -> VM2_offer_CPU = 32
- Link_VM2_Off7#337: _bool#146 = 1 -> VM2_offer_Memory = 244000
- Link_VM2_Off7#338: _bool#146 = 1 -> VM2_offer_Storage = 4000
+ Link_VM2_Offer7: _bool#146 = 1 -> PriceProv2 = 2752
+ Link_VM2_Offer7#336: _bool#146 = 1 -> VM2_offer_CPU = 32
+ Link_VM2_Offer7#337: _bool#146 = 1 -> VM2_offer_Memory = 244000
+ Link_VM2_Offer7#338: _bool#146 = 1 -> VM2_offer_Storage = 4000
  lc340: _bool#147 = 1 <-> VM_2#241 = 1
  lc341: _bool#148 = 1 <-> VM2_Type8 = 1
  lc342: _bool#149 = 1 <-> _and456 = 1
- Link_VM2_Off8: _bool#149 = 1 -> PriceProv2 = 4576
- Link_VM2_Off8#343: _bool#149 = 1 -> VM2_offer_CPU = 32
- Link_VM2_Off8#344: _bool#149 = 1 -> VM2_offer_Memory = 244000
- Link_VM2_Off8#345: _bool#149 = 1 -> VM2_offer_Storage = 4000
+ Link_VM2_Offer8: _bool#149 = 1 -> PriceProv2 = 4576
+ Link_VM2_Offer8#343: _bool#149 = 1 -> VM2_offer_CPU = 32
+ Link_VM2_Offer8#344: _bool#149 = 1 -> VM2_offer_Memory = 244000
+ Link_VM2_Offer8#345: _bool#149 = 1 -> VM2_offer_Storage = 4000
  lc347: _bool#150 = 1 <-> VM_2#241 = 1
  lc348: _bool#151 = 1 <-> VM2_Type9 = 1
  lc349: _bool#152 = 1 <-> _and460 = 1
- Link_VM2_Off9: _bool#152 = 1 -> PriceProv2 = 6672
- Link_VM2_Off9#350: _bool#152 = 1 -> VM2_offer_CPU = 32
- Link_VM2_Off9#351: _bool#152 = 1 -> VM2_offer_Memory = 976000
- Link_VM2_Off9#352: _bool#152 = 1 -> VM2_offer_Storage = 1000
+ Link_VM2_Offer9: _bool#152 = 1 -> PriceProv2 = 6672
+ Link_VM2_Offer9#350: _bool#152 = 1 -> VM2_offer_CPU = 32
+ Link_VM2_Offer9#351: _bool#152 = 1 -> VM2_offer_Memory = 976000
+ Link_VM2_Offer9#352: _bool#152 = 1 -> VM2_offer_Storage = 1000
  lc354: _bool#153 = 1 <-> VM_2#241 = 1
  lc355: _bool#154 = 1 <-> VM2_Type10 = 1
  lc356: _bool#155 = 1 <-> _and464 = 1
- Link_VM2_Off10: _bool#155 = 1 -> PriceProv2 = 5570
- Link_VM2_Off10#357: _bool#155 = 1 -> VM2_offer_CPU = 17
- Link_VM2_Off10#358: _bool#155 = 1 -> VM2_offer_Memory = 117000
- Link_VM2_Off10#359: _bool#155 = 1 -> VM2_offer_Storage = 24000
+ Link_VM2_Offer10: _bool#155 = 1 -> PriceProv2 = 5570
+ Link_VM2_Offer10#357: _bool#155 = 1 -> VM2_offer_CPU = 17
+ Link_VM2_Offer10#358: _bool#155 = 1 -> VM2_offer_Memory = 117000
+ Link_VM2_Offer10#359: _bool#155 = 1 -> VM2_offer_Storage = 24000
  lc361: _bool#156 = 1 <-> VM_2#241 = 1
  lc362: _bool#157 = 1 <-> VM2_Type11 = 1
  lc363: _bool#158 = 1 <-> _and468 = 1
- Link_VM2_Off11: _bool#158 = 1 -> PriceProv2 = 1373
- Link_VM2_Off11#364: _bool#158 = 1 -> VM2_offer_CPU = 16
- Link_VM2_Off11#365: _bool#158 = 1 -> VM2_offer_Memory = 122000
- Link_VM2_Off11#366: _bool#158 = 1 -> VM2_offer_Storage = 2000
+ Link_VM2_Offer11: _bool#158 = 1 -> PriceProv2 = 1373
+ Link_VM2_Offer11#364: _bool#158 = 1 -> VM2_offer_CPU = 16
+ Link_VM2_Offer11#365: _bool#158 = 1 -> VM2_offer_Memory = 122000
+ Link_VM2_Offer11#366: _bool#158 = 1 -> VM2_offer_Storage = 2000
  lc368: _bool#159 = 1 <-> VM_2#241 = 1
  lc369: _bool#160 = 1 <-> VM2_Type12 = 1
  lc370: _bool#161 = 1 <-> _and472 = 1
- Link_VM2_Off12: _bool#161 = 1 -> PriceProv2 = 1430
- Link_VM2_Off12#371: _bool#161 = 1 -> VM2_offer_CPU = 16
- Link_VM2_Off12#372: _bool#161 = 1 -> VM2_offer_Memory = 30000
- Link_VM2_Off12#373: _bool#161 = 1 -> VM2_offer_Storage = 2000
+ Link_VM2_Offer12: _bool#161 = 1 -> PriceProv2 = 1430
+ Link_VM2_Offer12#371: _bool#161 = 1 -> VM2_offer_CPU = 16
+ Link_VM2_Offer12#372: _bool#161 = 1 -> VM2_offer_Memory = 30000
+ Link_VM2_Offer12#373: _bool#161 = 1 -> VM2_offer_Storage = 2000
  lc375: _bool#162 = 1 <-> VM_2#241 = 1
  lc376: _bool#163 = 1 <-> VM2_Type13 = 1
  lc377: _bool#164 = 1 <-> _and476 = 1
- Link_VM2_Off13: _bool#164 = 1 -> PriceProv2 = 5400
- Link_VM2_Off13#378: _bool#164 = 1 -> VM2_offer_CPU = 17
- Link_VM2_Off13#379: _bool#164 = 1 -> VM2_offer_Memory = 117000
- Link_VM2_Off13#380: _bool#164 = 1 -> VM2_offer_Storage = 24000
+ Link_VM2_Offer13: _bool#164 = 1 -> PriceProv2 = 5400
+ Link_VM2_Offer13#378: _bool#164 = 1 -> VM2_offer_CPU = 17
+ Link_VM2_Offer13#379: _bool#164 = 1 -> VM2_offer_Memory = 117000
+ Link_VM2_Offer13#380: _bool#164 = 1 -> VM2_offer_Storage = 24000
  lc382: _bool#165 = 1 <-> VM_2#241 = 1
  lc383: _bool#166 = 1 <-> VM2_Type14 = 1
  lc384: _bool#167 = 1 <-> _and480 = 1
- Link_VM2_Off14: _bool#167 = 1 -> PriceProv2 = 1654
- Link_VM2_Off14#385: _bool#167 = 1 -> VM2_offer_CPU = 16
- Link_VM2_Off14#386: _bool#167 = 1 -> VM2_offer_Memory = 122000
- Link_VM2_Off14#387: _bool#167 = 1 -> VM2_offer_Storage = 2000
+ Link_VM2_Offer14: _bool#167 = 1 -> PriceProv2 = 1654
+ Link_VM2_Offer14#385: _bool#167 = 1 -> VM2_offer_CPU = 16
+ Link_VM2_Offer14#386: _bool#167 = 1 -> VM2_offer_Memory = 122000
+ Link_VM2_Offer14#387: _bool#167 = 1 -> VM2_offer_Storage = 2000
  lc389: _bool#168 = 1 <-> VM_2#241 = 1
  lc390: _bool#169 = 1 <-> VM2_Type15 = 1
  lc391: _bool#170 = 1 <-> _and484 = 1
- Link_VM2_Off15: _bool#170 = 1 -> PriceProv2 = 5520
- Link_VM2_Off15#392: _bool#170 = 1 -> VM2_offer_CPU = 17
- Link_VM2_Off15#393: _bool#170 = 1 -> VM2_offer_Memory = 117000
- Link_VM2_Off15#394: _bool#170 = 1 -> VM2_offer_Storage = 24000
+ Link_VM2_Offer15: _bool#170 = 1 -> PriceProv2 = 5520
+ Link_VM2_Offer15#392: _bool#170 = 1 -> VM2_offer_CPU = 17
+ Link_VM2_Offer15#393: _bool#170 = 1 -> VM2_offer_Memory = 117000
+ Link_VM2_Offer15#394: _bool#170 = 1 -> VM2_offer_Storage = 24000
  lc396: _bool#171 = 1 <-> VM_2#241 = 1
  lc397: _bool#172 = 1 <-> VM2_Type16 = 1
  lc398: _bool#173 = 1 <-> _and488 = 1
- Link_VM2_Off16: _bool#173 = 1 -> PriceProv2 = 3079
- Link_VM2_Off16#399: _bool#173 = 1 -> VM2_offer_CPU = 16
- Link_VM2_Off16#400: _bool#173 = 1 -> VM2_offer_Memory = 122000
- Link_VM2_Off16#401: _bool#173 = 1 -> VM2_offer_Storage = 1000
+ Link_VM2_Offer16: _bool#173 = 1 -> PriceProv2 = 3079
+ Link_VM2_Offer16#399: _bool#173 = 1 -> VM2_offer_CPU = 16
+ Link_VM2_Offer16#400: _bool#173 = 1 -> VM2_offer_Memory = 122000
+ Link_VM2_Offer16#401: _bool#173 = 1 -> VM2_offer_Storage = 1000
  lc403: _bool#174 = 1 <-> VM_2#241 = 1
  lc404: _bool#175 = 1 <-> VM2_Type17 = 1
  lc405: _bool#176 = 1 <-> _and492 = 1
- Link_VM2_Off17: _bool#176 = 1 -> PriceProv2 = 1637
- Link_VM2_Off17#406: _bool#176 = 1 -> VM2_offer_CPU = 16
- Link_VM2_Off17#407: _bool#176 = 1 -> VM2_offer_Memory = 122000
- Link_VM2_Off17#408: _bool#176 = 1 -> VM2_offer_Storage = 2000
+ Link_VM2_Offer17: _bool#176 = 1 -> PriceProv2 = 1637
+ Link_VM2_Offer17#406: _bool#176 = 1 -> VM2_offer_CPU = 16
+ Link_VM2_Offer17#407: _bool#176 = 1 -> VM2_offer_Memory = 122000
+ Link_VM2_Offer17#408: _bool#176 = 1 -> VM2_offer_Storage = 2000
  lc410: _bool#177 = 1 <-> VM_2#241 = 1
  lc411: _bool#178 = 1 <-> VM2_Type18 = 1
  lc412: _bool#179 = 1 <-> _and496 = 1
- Link_VM2_Off18: _bool#179 = 1 -> PriceProv2 = 1470
- Link_VM2_Off18#413: _bool#179 = 1 -> VM2_offer_CPU = 8
- Link_VM2_Off18#414: _bool#179 = 1 -> VM2_offer_Memory = 61000
- Link_VM2_Off18#415: _bool#179 = 1 -> VM2_offer_Storage = 6000
+ Link_VM2_Offer18: _bool#179 = 1 -> PriceProv2 = 1470
+ Link_VM2_Offer18#413: _bool#179 = 1 -> VM2_offer_CPU = 8
+ Link_VM2_Offer18#414: _bool#179 = 1 -> VM2_offer_Memory = 61000
+ Link_VM2_Offer18#415: _bool#179 = 1 -> VM2_offer_Storage = 6000
  lc417: _bool#180 = 1 <-> VM_2#241 = 1
  lc418: _bool#181 = 1 <-> VM2_Type19 = 1
  lc419: _bool#182 = 1 <-> _and500 = 1
- Link_VM2_Off19: _bool#182 = 1 -> PriceProv2 = 1301
- Link_VM2_Off19#420: _bool#182 = 1 -> VM2_offer_CPU = 8
- Link_VM2_Off19#421: _bool#182 = 1 -> VM2_offer_Memory = 68400
- Link_VM2_Off19#422: _bool#182 = 1 -> VM2_offer_Storage = 2000
+ Link_VM2_Offer19: _bool#182 = 1 -> PriceProv2 = 1301
+ Link_VM2_Offer19#420: _bool#182 = 1 -> VM2_offer_CPU = 8
+ Link_VM2_Offer19#421: _bool#182 = 1 -> VM2_offer_Memory = 68400
+ Link_VM2_Offer19#422: _bool#182 = 1 -> VM2_offer_Storage = 2000
  lc424: _bool#183 = 1 <-> VM_2#241 = 1
  lc425: _bool#184 = 1 <-> VM2_Type20 = 1
  lc426: _bool#185 = 1 <-> _and504 = 1
- Link_VM2_Off20: _bool#185 = 1 -> PriceProv2 = 665
- Link_VM2_Off20#427: _bool#185 = 1 -> VM2_offer_CPU = 8
- Link_VM2_Off20#428: _bool#185 = 1 -> VM2_offer_Memory = 61000
- Link_VM2_Off20#429: _bool#185 = 1 -> VM2_offer_Storage = 1000
+ Link_VM2_Offer20: _bool#185 = 1 -> PriceProv2 = 665
+ Link_VM2_Offer20#427: _bool#185 = 1 -> VM2_offer_CPU = 8
+ Link_VM2_Offer20#428: _bool#185 = 1 -> VM2_offer_Memory = 61000
+ Link_VM2_Offer20#429: _bool#185 = 1 -> VM2_offer_Storage = 1000
  lc431: _bool#186 = 1 <-> VM_2#241 = 1
  lc432: _bool#187 = 1 <-> VM2_Type21 = 1
  lc433: _bool#188 = 1 <-> _and508 = 1
- Link_VM2_Off21: _bool#188 = 1 -> PriceProv2 = 632
- Link_VM2_Off21#434: _bool#188 = 1 -> VM2_offer_CPU = 8
- Link_VM2_Off21#435: _bool#188 = 1 -> VM2_offer_Memory = 7000
- Link_VM2_Off21#436: _bool#188 = 1 -> VM2_offer_Storage = 4000
+ Link_VM2_Offer21: _bool#188 = 1 -> PriceProv2 = 632
+ Link_VM2_Offer21#434: _bool#188 = 1 -> VM2_offer_CPU = 8
+ Link_VM2_Offer21#435: _bool#188 = 1 -> VM2_offer_Memory = 7000
+ Link_VM2_Offer21#436: _bool#188 = 1 -> VM2_offer_Storage = 4000
  lc438: _bool#189 = 1 <-> VM_2#241 = 1
  lc439: _bool#190 = 1 <-> VM2_Type22 = 1
  lc440: _bool#191 = 1 <-> _and512 = 1
- Link_VM2_Off22: _bool#191 = 1 -> PriceProv2 = 1288
- Link_VM2_Off22#441: _bool#191 = 1 -> VM2_offer_CPU = 8
- Link_VM2_Off22#442: _bool#191 = 1 -> VM2_offer_Memory = 68400
- Link_VM2_Off22#443: _bool#191 = 1 -> VM2_offer_Storage = 2000
+ Link_VM2_Offer22: _bool#191 = 1 -> PriceProv2 = 1288
+ Link_VM2_Offer22#441: _bool#191 = 1 -> VM2_offer_CPU = 8
+ Link_VM2_Offer22#442: _bool#191 = 1 -> VM2_offer_Memory = 68400
+ Link_VM2_Offer22#443: _bool#191 = 1 -> VM2_offer_Storage = 2000
  lc445: _bool#192 = 1 <-> VM_2#241 = 1
  lc446: _bool#193 = 1 <-> VM2_Type23 = 1
  lc447: _bool#194 = 1 <-> _and516 = 1
- Link_VM2_Off23: _bool#194 = 1 -> PriceProv2 = 402
- Link_VM2_Off23#448: _bool#194 = 1 -> VM2_offer_CPU = 4
- Link_VM2_Off23#449: _bool#194 = 1 -> VM2_offer_Memory = 15000
- Link_VM2_Off23#450: _bool#194 = 1 -> VM2_offer_Storage = 2000
+ Link_VM2_Offer23: _bool#194 = 1 -> PriceProv2 = 402
+ Link_VM2_Offer23#448: _bool#194 = 1 -> VM2_offer_CPU = 4
+ Link_VM2_Offer23#449: _bool#194 = 1 -> VM2_offer_Memory = 15000
+ Link_VM2_Offer23#450: _bool#194 = 1 -> VM2_offer_Storage = 2000
  lc452: _bool#195 = 1 <-> VM_2#241 = 1
  lc453: _bool#196 = 1 <-> VM2_Type24 = 1
  lc454: _bool#197 = 1 <-> _and520 = 1
- Link_VM2_Off24: _bool#197 = 1 -> PriceProv2 = 827
- Link_VM2_Off24#455: _bool#197 = 1 -> VM2_offer_CPU = 4
- Link_VM2_Off24#456: _bool#197 = 1 -> VM2_offer_Memory = 30500
- Link_VM2_Off24#457: _bool#197 = 1 -> VM2_offer_Storage = 3000
+ Link_VM2_Offer24: _bool#197 = 1 -> PriceProv2 = 827
+ Link_VM2_Offer24#455: _bool#197 = 1 -> VM2_offer_CPU = 4
+ Link_VM2_Offer24#456: _bool#197 = 1 -> VM2_offer_Memory = 30500
+ Link_VM2_Offer24#457: _bool#197 = 1 -> VM2_offer_Storage = 3000
  lc459: _bool#198 = 1 <-> VM_2#241 = 1
  lc460: _bool#199 = 1 <-> VM2_Type25 = 1
  lc461: _bool#200 = 1 <-> _and524 = 1
- Link_VM2_Off25: _bool#200 = 1 -> PriceProv2 = 266
- Link_VM2_Off25#462: _bool#200 = 1 -> VM2_offer_CPU = 4
- Link_VM2_Off25#463: _bool#200 = 1 -> VM2_offer_Memory = 15000
- Link_VM2_Off25#464: _bool#200 = 1 -> VM2_offer_Storage = 2000
+ Link_VM2_Offer25: _bool#200 = 1 -> PriceProv2 = 266
+ Link_VM2_Offer25#462: _bool#200 = 1 -> VM2_offer_CPU = 4
+ Link_VM2_Offer25#463: _bool#200 = 1 -> VM2_offer_Memory = 15000
+ Link_VM2_Offer25#464: _bool#200 = 1 -> VM2_offer_Storage = 2000
  lc466: _bool#201 = 1 <-> VM_2#241 = 1
  lc467: _bool#202 = 1 <-> VM2_Type26 = 1
  lc468: _bool#203 = 1 <-> _and528 = 1
- Link_VM2_Off26: _bool#203 = 1 -> PriceProv2 = 252
- Link_VM2_Off26#469: _bool#203 = 1 -> VM2_offer_CPU = 4
- Link_VM2_Off26#470: _bool#203 = 1 -> VM2_offer_Memory = 7500
- Link_VM2_Off26#471: _bool#203 = 1 -> VM2_offer_Storage = 2000
+ Link_VM2_Offer26: _bool#203 = 1 -> PriceProv2 = 252
+ Link_VM2_Offer26#469: _bool#203 = 1 -> VM2_offer_CPU = 4
+ Link_VM2_Offer26#470: _bool#203 = 1 -> VM2_offer_Memory = 7500
+ Link_VM2_Offer26#471: _bool#203 = 1 -> VM2_offer_Storage = 2000
  lc473: _bool#204 = 1 <-> VM_2#241 = 1
  lc474: _bool#205 = 1 <-> VM2_Type27 = 1
  lc475: _bool#206 = 1 <-> _and532 = 1
- Link_VM2_Off27: _bool#206 = 1 -> PriceProv2 = 252
- Link_VM2_Off27#476: _bool#206 = 1 -> VM2_offer_CPU = 4
- Link_VM2_Off27#477: _bool#206 = 1 -> VM2_offer_Memory = 7500
- Link_VM2_Off27#478: _bool#206 = 1 -> VM2_offer_Storage = 2000
+ Link_VM2_Offer27: _bool#206 = 1 -> PriceProv2 = 252
+ Link_VM2_Offer27#476: _bool#206 = 1 -> VM2_offer_CPU = 4
+ Link_VM2_Offer27#477: _bool#206 = 1 -> VM2_offer_Memory = 7500
+ Link_VM2_Offer27#478: _bool#206 = 1 -> VM2_offer_Storage = 2000
  lc480: _bool#207 = 1 <-> VM_2#241 = 1
  lc481: _bool#208 = 1 <-> VM2_Type28 = 1
  lc482: _bool#209 = 1 <-> _and536 = 1
- Link_VM2_Off28: _bool#209 = 1 -> PriceProv2 = 809
- Link_VM2_Off28#483: _bool#209 = 1 -> VM2_offer_CPU = 4
- Link_VM2_Off28#484: _bool#209 = 1 -> VM2_offer_Memory = 30500
- Link_VM2_Off28#485: _bool#209 = 1 -> VM2_offer_Storage = 3000
+ Link_VM2_Offer28: _bool#209 = 1 -> PriceProv2 = 809
+ Link_VM2_Offer28#483: _bool#209 = 1 -> VM2_offer_CPU = 4
+ Link_VM2_Offer28#484: _bool#209 = 1 -> VM2_offer_Memory = 30500
+ Link_VM2_Offer28#485: _bool#209 = 1 -> VM2_offer_Storage = 3000
  lc487: _bool#210 = 1 <-> VM_2#241 = 1
  lc488: _bool#211 = 1 <-> VM2_Type29 = 1
  lc489: _bool#212 = 1 <-> _and540 = 1
- Link_VM2_Off29: _bool#212 = 1 -> PriceProv2 = 379
- Link_VM2_Off29#490: _bool#212 = 1 -> VM2_offer_CPU = 4
- Link_VM2_Off29#491: _bool#212 = 1 -> VM2_offer_Memory = 30500
- Link_VM2_Off29#492: _bool#212 = 1 -> VM2_offer_Storage = 1000
+ Link_VM2_Offer29: _bool#212 = 1 -> PriceProv2 = 379
+ Link_VM2_Offer29#490: _bool#212 = 1 -> VM2_offer_CPU = 4
+ Link_VM2_Offer29#491: _bool#212 = 1 -> VM2_offer_Memory = 30500
+ Link_VM2_Offer29#492: _bool#212 = 1 -> VM2_offer_Storage = 1000
  lc494: _bool#213 = 1 <-> VM_2#241 = 1
  lc495: _bool#214 = 1 <-> VM2_Type30 = 1
  lc496: _bool#215 = 1 <-> _and544 = 1
- Link_VM2_Off30: _bool#215 = 1 -> PriceProv2 = 146
- Link_VM2_Off30#497: _bool#215 = 1 -> VM2_offer_CPU = 2
- Link_VM2_Off30#498: _bool#215 = 1 -> VM2_offer_Memory = 7500
- Link_VM2_Off30#499: _bool#215 = 1 -> VM2_offer_Storage = 1000
+ Link_VM2_Offer30: _bool#215 = 1 -> PriceProv2 = 146
+ Link_VM2_Offer30#497: _bool#215 = 1 -> VM2_offer_CPU = 2
+ Link_VM2_Offer30#498: _bool#215 = 1 -> VM2_offer_Memory = 7500
+ Link_VM2_Offer30#499: _bool#215 = 1 -> VM2_offer_Storage = 1000
  lc501: _bool#216 = 1 <-> VM_2#241 = 1
  lc502: _bool#217 = 1 <-> VM2_Type31 = 1
  lc503: _bool#218 = 1 <-> _and548 = 1
- Link_VM2_Off31: _bool#218 = 1 -> PriceProv2 = 207
- Link_VM2_Off31#504: _bool#218 = 1 -> VM2_offer_CPU = 2
- Link_VM2_Off31#505: _bool#218 = 1 -> VM2_offer_Memory = 15250
- Link_VM2_Off31#506: _bool#218 = 1 -> VM2_offer_Storage = 1000
+ Link_VM2_Offer31: _bool#218 = 1 -> PriceProv2 = 207
+ Link_VM2_Offer31#504: _bool#218 = 1 -> VM2_offer_CPU = 2
+ Link_VM2_Offer31#505: _bool#218 = 1 -> VM2_offer_Memory = 15250
+ Link_VM2_Offer31#506: _bool#218 = 1 -> VM2_offer_Storage = 1000
  lc508: _bool#219 = 1 <-> VM_2#241 = 1
  lc509: _bool#220 = 1 <-> VM2_Type32 = 1
  lc510: _bool#221 = 1 <-> _and552 = 1
- Link_VM2_Off32: _bool#221 = 1 -> PriceProv2 = 293
- Link_VM2_Off32#511: _bool#221 = 1 -> VM2_offer_CPU = 2
- Link_VM2_Off32#512: _bool#221 = 1 -> VM2_offer_Memory = 17100
- Link_VM2_Off32#513: _bool#221 = 1 -> VM2_offer_Storage = 1000
+ Link_VM2_Offer32: _bool#221 = 1 -> PriceProv2 = 293
+ Link_VM2_Offer32#511: _bool#221 = 1 -> VM2_offer_CPU = 2
+ Link_VM2_Offer32#512: _bool#221 = 1 -> VM2_offer_Memory = 17100
+ Link_VM2_Offer32#513: _bool#221 = 1 -> VM2_offer_Storage = 1000
  lc515: _bool#222 = 1 <-> VM_2#241 = 1
  lc516: _bool#223 = 1 <-> VM2_Type33 = 1
  lc517: _bool#224 = 1 <-> _and556 = 1
- Link_VM2_Off33: _bool#224 = 1 -> PriceProv2 = 220
- Link_VM2_Off33#518: _bool#224 = 1 -> VM2_offer_CPU = 2
- Link_VM2_Off33#519: _bool#224 = 1 -> VM2_offer_Memory = 15250
- Link_VM2_Off33#520: _bool#224 = 1 -> VM2_offer_Storage = 1000
+ Link_VM2_Offer33: _bool#224 = 1 -> PriceProv2 = 220
+ Link_VM2_Offer33#518: _bool#224 = 1 -> VM2_offer_CPU = 2
+ Link_VM2_Offer33#519: _bool#224 = 1 -> VM2_offer_Memory = 15250
+ Link_VM2_Offer33#520: _bool#224 = 1 -> VM2_offer_Storage = 1000
  lc522: _bool#225 = 1 <-> VM_2#241 = 1
  lc523: _bool#226 = 1 <-> VM2_Type34 = 1
  lc524: _bool#227 = 1 <-> _and560 = 1
- Link_VM2_Off34: _bool#227 = 1 -> PriceProv2 = 197
- Link_VM2_Off34#525: _bool#227 = 1 -> VM2_offer_CPU = 2
- Link_VM2_Off34#526: _bool#227 = 1 -> VM2_offer_Memory = 1700
- Link_VM2_Off34#527: _bool#227 = 1 -> VM2_offer_Storage = 1000
+ Link_VM2_Offer34: _bool#227 = 1 -> PriceProv2 = 197
+ Link_VM2_Offer34#525: _bool#227 = 1 -> VM2_offer_CPU = 2
+ Link_VM2_Offer34#526: _bool#227 = 1 -> VM2_offer_Memory = 1700
+ Link_VM2_Offer34#527: _bool#227 = 1 -> VM2_offer_Storage = 1000
  lc529: _bool#228 = 1 <-> VM_2#241 = 1
  lc530: _bool#229 = 1 <-> VM2_Type35 = 1
  lc531: _bool#230 = 1 <-> _and564 = 1
- Link_VM2_Off35: _bool#230 = 1 -> PriceProv2 = 180
- Link_VM2_Off35#532: _bool#230 = 1 -> VM2_offer_CPU = 2
- Link_VM2_Off35#533: _bool#230 = 1 -> VM2_offer_Memory = 1700
- Link_VM2_Off35#534: _bool#230 = 1 -> VM2_offer_Storage = 1000
+ Link_VM2_Offer35: _bool#230 = 1 -> PriceProv2 = 180
+ Link_VM2_Offer35#532: _bool#230 = 1 -> VM2_offer_CPU = 2
+ Link_VM2_Offer35#533: _bool#230 = 1 -> VM2_offer_Memory = 1700
+ Link_VM2_Offer35#534: _bool#230 = 1 -> VM2_offer_Storage = 1000
  lc536: _bool#231 = 1 <-> VM_2#241 = 1
  lc537: _bool#232 = 1 <-> VM2_Type36 = 1
  lc538: _bool#233 = 1 <-> _and568 = 1
- Link_VM2_Off36: _bool#233 = 1 -> PriceProv2 = 275
- Link_VM2_Off36#539: _bool#233 = 1 -> VM2_offer_CPU = 2
- Link_VM2_Off36#540: _bool#233 = 1 -> VM2_offer_Memory = 17100
- Link_VM2_Off36#541: _bool#233 = 1 -> VM2_offer_Storage = 1000
+ Link_VM2_Offer36: _bool#233 = 1 -> PriceProv2 = 275
+ Link_VM2_Offer36#539: _bool#233 = 1 -> VM2_offer_CPU = 2
+ Link_VM2_Offer36#540: _bool#233 = 1 -> VM2_offer_Memory = 17100
+ Link_VM2_Offer36#541: _bool#233 = 1 -> VM2_offer_Storage = 1000
  lc543: _bool#234 = 1 <-> VM_2#241 = 1
  lc544: _bool#235 = 1 <-> VM2_Type37 = 1
  lc545: _bool#236 = 1 <-> _and572 = 1
- Link_VM2_Off37: _bool#236 = 1 -> PriceProv2 = 128
- Link_VM2_Off37#546: _bool#236 = 1 -> VM2_offer_CPU = 2
- Link_VM2_Off37#547: _bool#236 = 1 -> VM2_offer_Memory = 3750
- Link_VM2_Off37#548: _bool#236 = 1 -> VM2_offer_Storage = 2000
+ Link_VM2_Offer37: _bool#236 = 1 -> PriceProv2 = 128
+ Link_VM2_Offer37#546: _bool#236 = 1 -> VM2_offer_CPU = 2
+ Link_VM2_Offer37#547: _bool#236 = 1 -> VM2_offer_Memory = 3750
+ Link_VM2_Offer37#548: _bool#236 = 1 -> VM2_offer_Storage = 2000
  lc550: _bool#237 = 1 <-> VM_2#241 = 1
  lc551: _bool#238 = 1 <-> VM2_Type38 = 1
  lc552: _bool#239 = 1 <-> _and576 = 1
- Link_VM2_Off38: _bool#239 = 1 -> PriceProv2 = 58
- Link_VM2_Off38#553: _bool#239 = 1 -> VM2_offer_CPU = 1
- Link_VM2_Off38#554: _bool#239 = 1 -> VM2_offer_Memory = 1700
- Link_VM2_Off38#555: _bool#239 = 1 -> VM2_offer_Storage = 1000
+ Link_VM2_Offer38: _bool#239 = 1 -> PriceProv2 = 58
+ Link_VM2_Offer38#553: _bool#239 = 1 -> VM2_offer_CPU = 1
+ Link_VM2_Offer38#554: _bool#239 = 1 -> VM2_offer_Memory = 1700
+ Link_VM2_Offer38#555: _bool#239 = 1 -> VM2_offer_Storage = 1000
  lc557: _bool#240 = 1 <-> VM_2#241 = 1
  lc558: _bool#241 = 1 <-> VM2_Type39 = 1
  lc559: _bool#242 = 1 <-> _and580 = 1
- Link_VM2_Off39: _bool#242 = 1 -> PriceProv2 = 93
- Link_VM2_Off39#560: _bool#242 = 1 -> VM2_offer_CPU = 1
- Link_VM2_Off39#561: _bool#242 = 1 -> VM2_offer_Memory = 3750
- Link_VM2_Off39#562: _bool#242 = 1 -> VM2_offer_Storage = 1000
+ Link_VM2_Offer39: _bool#242 = 1 -> PriceProv2 = 93
+ Link_VM2_Offer39#560: _bool#242 = 1 -> VM2_offer_CPU = 1
+ Link_VM2_Offer39#561: _bool#242 = 1 -> VM2_offer_Memory = 3750
+ Link_VM2_Offer39#562: _bool#242 = 1 -> VM2_offer_Storage = 1000
  lc564: _bool#243 = 1 <-> VM_2#241 = 1
  lc565: _bool#244 = 1 <-> VM2_Type40 = 1
  lc566: _bool#245 = 1 <-> _and584 = 1
- Link_VM2_Off40: _bool#245 = 1 -> PriceProv2 = 98
- Link_VM2_Off40#567: _bool#245 = 1 -> VM2_offer_CPU = 1
- Link_VM2_Off40#568: _bool#245 = 1 -> VM2_offer_Memory = 3750
- Link_VM2_Off40#569: _bool#245 = 1 -> VM2_offer_Storage = 1000
+ Link_VM2_Offer40: _bool#245 = 1 -> PriceProv2 = 98
+ Link_VM2_Offer40#567: _bool#245 = 1 -> VM2_offer_CPU = 1
+ Link_VM2_Offer40#568: _bool#245 = 1 -> VM2_offer_Memory = 3750
+ Link_VM2_Offer40#569: _bool#245 = 1 -> VM2_offer_Storage = 1000
  lc571: _bool#246 = 1 <-> VM_3#242 = 1
  lc572: _bool#247 = 1 <-> VM3_Type1 = 1
  lc573: _bool#248 = 1 <-> _and588 = 1
- Link_VM3_Off1: _bool#248 = 1 -> PriceProv3 = 8403
- Link_VM3_Off1#574: _bool#248 = 1 -> VM3_offer_CPU = 64
- Link_VM3_Off1#575: _bool#248 = 1 -> VM3_offer_Memory = 976000
- Link_VM3_Off1#576: _bool#248 = 1 -> VM3_offer_Storage = 1000
+ Link_VM3_Offer1: _bool#248 = 1 -> PriceProv3 = 8403
+ Link_VM3_Offer1#574: _bool#248 = 1 -> VM3_offer_CPU = 64
+ Link_VM3_Offer1#575: _bool#248 = 1 -> VM3_offer_Memory = 976000
+ Link_VM3_Offer1#576: _bool#248 = 1 -> VM3_offer_Storage = 1000
  lc578: _bool#249 = 1 <-> VM_3#242 = 1
  lc579: _bool#250 = 1 <-> VM3_Type2 = 1
  lc580: _bool#251 = 1 <-> _and592 = 1
- Link_VM3_Off2: _bool#251 = 1 -> PriceProv3 = 9152
- Link_VM3_Off2#581: _bool#251 = 1 -> VM3_offer_CPU = 64
- Link_VM3_Off2#582: _bool#251 = 1 -> VM3_offer_Memory = 488000
- Link_VM3_Off2#583: _bool#251 = 1 -> VM3_offer_Storage = 8000
+ Link_VM3_Offer2: _bool#251 = 1 -> PriceProv3 = 9152
+ Link_VM3_Offer2#581: _bool#251 = 1 -> VM3_offer_CPU = 64
+ Link_VM3_Offer2#582: _bool#251 = 1 -> VM3_offer_Memory = 488000
+ Link_VM3_Offer2#583: _bool#251 = 1 -> VM3_offer_Storage = 8000
  lc585: _bool#252 = 1 <-> VM_3#242 = 1
  lc586: _bool#253 = 1 <-> VM3_Type3 = 1
  lc587: _bool#254 = 1 <-> _and596 = 1
- Link_VM3_Off3: _bool#254 = 1 -> PriceProv3 = 10638
- Link_VM3_Off3#588: _bool#254 = 1 -> VM3_offer_CPU = 64
- Link_VM3_Off3#589: _bool#254 = 1 -> VM3_offer_Memory = 976000
- Link_VM3_Off3#590: _bool#254 = 1 -> VM3_offer_Storage = 1000
+ Link_VM3_Offer3: _bool#254 = 1 -> PriceProv3 = 10638
+ Link_VM3_Offer3#588: _bool#254 = 1 -> VM3_offer_CPU = 64
+ Link_VM3_Offer3#589: _bool#254 = 1 -> VM3_offer_Memory = 976000
+ Link_VM3_Offer3#590: _bool#254 = 1 -> VM3_offer_Storage = 1000
  lc592: _bool#255 = 1 <-> VM_3#242 = 1
  lc593: _bool#256 = 1 <-> VM3_Type4 = 1
  lc594: _bool#257 = 1 <-> _and600 = 1
- Link_VM3_Off4: _bool#257 = 1 -> PriceProv3 = 16000
- Link_VM3_Off4#595: _bool#257 = 1 -> VM3_offer_CPU = 64
- Link_VM3_Off4#596: _bool#257 = 1 -> VM3_offer_Memory = 1952
- Link_VM3_Off4#597: _bool#257 = 1 -> VM3_offer_Storage = 1000
+ Link_VM3_Offer4: _bool#257 = 1 -> PriceProv3 = 16000
+ Link_VM3_Offer4#595: _bool#257 = 1 -> VM3_offer_CPU = 64
+ Link_VM3_Offer4#596: _bool#257 = 1 -> VM3_offer_Memory = 1952
+ Link_VM3_Offer4#597: _bool#257 = 1 -> VM3_offer_Storage = 1000
  lc599: _bool#258 = 1 <-> VM_3#242 = 1
  lc600: _bool#259 = 1 <-> VM3_Type5 = 1
  lc601: _bool#260 = 1 <-> _and604 = 1
- Link_VM3_Off5: _bool#260 = 1 -> PriceProv3 = 13005
- Link_VM3_Off5#602: _bool#260 = 1 -> VM3_offer_CPU = 64
- Link_VM3_Off5#603: _bool#260 = 1 -> VM3_offer_Memory = 976000
- Link_VM3_Off5#604: _bool#260 = 1 -> VM3_offer_Storage = 1000
+ Link_VM3_Offer5: _bool#260 = 1 -> PriceProv3 = 13005
+ Link_VM3_Offer5#602: _bool#260 = 1 -> VM3_offer_CPU = 64
+ Link_VM3_Offer5#603: _bool#260 = 1 -> VM3_offer_Memory = 976000
+ Link_VM3_Offer5#604: _bool#260 = 1 -> VM3_offer_Storage = 1000
  lc606: _bool#261 = 1 <-> VM_3#242 = 1
  lc607: _bool#262 = 1 <-> VM3_Type6 = 1
  lc608: _bool#263 = 1 <-> _and608 = 1
- Link_VM3_Off6: _bool#263 = 1 -> PriceProv3 = 4105
- Link_VM3_Off6#609: _bool#263 = 1 -> VM3_offer_CPU = 32
- Link_VM3_Off6#610: _bool#263 = 1 -> VM3_offer_Memory = 244000
- Link_VM3_Off6#611: _bool#263 = 1 -> VM3_offer_Storage = 2000
+ Link_VM3_Offer6: _bool#263 = 1 -> PriceProv3 = 4105
+ Link_VM3_Offer6#609: _bool#263 = 1 -> VM3_offer_CPU = 32
+ Link_VM3_Offer6#610: _bool#263 = 1 -> VM3_offer_Memory = 244000
+ Link_VM3_Offer6#611: _bool#263 = 1 -> VM3_offer_Storage = 2000
  lc613: _bool#264 = 1 <-> VM_3#242 = 1
  lc614: _bool#265 = 1 <-> VM3_Type7 = 1
  lc615: _bool#266 = 1 <-> _and612 = 1
- Link_VM3_Off7: _bool#266 = 1 -> PriceProv3 = 2752
- Link_VM3_Off7#616: _bool#266 = 1 -> VM3_offer_CPU = 32
- Link_VM3_Off7#617: _bool#266 = 1 -> VM3_offer_Memory = 244000
- Link_VM3_Off7#618: _bool#266 = 1 -> VM3_offer_Storage = 4000
+ Link_VM3_Offer7: _bool#266 = 1 -> PriceProv3 = 2752
+ Link_VM3_Offer7#616: _bool#266 = 1 -> VM3_offer_CPU = 32
+ Link_VM3_Offer7#617: _bool#266 = 1 -> VM3_offer_Memory = 244000
+ Link_VM3_Offer7#618: _bool#266 = 1 -> VM3_offer_Storage = 4000
  lc620: _bool#267 = 1 <-> VM_3#242 = 1
  lc621: _bool#268 = 1 <-> VM3_Type8 = 1
  lc622: _bool#269 = 1 <-> _and616 = 1
- Link_VM3_Off8: _bool#269 = 1 -> PriceProv3 = 4576
- Link_VM3_Off8#623: _bool#269 = 1 -> VM3_offer_CPU = 32
- Link_VM3_Off8#624: _bool#269 = 1 -> VM3_offer_Memory = 244000
- Link_VM3_Off8#625: _bool#269 = 1 -> VM3_offer_Storage = 4000
+ Link_VM3_Offer8: _bool#269 = 1 -> PriceProv3 = 4576
+ Link_VM3_Offer8#623: _bool#269 = 1 -> VM3_offer_CPU = 32
+ Link_VM3_Offer8#624: _bool#269 = 1 -> VM3_offer_Memory = 244000
+ Link_VM3_Offer8#625: _bool#269 = 1 -> VM3_offer_Storage = 4000
  lc627: _bool#270 = 1 <-> VM_3#242 = 1
  lc628: _bool#271 = 1 <-> VM3_Type9 = 1
  lc629: _bool#272 = 1 <-> _and620 = 1
- Link_VM3_Off9: _bool#272 = 1 -> PriceProv3 = 6672
- Link_VM3_Off9#630: _bool#272 = 1 -> VM3_offer_CPU = 32
- Link_VM3_Off9#631: _bool#272 = 1 -> VM3_offer_Memory = 976000
- Link_VM3_Off9#632: _bool#272 = 1 -> VM3_offer_Storage = 1000
+ Link_VM3_Offer9: _bool#272 = 1 -> PriceProv3 = 6672
+ Link_VM3_Offer9#630: _bool#272 = 1 -> VM3_offer_CPU = 32
+ Link_VM3_Offer9#631: _bool#272 = 1 -> VM3_offer_Memory = 976000
+ Link_VM3_Offer9#632: _bool#272 = 1 -> VM3_offer_Storage = 1000
  lc634: _bool#273 = 1 <-> VM_3#242 = 1
  lc635: _bool#274 = 1 <-> VM3_Type10 = 1
  lc636: _bool#275 = 1 <-> _and624 = 1
- Link_VM3_Off10: _bool#275 = 1 -> PriceProv3 = 5570
- Link_VM3_Off10#637: _bool#275 = 1 -> VM3_offer_CPU = 17
- Link_VM3_Off10#638: _bool#275 = 1 -> VM3_offer_Memory = 117000
- Link_VM3_Off10#639: _bool#275 = 1 -> VM3_offer_Storage = 24000
+ Link_VM3_Offer10: _bool#275 = 1 -> PriceProv3 = 5570
+ Link_VM3_Offer10#637: _bool#275 = 1 -> VM3_offer_CPU = 17
+ Link_VM3_Offer10#638: _bool#275 = 1 -> VM3_offer_Memory = 117000
+ Link_VM3_Offer10#639: _bool#275 = 1 -> VM3_offer_Storage = 24000
  lc641: _bool#276 = 1 <-> VM_3#242 = 1
  lc642: _bool#277 = 1 <-> VM3_Type11 = 1
  lc643: _bool#278 = 1 <-> _and628 = 1
- Link_VM3_Off11: _bool#278 = 1 -> PriceProv3 = 1373
- Link_VM3_Off11#644: _bool#278 = 1 -> VM3_offer_CPU = 16
- Link_VM3_Off11#645: _bool#278 = 1 -> VM3_offer_Memory = 122000
- Link_VM3_Off11#646: _bool#278 = 1 -> VM3_offer_Storage = 2000
+ Link_VM3_Offer11: _bool#278 = 1 -> PriceProv3 = 1373
+ Link_VM3_Offer11#644: _bool#278 = 1 -> VM3_offer_CPU = 16
+ Link_VM3_Offer11#645: _bool#278 = 1 -> VM3_offer_Memory = 122000
+ Link_VM3_Offer11#646: _bool#278 = 1 -> VM3_offer_Storage = 2000
  lc648: _bool#279 = 1 <-> VM_3#242 = 1
  lc649: _bool#280 = 1 <-> VM3_Type12 = 1
  lc650: _bool#281 = 1 <-> _and632 = 1
- Link_VM3_Off12: _bool#281 = 1 -> PriceProv3 = 1430
- Link_VM3_Off12#651: _bool#281 = 1 -> VM3_offer_CPU = 16
- Link_VM3_Off12#652: _bool#281 = 1 -> VM3_offer_Memory = 30000
- Link_VM3_Off12#653: _bool#281 = 1 -> VM3_offer_Storage = 2000
+ Link_VM3_Offer12: _bool#281 = 1 -> PriceProv3 = 1430
+ Link_VM3_Offer12#651: _bool#281 = 1 -> VM3_offer_CPU = 16
+ Link_VM3_Offer12#652: _bool#281 = 1 -> VM3_offer_Memory = 30000
+ Link_VM3_Offer12#653: _bool#281 = 1 -> VM3_offer_Storage = 2000
  lc655: _bool#282 = 1 <-> VM_3#242 = 1
  lc656: _bool#283 = 1 <-> VM3_Type13 = 1
  lc657: _bool#284 = 1 <-> _and636 = 1
- Link_VM3_Off13: _bool#284 = 1 -> PriceProv3 = 5400
- Link_VM3_Off13#658: _bool#284 = 1 -> VM3_offer_CPU = 17
- Link_VM3_Off13#659: _bool#284 = 1 -> VM3_offer_Memory = 117000
- Link_VM3_Off13#660: _bool#284 = 1 -> VM3_offer_Storage = 24000
+ Link_VM3_Offer13: _bool#284 = 1 -> PriceProv3 = 5400
+ Link_VM3_Offer13#658: _bool#284 = 1 -> VM3_offer_CPU = 17
+ Link_VM3_Offer13#659: _bool#284 = 1 -> VM3_offer_Memory = 117000
+ Link_VM3_Offer13#660: _bool#284 = 1 -> VM3_offer_Storage = 24000
  lc662: _bool#285 = 1 <-> VM_3#242 = 1
  lc663: _bool#286 = 1 <-> VM3_Type14 = 1
  lc664: _bool#287 = 1 <-> _and640 = 1
- Link_VM3_Off14: _bool#287 = 1 -> PriceProv3 = 1654
- Link_VM3_Off14#665: _bool#287 = 1 -> VM3_offer_CPU = 16
- Link_VM3_Off14#666: _bool#287 = 1 -> VM3_offer_Memory = 122000
- Link_VM3_Off14#667: _bool#287 = 1 -> VM3_offer_Storage = 2000
+ Link_VM3_Offer14: _bool#287 = 1 -> PriceProv3 = 1654
+ Link_VM3_Offer14#665: _bool#287 = 1 -> VM3_offer_CPU = 16
+ Link_VM3_Offer14#666: _bool#287 = 1 -> VM3_offer_Memory = 122000
+ Link_VM3_Offer14#667: _bool#287 = 1 -> VM3_offer_Storage = 2000
  lc669: _bool#288 = 1 <-> VM_3#242 = 1
  lc670: _bool#289 = 1 <-> VM3_Type15 = 1
  lc671: _bool#290 = 1 <-> _and644 = 1
- Link_VM3_Off15: _bool#290 = 1 -> PriceProv3 = 5520
- Link_VM3_Off15#672: _bool#290 = 1 -> VM3_offer_CPU = 17
- Link_VM3_Off15#673: _bool#290 = 1 -> VM3_offer_Memory = 117000
- Link_VM3_Off15#674: _bool#290 = 1 -> VM3_offer_Storage = 24000
+ Link_VM3_Offer15: _bool#290 = 1 -> PriceProv3 = 5520
+ Link_VM3_Offer15#672: _bool#290 = 1 -> VM3_offer_CPU = 17
+ Link_VM3_Offer15#673: _bool#290 = 1 -> VM3_offer_Memory = 117000
+ Link_VM3_Offer15#674: _bool#290 = 1 -> VM3_offer_Storage = 24000
  lc676: _bool#291 = 1 <-> VM_3#242 = 1
  lc677: _bool#292 = 1 <-> VM3_Type16 = 1
  lc678: _bool#293 = 1 <-> _and648 = 1
- Link_VM3_Off16: _bool#293 = 1 -> PriceProv3 = 3079
- Link_VM3_Off16#679: _bool#293 = 1 -> VM3_offer_CPU = 16
- Link_VM3_Off16#680: _bool#293 = 1 -> VM3_offer_Memory = 122000
- Link_VM3_Off16#681: _bool#293 = 1 -> VM3_offer_Storage = 1000
+ Link_VM3_Offer16: _bool#293 = 1 -> PriceProv3 = 3079
+ Link_VM3_Offer16#679: _bool#293 = 1 -> VM3_offer_CPU = 16
+ Link_VM3_Offer16#680: _bool#293 = 1 -> VM3_offer_Memory = 122000
+ Link_VM3_Offer16#681: _bool#293 = 1 -> VM3_offer_Storage = 1000
  lc683: _bool#294 = 1 <-> VM_3#242 = 1
  lc684: _bool#295 = 1 <-> VM3_Type17 = 1
  lc685: _bool#296 = 1 <-> _and652 = 1
- Link_VM3_Off17: _bool#296 = 1 -> PriceProv3 = 1637
- Link_VM3_Off17#686: _bool#296 = 1 -> VM3_offer_CPU = 16
- Link_VM3_Off17#687: _bool#296 = 1 -> VM3_offer_Memory = 122000
- Link_VM3_Off17#688: _bool#296 = 1 -> VM3_offer_Storage = 2000
+ Link_VM3_Offer17: _bool#296 = 1 -> PriceProv3 = 1637
+ Link_VM3_Offer17#686: _bool#296 = 1 -> VM3_offer_CPU = 16
+ Link_VM3_Offer17#687: _bool#296 = 1 -> VM3_offer_Memory = 122000
+ Link_VM3_Offer17#688: _bool#296 = 1 -> VM3_offer_Storage = 2000
  lc690: _bool#297 = 1 <-> VM_3#242 = 1
  lc691: _bool#298 = 1 <-> VM3_Type18 = 1
  lc692: _bool#299 = 1 <-> _and656 = 1
- Link_VM3_Off18: _bool#299 = 1 -> PriceProv3 = 1470
- Link_VM3_Off18#693: _bool#299 = 1 -> VM3_offer_CPU = 8
- Link_VM3_Off18#694: _bool#299 = 1 -> VM3_offer_Memory = 61000
- Link_VM3_Off18#695: _bool#299 = 1 -> VM3_offer_Storage = 6000
+ Link_VM3_Offer18: _bool#299 = 1 -> PriceProv3 = 1470
+ Link_VM3_Offer18#693: _bool#299 = 1 -> VM3_offer_CPU = 8
+ Link_VM3_Offer18#694: _bool#299 = 1 -> VM3_offer_Memory = 61000
+ Link_VM3_Offer18#695: _bool#299 = 1 -> VM3_offer_Storage = 6000
  lc697: _bool#300 = 1 <-> VM_3#242 = 1
  lc698: _bool#301 = 1 <-> VM3_Type19 = 1
  lc699: _bool#302 = 1 <-> _and660 = 1
- Link_VM3_Off19: _bool#302 = 1 -> PriceProv3 = 1301
- Link_VM3_Off19#700: _bool#302 = 1 -> VM3_offer_CPU = 8
- Link_VM3_Off19#701: _bool#302 = 1 -> VM3_offer_Memory = 68400
- Link_VM3_Off19#702: _bool#302 = 1 -> VM3_offer_Storage = 2000
+ Link_VM3_Offer19: _bool#302 = 1 -> PriceProv3 = 1301
+ Link_VM3_Offer19#700: _bool#302 = 1 -> VM3_offer_CPU = 8
+ Link_VM3_Offer19#701: _bool#302 = 1 -> VM3_offer_Memory = 68400
+ Link_VM3_Offer19#702: _bool#302 = 1 -> VM3_offer_Storage = 2000
  lc704: _bool#303 = 1 <-> VM_3#242 = 1
  lc705: _bool#304 = 1 <-> VM3_Type20 = 1
  lc706: _bool#305 = 1 <-> _and664 = 1
- Link_VM3_Off20: _bool#305 = 1 -> PriceProv3 = 665
- Link_VM3_Off20#707: _bool#305 = 1 -> VM3_offer_CPU = 8
- Link_VM3_Off20#708: _bool#305 = 1 -> VM3_offer_Memory = 61000
- Link_VM3_Off20#709: _bool#305 = 1 -> VM3_offer_Storage = 1000
+ Link_VM3_Offer20: _bool#305 = 1 -> PriceProv3 = 665
+ Link_VM3_Offer20#707: _bool#305 = 1 -> VM3_offer_CPU = 8
+ Link_VM3_Offer20#708: _bool#305 = 1 -> VM3_offer_Memory = 61000
+ Link_VM3_Offer20#709: _bool#305 = 1 -> VM3_offer_Storage = 1000
  lc711: _bool#306 = 1 <-> VM_3#242 = 1
  lc712: _bool#307 = 1 <-> VM3_Type21 = 1
  lc713: _bool#308 = 1 <-> _and668 = 1
- Link_VM3_Off21: _bool#308 = 1 -> PriceProv3 = 632
- Link_VM3_Off21#714: _bool#308 = 1 -> VM3_offer_CPU = 8
- Link_VM3_Off21#715: _bool#308 = 1 -> VM3_offer_Memory = 7000
- Link_VM3_Off21#716: _bool#308 = 1 -> VM3_offer_Storage = 4000
+ Link_VM3_Offer21: _bool#308 = 1 -> PriceProv3 = 632
+ Link_VM3_Offer21#714: _bool#308 = 1 -> VM3_offer_CPU = 8
+ Link_VM3_Offer21#715: _bool#308 = 1 -> VM3_offer_Memory = 7000
+ Link_VM3_Offer21#716: _bool#308 = 1 -> VM3_offer_Storage = 4000
  lc718: _bool#309 = 1 <-> VM_3#242 = 1
  lc719: _bool#310 = 1 <-> VM3_Type22 = 1
  lc720: _bool#311 = 1 <-> _and672 = 1
- Link_VM3_Off22: _bool#311 = 1 -> PriceProv3 = 1288
- Link_VM3_Off22#721: _bool#311 = 1 -> VM3_offer_CPU = 8
- Link_VM3_Off22#722: _bool#311 = 1 -> VM3_offer_Memory = 68400
- Link_VM3_Off22#723: _bool#311 = 1 -> VM3_offer_Storage = 2000
+ Link_VM3_Offer22: _bool#311 = 1 -> PriceProv3 = 1288
+ Link_VM3_Offer22#721: _bool#311 = 1 -> VM3_offer_CPU = 8
+ Link_VM3_Offer22#722: _bool#311 = 1 -> VM3_offer_Memory = 68400
+ Link_VM3_Offer22#723: _bool#311 = 1 -> VM3_offer_Storage = 2000
  lc725: _bool#312 = 1 <-> VM_3#242 = 1
  lc726: _bool#313 = 1 <-> VM3_Type23 = 1
  lc727: _bool#314 = 1 <-> _and676 = 1
- Link_VM3_Off23: _bool#314 = 1 -> PriceProv3 = 402
- Link_VM3_Off23#728: _bool#314 = 1 -> VM3_offer_CPU = 4
- Link_VM3_Off23#729: _bool#314 = 1 -> VM3_offer_Memory = 15000
- Link_VM3_Off23#730: _bool#314 = 1 -> VM3_offer_Storage = 2000
+ Link_VM3_Offer23: _bool#314 = 1 -> PriceProv3 = 402
+ Link_VM3_Offer23#728: _bool#314 = 1 -> VM3_offer_CPU = 4
+ Link_VM3_Offer23#729: _bool#314 = 1 -> VM3_offer_Memory = 15000
+ Link_VM3_Offer23#730: _bool#314 = 1 -> VM3_offer_Storage = 2000
  lc732: _bool#315 = 1 <-> VM_3#242 = 1
  lc733: _bool#316 = 1 <-> VM3_Type24 = 1
  lc734: _bool#317 = 1 <-> _and680 = 1
- Link_VM3_Off24: _bool#317 = 1 -> PriceProv3 = 827
- Link_VM3_Off24#735: _bool#317 = 1 -> VM3_offer_CPU = 4
- Link_VM3_Off24#736: _bool#317 = 1 -> VM3_offer_Memory = 30500
- Link_VM3_Off24#737: _bool#317 = 1 -> VM3_offer_Storage = 3000
+ Link_VM3_Offer24: _bool#317 = 1 -> PriceProv3 = 827
+ Link_VM3_Offer24#735: _bool#317 = 1 -> VM3_offer_CPU = 4
+ Link_VM3_Offer24#736: _bool#317 = 1 -> VM3_offer_Memory = 30500
+ Link_VM3_Offer24#737: _bool#317 = 1 -> VM3_offer_Storage = 3000
  lc739: _bool#318 = 1 <-> VM_3#242 = 1
  lc740: _bool#319 = 1 <-> VM3_Type25 = 1
  lc741: _bool#320 = 1 <-> _and684 = 1
- Link_VM3_Off25: _bool#320 = 1 -> PriceProv3 = 266
- Link_VM3_Off25#742: _bool#320 = 1 -> VM3_offer_CPU = 4
- Link_VM3_Off25#743: _bool#320 = 1 -> VM3_offer_Memory = 15000
- Link_VM3_Off25#744: _bool#320 = 1 -> VM3_offer_Storage = 2000
+ Link_VM3_Offer25: _bool#320 = 1 -> PriceProv3 = 266
+ Link_VM3_Offer25#742: _bool#320 = 1 -> VM3_offer_CPU = 4
+ Link_VM3_Offer25#743: _bool#320 = 1 -> VM3_offer_Memory = 15000
+ Link_VM3_Offer25#744: _bool#320 = 1 -> VM3_offer_Storage = 2000
  lc746: _bool#321 = 1 <-> VM_3#242 = 1
  lc747: _bool#322 = 1 <-> VM3_Type26 = 1
  lc748: _bool#323 = 1 <-> _and688 = 1
- Link_VM3_Off26: _bool#323 = 1 -> PriceProv3 = 252
- Link_VM3_Off26#749: _bool#323 = 1 -> VM3_offer_CPU = 4
- Link_VM3_Off26#750: _bool#323 = 1 -> VM3_offer_Memory = 7500
- Link_VM3_Off26#751: _bool#323 = 1 -> VM3_offer_Storage = 2000
+ Link_VM3_Offer26: _bool#323 = 1 -> PriceProv3 = 252
+ Link_VM3_Offer26#749: _bool#323 = 1 -> VM3_offer_CPU = 4
+ Link_VM3_Offer26#750: _bool#323 = 1 -> VM3_offer_Memory = 7500
+ Link_VM3_Offer26#751: _bool#323 = 1 -> VM3_offer_Storage = 2000
  lc753: _bool#324 = 1 <-> VM_3#242 = 1
  lc754: _bool#325 = 1 <-> VM3_Type27 = 1
  lc755: _bool#326 = 1 <-> _and692 = 1
- Link_VM3_Off27: _bool#326 = 1 -> PriceProv3 = 252
- Link_VM3_Off27#756: _bool#326 = 1 -> VM3_offer_CPU = 4
- Link_VM3_Off27#757: _bool#326 = 1 -> VM3_offer_Memory = 7500
- Link_VM3_Off27#758: _bool#326 = 1 -> VM3_offer_Storage = 2000
+ Link_VM3_Offer27: _bool#326 = 1 -> PriceProv3 = 252
+ Link_VM3_Offer27#756: _bool#326 = 1 -> VM3_offer_CPU = 4
+ Link_VM3_Offer27#757: _bool#326 = 1 -> VM3_offer_Memory = 7500
+ Link_VM3_Offer27#758: _bool#326 = 1 -> VM3_offer_Storage = 2000
  lc760: _bool#327 = 1 <-> VM_3#242 = 1
  lc761: _bool#328 = 1 <-> VM3_Type28 = 1
  lc762: _bool#329 = 1 <-> _and696 = 1
- Link_VM3_Off28: _bool#329 = 1 -> PriceProv3 = 809
- Link_VM3_Off28#763: _bool#329 = 1 -> VM3_offer_CPU = 4
- Link_VM3_Off28#764: _bool#329 = 1 -> VM3_offer_Memory = 30500
- Link_VM3_Off28#765: _bool#329 = 1 -> VM3_offer_Storage = 3000
+ Link_VM3_Offer28: _bool#329 = 1 -> PriceProv3 = 809
+ Link_VM3_Offer28#763: _bool#329 = 1 -> VM3_offer_CPU = 4
+ Link_VM3_Offer28#764: _bool#329 = 1 -> VM3_offer_Memory = 30500
+ Link_VM3_Offer28#765: _bool#329 = 1 -> VM3_offer_Storage = 3000
  lc767: _bool#330 = 1 <-> VM_3#242 = 1
  lc768: _bool#331 = 1 <-> VM3_Type29 = 1
  lc769: _bool#332 = 1 <-> _and700 = 1
- Link_VM3_Off29: _bool#332 = 1 -> PriceProv3 = 379
- Link_VM3_Off29#770: _bool#332 = 1 -> VM3_offer_CPU = 4
- Link_VM3_Off29#771: _bool#332 = 1 -> VM3_offer_Memory = 30500
- Link_VM3_Off29#772: _bool#332 = 1 -> VM3_offer_Storage = 1000
+ Link_VM3_Offer29: _bool#332 = 1 -> PriceProv3 = 379
+ Link_VM3_Offer29#770: _bool#332 = 1 -> VM3_offer_CPU = 4
+ Link_VM3_Offer29#771: _bool#332 = 1 -> VM3_offer_Memory = 30500
+ Link_VM3_Offer29#772: _bool#332 = 1 -> VM3_offer_Storage = 1000
  lc774: _bool#333 = 1 <-> VM_3#242 = 1
  lc775: _bool#334 = 1 <-> VM3_Type30 = 1
  lc776: _bool#335 = 1 <-> _and704 = 1
- Link_VM3_Off30: _bool#335 = 1 -> PriceProv3 = 146
- Link_VM3_Off30#777: _bool#335 = 1 -> VM3_offer_CPU = 2
- Link_VM3_Off30#778: _bool#335 = 1 -> VM3_offer_Memory = 7500
- Link_VM3_Off30#779: _bool#335 = 1 -> VM3_offer_Storage = 1000
+ Link_VM3_Offer30: _bool#335 = 1 -> PriceProv3 = 146
+ Link_VM3_Offer30#777: _bool#335 = 1 -> VM3_offer_CPU = 2
+ Link_VM3_Offer30#778: _bool#335 = 1 -> VM3_offer_Memory = 7500
+ Link_VM3_Offer30#779: _bool#335 = 1 -> VM3_offer_Storage = 1000
  lc781: _bool#336 = 1 <-> VM_3#242 = 1
  lc782: _bool#337 = 1 <-> VM3_Type31 = 1
  lc783: _bool#338 = 1 <-> _and708 = 1
- Link_VM3_Off31: _bool#338 = 1 -> PriceProv3 = 207
- Link_VM3_Off31#784: _bool#338 = 1 -> VM3_offer_CPU = 2
- Link_VM3_Off31#785: _bool#338 = 1 -> VM3_offer_Memory = 15250
- Link_VM3_Off31#786: _bool#338 = 1 -> VM3_offer_Storage = 1000
+ Link_VM3_Offer31: _bool#338 = 1 -> PriceProv3 = 207
+ Link_VM3_Offer31#784: _bool#338 = 1 -> VM3_offer_CPU = 2
+ Link_VM3_Offer31#785: _bool#338 = 1 -> VM3_offer_Memory = 15250
+ Link_VM3_Offer31#786: _bool#338 = 1 -> VM3_offer_Storage = 1000
  lc788: _bool#339 = 1 <-> VM_3#242 = 1
  lc789: _bool#340 = 1 <-> VM3_Type32 = 1
  lc790: _bool#341 = 1 <-> _and712 = 1
- Link_VM3_Off32: _bool#341 = 1 -> PriceProv3 = 293
- Link_VM3_Off32#791: _bool#341 = 1 -> VM3_offer_CPU = 2
- Link_VM3_Off32#792: _bool#341 = 1 -> VM3_offer_Memory = 17100
- Link_VM3_Off32#793: _bool#341 = 1 -> VM3_offer_Storage = 1000
+ Link_VM3_Offer32: _bool#341 = 1 -> PriceProv3 = 293
+ Link_VM3_Offer32#791: _bool#341 = 1 -> VM3_offer_CPU = 2
+ Link_VM3_Offer32#792: _bool#341 = 1 -> VM3_offer_Memory = 17100
+ Link_VM3_Offer32#793: _bool#341 = 1 -> VM3_offer_Storage = 1000
  lc795: _bool#342 = 1 <-> VM_3#242 = 1
  lc796: _bool#343 = 1 <-> VM3_Type33 = 1
  lc797: _bool#344 = 1 <-> _and716 = 1
- Link_VM3_Off33: _bool#344 = 1 -> PriceProv3 = 220
- Link_VM3_Off33#798: _bool#344 = 1 -> VM3_offer_CPU = 2
- Link_VM3_Off33#799: _bool#344 = 1 -> VM3_offer_Memory = 15250
- Link_VM3_Off33#800: _bool#344 = 1 -> VM3_offer_Storage = 1000
+ Link_VM3_Offer33: _bool#344 = 1 -> PriceProv3 = 220
+ Link_VM3_Offer33#798: _bool#344 = 1 -> VM3_offer_CPU = 2
+ Link_VM3_Offer33#799: _bool#344 = 1 -> VM3_offer_Memory = 15250
+ Link_VM3_Offer33#800: _bool#344 = 1 -> VM3_offer_Storage = 1000
  lc802: _bool#345 = 1 <-> VM_3#242 = 1
  lc803: _bool#346 = 1 <-> VM3_Type34 = 1
  lc804: _bool#347 = 1 <-> _and720 = 1
- Link_VM3_Off34: _bool#347 = 1 -> PriceProv3 = 197
- Link_VM3_Off34#805: _bool#347 = 1 -> VM3_offer_CPU = 2
- Link_VM3_Off34#806: _bool#347 = 1 -> VM3_offer_Memory = 1700
- Link_VM3_Off34#807: _bool#347 = 1 -> VM3_offer_Storage = 1000
+ Link_VM3_Offer34: _bool#347 = 1 -> PriceProv3 = 197
+ Link_VM3_Offer34#805: _bool#347 = 1 -> VM3_offer_CPU = 2
+ Link_VM3_Offer34#806: _bool#347 = 1 -> VM3_offer_Memory = 1700
+ Link_VM3_Offer34#807: _bool#347 = 1 -> VM3_offer_Storage = 1000
  lc809: _bool#348 = 1 <-> VM_3#242 = 1
  lc810: _bool#349 = 1 <-> VM3_Type35 = 1
  lc811: _bool#350 = 1 <-> _and724 = 1
- Link_VM3_Off35: _bool#350 = 1 -> PriceProv3 = 180
- Link_VM3_Off35#812: _bool#350 = 1 -> VM3_offer_CPU = 2
- Link_VM3_Off35#813: _bool#350 = 1 -> VM3_offer_Memory = 1700
- Link_VM3_Off35#814: _bool#350 = 1 -> VM3_offer_Storage = 1000
+ Link_VM3_Offer35: _bool#350 = 1 -> PriceProv3 = 180
+ Link_VM3_Offer35#812: _bool#350 = 1 -> VM3_offer_CPU = 2
+ Link_VM3_Offer35#813: _bool#350 = 1 -> VM3_offer_Memory = 1700
+ Link_VM3_Offer35#814: _bool#350 = 1 -> VM3_offer_Storage = 1000
  lc816: _bool#351 = 1 <-> VM_3#242 = 1
  lc817: _bool#352 = 1 <-> VM3_Type36 = 1
  lc818: _bool#353 = 1 <-> _and728 = 1
- Link_VM3_Off36: _bool#353 = 1 -> PriceProv3 = 275
- Link_VM3_Off36#819: _bool#353 = 1 -> VM3_offer_CPU = 2
- Link_VM3_Off36#820: _bool#353 = 1 -> VM3_offer_Memory = 17100
- Link_VM3_Off36#821: _bool#353 = 1 -> VM3_offer_Storage = 1000
+ Link_VM3_Offer36: _bool#353 = 1 -> PriceProv3 = 275
+ Link_VM3_Offer36#819: _bool#353 = 1 -> VM3_offer_CPU = 2
+ Link_VM3_Offer36#820: _bool#353 = 1 -> VM3_offer_Memory = 17100
+ Link_VM3_Offer36#821: _bool#353 = 1 -> VM3_offer_Storage = 1000
  lc823: _bool#354 = 1 <-> VM_3#242 = 1
  lc824: _bool#355 = 1 <-> VM3_Type37 = 1
  lc825: _bool#356 = 1 <-> _and732 = 1
- Link_VM3_Off37: _bool#356 = 1 -> PriceProv3 = 128
- Link_VM3_Off37#826: _bool#356 = 1 -> VM3_offer_CPU = 2
- Link_VM3_Off37#827: _bool#356 = 1 -> VM3_offer_Memory = 3750
- Link_VM3_Off37#828: _bool#356 = 1 -> VM3_offer_Storage = 2000
+ Link_VM3_Offer37: _bool#356 = 1 -> PriceProv3 = 128
+ Link_VM3_Offer37#826: _bool#356 = 1 -> VM3_offer_CPU = 2
+ Link_VM3_Offer37#827: _bool#356 = 1 -> VM3_offer_Memory = 3750
+ Link_VM3_Offer37#828: _bool#356 = 1 -> VM3_offer_Storage = 2000
  lc830: _bool#357 = 1 <-> VM_3#242 = 1
  lc831: _bool#358 = 1 <-> VM3_Type38 = 1
  lc832: _bool#359 = 1 <-> _and736 = 1
- Link_VM3_Off38: _bool#359 = 1 -> PriceProv3 = 58
- Link_VM3_Off38#833: _bool#359 = 1 -> VM3_offer_CPU = 1
- Link_VM3_Off38#834: _bool#359 = 1 -> VM3_offer_Memory = 1700
- Link_VM3_Off38#835: _bool#359 = 1 -> VM3_offer_Storage = 1000
+ Link_VM3_Offer38: _bool#359 = 1 -> PriceProv3 = 58
+ Link_VM3_Offer38#833: _bool#359 = 1 -> VM3_offer_CPU = 1
+ Link_VM3_Offer38#834: _bool#359 = 1 -> VM3_offer_Memory = 1700
+ Link_VM3_Offer38#835: _bool#359 = 1 -> VM3_offer_Storage = 1000
  lc837: _bool#360 = 1 <-> VM_3#242 = 1
  lc838: _bool#361 = 1 <-> VM3_Type39 = 1
  lc839: _bool#362 = 1 <-> _and740 = 1
- Link_VM3_Off39: _bool#362 = 1 -> PriceProv3 = 93
- Link_VM3_Off39#840: _bool#362 = 1 -> VM3_offer_CPU = 1
- Link_VM3_Off39#841: _bool#362 = 1 -> VM3_offer_Memory = 3750
- Link_VM3_Off39#842: _bool#362 = 1 -> VM3_offer_Storage = 1000
+ Link_VM3_Offer39: _bool#362 = 1 -> PriceProv3 = 93
+ Link_VM3_Offer39#840: _bool#362 = 1 -> VM3_offer_CPU = 1
+ Link_VM3_Offer39#841: _bool#362 = 1 -> VM3_offer_Memory = 3750
+ Link_VM3_Offer39#842: _bool#362 = 1 -> VM3_offer_Storage = 1000
  lc844: _bool#363 = 1 <-> VM_3#242 = 1
  lc845: _bool#364 = 1 <-> VM3_Type40 = 1
  lc846: _bool#365 = 1 <-> _and744 = 1
- Link_VM3_Off40: _bool#365 = 1 -> PriceProv3 = 98
- Link_VM3_Off40#847: _bool#365 = 1 -> VM3_offer_CPU = 1
- Link_VM3_Off40#848: _bool#365 = 1 -> VM3_offer_Memory = 3750
- Link_VM3_Off40#849: _bool#365 = 1 -> VM3_offer_Storage = 1000
+ Link_VM3_Offer40: _bool#365 = 1 -> PriceProv3 = 98
+ Link_VM3_Offer40#847: _bool#365 = 1 -> VM3_offer_CPU = 1
+ Link_VM3_Offer40#848: _bool#365 = 1 -> VM3_offer_Memory = 3750
+ Link_VM3_Offer40#849: _bool#365 = 1 -> VM3_offer_Storage = 1000
  lc851: _bool#366 = 1 <-> VM_4#243 = 1
  lc852: _bool#367 = 1 <-> VM4_Type1 = 1
  lc853: _bool#368 = 1 <-> _and748 = 1
- Link_VM4_Off1: _bool#368 = 1 -> PriceProv4 = 8403
- Link_VM4_Off1#854: _bool#368 = 1 -> VM4_offer_CPU = 64
- Link_VM4_Off1#855: _bool#368 = 1 -> VM4_offer_Memory = 976000
- Link_VM4_Off1#856: _bool#368 = 1 -> VM4_offer_Storage = 1000
+ Link_VM4_Offer1: _bool#368 = 1 -> PriceProv4 = 8403
+ Link_VM4_Offer1#854: _bool#368 = 1 -> VM4_offer_CPU = 64
+ Link_VM4_Offer1#855: _bool#368 = 1 -> VM4_offer_Memory = 976000
+ Link_VM4_Offer1#856: _bool#368 = 1 -> VM4_offer_Storage = 1000
  lc858: _bool#369 = 1 <-> VM_4#243 = 1
  lc859: _bool#370 = 1 <-> VM4_Type2 = 1
  lc860: _bool#371 = 1 <-> _and752 = 1
- Link_VM4_Off2: _bool#371 = 1 -> PriceProv4 = 9152
- Link_VM4_Off2#861: _bool#371 = 1 -> VM4_offer_CPU = 64
- Link_VM4_Off2#862: _bool#371 = 1 -> VM4_offer_Memory = 488000
- Link_VM4_Off2#863: _bool#371 = 1 -> VM4_offer_Storage = 8000
+ Link_VM4_Offer2: _bool#371 = 1 -> PriceProv4 = 9152
+ Link_VM4_Offer2#861: _bool#371 = 1 -> VM4_offer_CPU = 64
+ Link_VM4_Offer2#862: _bool#371 = 1 -> VM4_offer_Memory = 488000
+ Link_VM4_Offer2#863: _bool#371 = 1 -> VM4_offer_Storage = 8000
  lc865: _bool#372 = 1 <-> VM_4#243 = 1
  lc866: _bool#373 = 1 <-> VM4_Type3 = 1
  lc867: _bool#374 = 1 <-> _and756 = 1
- Link_VM4_Off3: _bool#374 = 1 -> PriceProv4 = 10638
- Link_VM4_Off3#868: _bool#374 = 1 -> VM4_offer_CPU = 64
- Link_VM4_Off3#869: _bool#374 = 1 -> VM4_offer_Memory = 976000
- Link_VM4_Off3#870: _bool#374 = 1 -> VM4_offer_Storage = 1000
+ Link_VM4_Offer3: _bool#374 = 1 -> PriceProv4 = 10638
+ Link_VM4_Offer3#868: _bool#374 = 1 -> VM4_offer_CPU = 64
+ Link_VM4_Offer3#869: _bool#374 = 1 -> VM4_offer_Memory = 976000
+ Link_VM4_Offer3#870: _bool#374 = 1 -> VM4_offer_Storage = 1000
  lc872: _bool#375 = 1 <-> VM_4#243 = 1
  lc873: _bool#376 = 1 <-> VM4_Type4 = 1
  lc874: _bool#377 = 1 <-> _and760 = 1
- Link_VM4_Off4: _bool#377 = 1 -> PriceProv4 = 16000
- Link_VM4_Off4#875: _bool#377 = 1 -> VM4_offer_CPU = 64
- Link_VM4_Off4#876: _bool#377 = 1 -> VM4_offer_Memory = 1952
- Link_VM4_Off4#877: _bool#377 = 1 -> VM4_offer_Storage = 1000
+ Link_VM4_Offer4: _bool#377 = 1 -> PriceProv4 = 16000
+ Link_VM4_Offer4#875: _bool#377 = 1 -> VM4_offer_CPU = 64
+ Link_VM4_Offer4#876: _bool#377 = 1 -> VM4_offer_Memory = 1952
+ Link_VM4_Offer4#877: _bool#377 = 1 -> VM4_offer_Storage = 1000
  lc879: _bool#378 = 1 <-> VM_4#243 = 1
  lc880: _bool#379 = 1 <-> VM4_Type5 = 1
  lc881: _bool#380 = 1 <-> _and764 = 1
- Link_VM4_Off5: _bool#380 = 1 -> PriceProv4 = 13005
- Link_VM4_Off5#882: _bool#380 = 1 -> VM4_offer_CPU = 64
- Link_VM4_Off5#883: _bool#380 = 1 -> VM4_offer_Memory = 976000
- Link_VM4_Off5#884: _bool#380 = 1 -> VM4_offer_Storage = 1000
+ Link_VM4_Offer5: _bool#380 = 1 -> PriceProv4 = 13005
+ Link_VM4_Offer5#882: _bool#380 = 1 -> VM4_offer_CPU = 64
+ Link_VM4_Offer5#883: _bool#380 = 1 -> VM4_offer_Memory = 976000
+ Link_VM4_Offer5#884: _bool#380 = 1 -> VM4_offer_Storage = 1000
  lc886: _bool#381 = 1 <-> VM_4#243 = 1
  lc887: _bool#382 = 1 <-> VM4_Type6 = 1
  lc888: _bool#383 = 1 <-> _and768 = 1
- Link_VM4_Off6: _bool#383 = 1 -> PriceProv4 = 4105
- Link_VM4_Off6#889: _bool#383 = 1 -> VM4_offer_CPU = 32
- Link_VM4_Off6#890: _bool#383 = 1 -> VM4_offer_Memory = 244000
- Link_VM4_Off6#891: _bool#383 = 1 -> VM4_offer_Storage = 2000
+ Link_VM4_Offer6: _bool#383 = 1 -> PriceProv4 = 4105
+ Link_VM4_Offer6#889: _bool#383 = 1 -> VM4_offer_CPU = 32
+ Link_VM4_Offer6#890: _bool#383 = 1 -> VM4_offer_Memory = 244000
+ Link_VM4_Offer6#891: _bool#383 = 1 -> VM4_offer_Storage = 2000
  lc893: _bool#384 = 1 <-> VM_4#243 = 1
  lc894: _bool#385 = 1 <-> VM4_Type7 = 1
  lc895: _bool#386 = 1 <-> _and772 = 1
- Link_VM4_Off7: _bool#386 = 1 -> PriceProv4 = 2752
- Link_VM4_Off7#896: _bool#386 = 1 -> VM4_offer_CPU = 32
- Link_VM4_Off7#897: _bool#386 = 1 -> VM4_offer_Memory = 244000
- Link_VM4_Off7#898: _bool#386 = 1 -> VM4_offer_Storage = 4000
+ Link_VM4_Offer7: _bool#386 = 1 -> PriceProv4 = 2752
+ Link_VM4_Offer7#896: _bool#386 = 1 -> VM4_offer_CPU = 32
+ Link_VM4_Offer7#897: _bool#386 = 1 -> VM4_offer_Memory = 244000
+ Link_VM4_Offer7#898: _bool#386 = 1 -> VM4_offer_Storage = 4000
  lc900: _bool#387 = 1 <-> VM_4#243 = 1
  lc901: _bool#388 = 1 <-> VM4_Type8 = 1
  lc902: _bool#389 = 1 <-> _and776 = 1
- Link_VM4_Off8: _bool#389 = 1 -> PriceProv4 = 4576
- Link_VM4_Off8#903: _bool#389 = 1 -> VM4_offer_CPU = 32
- Link_VM4_Off8#904: _bool#389 = 1 -> VM4_offer_Memory = 244000
- Link_VM4_Off8#905: _bool#389 = 1 -> VM4_offer_Storage = 4000
+ Link_VM4_Offer8: _bool#389 = 1 -> PriceProv4 = 4576
+ Link_VM4_Offer8#903: _bool#389 = 1 -> VM4_offer_CPU = 32
+ Link_VM4_Offer8#904: _bool#389 = 1 -> VM4_offer_Memory = 244000
+ Link_VM4_Offer8#905: _bool#389 = 1 -> VM4_offer_Storage = 4000
  lc907: _bool#390 = 1 <-> VM_4#243 = 1
  lc908: _bool#391 = 1 <-> VM4_Type9 = 1
  lc909: _bool#392 = 1 <-> _and780 = 1
- Link_VM4_Off9: _bool#392 = 1 -> PriceProv4 = 6672
- Link_VM4_Off9#910: _bool#392 = 1 -> VM4_offer_CPU = 32
- Link_VM4_Off9#911: _bool#392 = 1 -> VM4_offer_Memory = 976000
- Link_VM4_Off9#912: _bool#392 = 1 -> VM4_offer_Storage = 1000
+ Link_VM4_Offer9: _bool#392 = 1 -> PriceProv4 = 6672
+ Link_VM4_Offer9#910: _bool#392 = 1 -> VM4_offer_CPU = 32
+ Link_VM4_Offer9#911: _bool#392 = 1 -> VM4_offer_Memory = 976000
+ Link_VM4_Offer9#912: _bool#392 = 1 -> VM4_offer_Storage = 1000
  lc914: _bool#393 = 1 <-> VM_4#243 = 1
  lc915: _bool#394 = 1 <-> VM4_Type10 = 1
  lc916: _bool#395 = 1 <-> _and784 = 1
- Link_VM4_Off10: _bool#395 = 1 -> PriceProv4 = 5570
- Link_VM4_Off10#917: _bool#395 = 1 -> VM4_offer_CPU = 17
- Link_VM4_Off10#918: _bool#395 = 1 -> VM4_offer_Memory = 117000
- Link_VM4_Off10#919: _bool#395 = 1 -> VM4_offer_Storage = 24000
+ Link_VM4_Offer10: _bool#395 = 1 -> PriceProv4 = 5570
+ Link_VM4_Offer10#917: _bool#395 = 1 -> VM4_offer_CPU = 17
+ Link_VM4_Offer10#918: _bool#395 = 1 -> VM4_offer_Memory = 117000
+ Link_VM4_Offer10#919: _bool#395 = 1 -> VM4_offer_Storage = 24000
  lc921: _bool#396 = 1 <-> VM_4#243 = 1
  lc922: _bool#397 = 1 <-> VM4_Type11 = 1
  lc923: _bool#398 = 1 <-> _and788 = 1
- Link_VM4_Off11: _bool#398 = 1 -> PriceProv4 = 1373
- Link_VM4_Off11#924: _bool#398 = 1 -> VM4_offer_CPU = 16
- Link_VM4_Off11#925: _bool#398 = 1 -> VM4_offer_Memory = 122000
- Link_VM4_Off11#926: _bool#398 = 1 -> VM4_offer_Storage = 2000
+ Link_VM4_Offer11: _bool#398 = 1 -> PriceProv4 = 1373
+ Link_VM4_Offer11#924: _bool#398 = 1 -> VM4_offer_CPU = 16
+ Link_VM4_Offer11#925: _bool#398 = 1 -> VM4_offer_Memory = 122000
+ Link_VM4_Offer11#926: _bool#398 = 1 -> VM4_offer_Storage = 2000
  lc928: _bool#399 = 1 <-> VM_4#243 = 1
  lc929: _bool#400 = 1 <-> VM4_Type12 = 1
  lc930: _bool#401 = 1 <-> _and792 = 1
- Link_VM4_Off12: _bool#401 = 1 -> PriceProv4 = 1430
- Link_VM4_Off12#931: _bool#401 = 1 -> VM4_offer_CPU = 16
- Link_VM4_Off12#932: _bool#401 = 1 -> VM4_offer_Memory = 30000
- Link_VM4_Off12#933: _bool#401 = 1 -> VM4_offer_Storage = 2000
+ Link_VM4_Offer12: _bool#401 = 1 -> PriceProv4 = 1430
+ Link_VM4_Offer12#931: _bool#401 = 1 -> VM4_offer_CPU = 16
+ Link_VM4_Offer12#932: _bool#401 = 1 -> VM4_offer_Memory = 30000
+ Link_VM4_Offer12#933: _bool#401 = 1 -> VM4_offer_Storage = 2000
  lc935: _bool#402 = 1 <-> VM_4#243 = 1
  lc936: _bool#403 = 1 <-> VM4_Type13 = 1
  lc937: _bool#404 = 1 <-> _and796 = 1
- Link_VM4_Off13: _bool#404 = 1 -> PriceProv4 = 5400
- Link_VM4_Off13#938: _bool#404 = 1 -> VM4_offer_CPU = 17
- Link_VM4_Off13#939: _bool#404 = 1 -> VM4_offer_Memory = 117000
- Link_VM4_Off13#940: _bool#404 = 1 -> VM4_offer_Storage = 24000
+ Link_VM4_Offer13: _bool#404 = 1 -> PriceProv4 = 5400
+ Link_VM4_Offer13#938: _bool#404 = 1 -> VM4_offer_CPU = 17
+ Link_VM4_Offer13#939: _bool#404 = 1 -> VM4_offer_Memory = 117000
+ Link_VM4_Offer13#940: _bool#404 = 1 -> VM4_offer_Storage = 24000
  lc942: _bool#405 = 1 <-> VM_4#243 = 1
  lc943: _bool#406 = 1 <-> VM4_Type14 = 1
  lc944: _bool#407 = 1 <-> _and800 = 1
- Link_VM4_Off14: _bool#407 = 1 -> PriceProv4 = 1654
- Link_VM4_Off14#945: _bool#407 = 1 -> VM4_offer_CPU = 16
- Link_VM4_Off14#946: _bool#407 = 1 -> VM4_offer_Memory = 122000
- Link_VM4_Off14#947: _bool#407 = 1 -> VM4_offer_Storage = 2000
+ Link_VM4_Offer14: _bool#407 = 1 -> PriceProv4 = 1654
+ Link_VM4_Offer14#945: _bool#407 = 1 -> VM4_offer_CPU = 16
+ Link_VM4_Offer14#946: _bool#407 = 1 -> VM4_offer_Memory = 122000
+ Link_VM4_Offer14#947: _bool#407 = 1 -> VM4_offer_Storage = 2000
  lc949: _bool#408 = 1 <-> VM_4#243 = 1
  lc950: _bool#409 = 1 <-> VM4_Type15 = 1
  lc951: _bool#410 = 1 <-> _and804 = 1
- Link_VM4_Off15: _bool#410 = 1 -> PriceProv4 = 5520
- Link_VM4_Off15#952: _bool#410 = 1 -> VM4_offer_CPU = 17
- Link_VM4_Off15#953: _bool#410 = 1 -> VM4_offer_Memory = 117000
- Link_VM4_Off15#954: _bool#410 = 1 -> VM4_offer_Storage = 24000
+ Link_VM4_Offer15: _bool#410 = 1 -> PriceProv4 = 5520
+ Link_VM4_Offer15#952: _bool#410 = 1 -> VM4_offer_CPU = 17
+ Link_VM4_Offer15#953: _bool#410 = 1 -> VM4_offer_Memory = 117000
+ Link_VM4_Offer15#954: _bool#410 = 1 -> VM4_offer_Storage = 24000
  lc956: _bool#411 = 1 <-> VM_4#243 = 1
  lc957: _bool#412 = 1 <-> VM4_Type16 = 1
  lc958: _bool#413 = 1 <-> _and808 = 1
- Link_VM4_Off16: _bool#413 = 1 -> PriceProv4 = 3079
- Link_VM4_Off16#959: _bool#413 = 1 -> VM4_offer_CPU = 16
- Link_VM4_Off16#960: _bool#413 = 1 -> VM4_offer_Memory = 122000
- Link_VM4_Off16#961: _bool#413 = 1 -> VM4_offer_Storage = 1000
+ Link_VM4_Offer16: _bool#413 = 1 -> PriceProv4 = 3079
+ Link_VM4_Offer16#959: _bool#413 = 1 -> VM4_offer_CPU = 16
+ Link_VM4_Offer16#960: _bool#413 = 1 -> VM4_offer_Memory = 122000
+ Link_VM4_Offer16#961: _bool#413 = 1 -> VM4_offer_Storage = 1000
  lc963: _bool#414 = 1 <-> VM_4#243 = 1
  lc964: _bool#415 = 1 <-> VM4_Type17 = 1
  lc965: _bool#416 = 1 <-> _and812 = 1
- Link_VM4_Off17: _bool#416 = 1 -> PriceProv4 = 1637
- Link_VM4_Off17#966: _bool#416 = 1 -> VM4_offer_CPU = 16
- Link_VM4_Off17#967: _bool#416 = 1 -> VM4_offer_Memory = 122000
- Link_VM4_Off17#968: _bool#416 = 1 -> VM4_offer_Storage = 2000
+ Link_VM4_Offer17: _bool#416 = 1 -> PriceProv4 = 1637
+ Link_VM4_Offer17#966: _bool#416 = 1 -> VM4_offer_CPU = 16
+ Link_VM4_Offer17#967: _bool#416 = 1 -> VM4_offer_Memory = 122000
+ Link_VM4_Offer17#968: _bool#416 = 1 -> VM4_offer_Storage = 2000
  lc970: _bool#417 = 1 <-> VM_4#243 = 1
  lc971: _bool#418 = 1 <-> VM4_Type18 = 1
  lc972: _bool#419 = 1 <-> _and816 = 1
- Link_VM4_Off18: _bool#419 = 1 -> PriceProv4 = 1470
- Link_VM4_Off18#973: _bool#419 = 1 -> VM4_offer_CPU = 8
- Link_VM4_Off18#974: _bool#419 = 1 -> VM4_offer_Memory = 61000
- Link_VM4_Off18#975: _bool#419 = 1 -> VM4_offer_Storage = 6000
+ Link_VM4_Offer18: _bool#419 = 1 -> PriceProv4 = 1470
+ Link_VM4_Offer18#973: _bool#419 = 1 -> VM4_offer_CPU = 8
+ Link_VM4_Offer18#974: _bool#419 = 1 -> VM4_offer_Memory = 61000
+ Link_VM4_Offer18#975: _bool#419 = 1 -> VM4_offer_Storage = 6000
  lc977: _bool#420 = 1 <-> VM_4#243 = 1
  lc978: _bool#421 = 1 <-> VM4_Type19 = 1
  lc979: _bool#422 = 1 <-> _and820 = 1
- Link_VM4_Off19: _bool#422 = 1 -> PriceProv4 = 1301
- Link_VM4_Off19#980: _bool#422 = 1 -> VM4_offer_CPU = 8
- Link_VM4_Off19#981: _bool#422 = 1 -> VM4_offer_Memory = 68400
- Link_VM4_Off19#982: _bool#422 = 1 -> VM4_offer_Storage = 2000
+ Link_VM4_Offer19: _bool#422 = 1 -> PriceProv4 = 1301
+ Link_VM4_Offer19#980: _bool#422 = 1 -> VM4_offer_CPU = 8
+ Link_VM4_Offer19#981: _bool#422 = 1 -> VM4_offer_Memory = 68400
+ Link_VM4_Offer19#982: _bool#422 = 1 -> VM4_offer_Storage = 2000
  lc984: _bool#423 = 1 <-> VM_4#243 = 1
  lc985: _bool#424 = 1 <-> VM4_Type20 = 1
  lc986: _bool#425 = 1 <-> _and824 = 1
- Link_VM4_Off20: _bool#425 = 1 -> PriceProv4 = 665
- Link_VM4_Off20#987: _bool#425 = 1 -> VM4_offer_CPU = 8
- Link_VM4_Off20#988: _bool#425 = 1 -> VM4_offer_Memory = 61000
- Link_VM4_Off20#989: _bool#425 = 1 -> VM4_offer_Storage = 1000
+ Link_VM4_Offer20: _bool#425 = 1 -> PriceProv4 = 665
+ Link_VM4_Offer20#987: _bool#425 = 1 -> VM4_offer_CPU = 8
+ Link_VM4_Offer20#988: _bool#425 = 1 -> VM4_offer_Memory = 61000
+ Link_VM4_Offer20#989: _bool#425 = 1 -> VM4_offer_Storage = 1000
  lc991: _bool#426 = 1 <-> VM_4#243 = 1
  lc992: _bool#427 = 1 <-> VM4_Type21 = 1
  lc993: _bool#428 = 1 <-> _and828 = 1
- Link_VM4_Off21: _bool#428 = 1 -> PriceProv4 = 632
- Link_VM4_Off21#994: _bool#428 = 1 -> VM4_offer_CPU = 8
- Link_VM4_Off21#995: _bool#428 = 1 -> VM4_offer_Memory = 7000
- Link_VM4_Off21#996: _bool#428 = 1 -> VM4_offer_Storage = 4000
+ Link_VM4_Offer21: _bool#428 = 1 -> PriceProv4 = 632
+ Link_VM4_Offer21#994: _bool#428 = 1 -> VM4_offer_CPU = 8
+ Link_VM4_Offer21#995: _bool#428 = 1 -> VM4_offer_Memory = 7000
+ Link_VM4_Offer21#996: _bool#428 = 1 -> VM4_offer_Storage = 4000
  lc998: _bool#429 = 1 <-> VM_4#243 = 1
  lc999: _bool#430 = 1 <-> VM4_Type22 = 1
  lc1000: _bool#431 = 1 <-> _and832 = 1
- Link_VM4_Off22: _bool#431 = 1 -> PriceProv4 = 1288
- Link_VM4_Off22#1001: _bool#431 = 1 -> VM4_offer_CPU = 8
- Link_VM4_Off22#1002: _bool#431 = 1 -> VM4_offer_Memory = 68400
- Link_VM4_Off22#1003: _bool#431 = 1 -> VM4_offer_Storage = 2000
+ Link_VM4_Offer22: _bool#431 = 1 -> PriceProv4 = 1288
+ Link_VM4_Offer22#1001: _bool#431 = 1 -> VM4_offer_CPU = 8
+ Link_VM4_Offer22#1002: _bool#431 = 1 -> VM4_offer_Memory = 68400
+ Link_VM4_Offer22#1003: _bool#431 = 1 -> VM4_offer_Storage = 2000
  lc1005: _bool#432 = 1 <-> VM_4#243 = 1
  lc1006: _bool#433 = 1 <-> VM4_Type23 = 1
  lc1007: _bool#434 = 1 <-> _and836 = 1
- Link_VM4_Off23: _bool#434 = 1 -> PriceProv4 = 402
- Link_VM4_Off23#1008: _bool#434 = 1 -> VM4_offer_CPU = 4
- Link_VM4_Off23#1009: _bool#434 = 1 -> VM4_offer_Memory = 15000
- Link_VM4_Off23#1010: _bool#434 = 1 -> VM4_offer_Storage = 2000
+ Link_VM4_Offer23: _bool#434 = 1 -> PriceProv4 = 402
+ Link_VM4_Offer23#1008: _bool#434 = 1 -> VM4_offer_CPU = 4
+ Link_VM4_Offer23#1009: _bool#434 = 1 -> VM4_offer_Memory = 15000
+ Link_VM4_Offer23#1010: _bool#434 = 1 -> VM4_offer_Storage = 2000
  lc1012: _bool#435 = 1 <-> VM_4#243 = 1
  lc1013: _bool#436 = 1 <-> VM4_Type24 = 1
  lc1014: _bool#437 = 1 <-> _and840 = 1
- Link_VM4_Off24: _bool#437 = 1 -> PriceProv4 = 827
- Link_VM4_Off24#1015: _bool#437 = 1 -> VM4_offer_CPU = 4
- Link_VM4_Off24#1016: _bool#437 = 1 -> VM4_offer_Memory = 30500
- Link_VM4_Off24#1017: _bool#437 = 1 -> VM4_offer_Storage = 3000
+ Link_VM4_Offer24: _bool#437 = 1 -> PriceProv4 = 827
+ Link_VM4_Offer24#1015: _bool#437 = 1 -> VM4_offer_CPU = 4
+ Link_VM4_Offer24#1016: _bool#437 = 1 -> VM4_offer_Memory = 30500
+ Link_VM4_Offer24#1017: _bool#437 = 1 -> VM4_offer_Storage = 3000
  lc1019: _bool#438 = 1 <-> VM_4#243 = 1
  lc1020: _bool#439 = 1 <-> VM4_Type25 = 1
  lc1021: _bool#440 = 1 <-> _and844 = 1
- Link_VM4_Off25: _bool#440 = 1 -> PriceProv4 = 266
- Link_VM4_Off25#1022: _bool#440 = 1 -> VM4_offer_CPU = 4
- Link_VM4_Off25#1023: _bool#440 = 1 -> VM4_offer_Memory = 15000
- Link_VM4_Off25#1024: _bool#440 = 1 -> VM4_offer_Storage = 2000
+ Link_VM4_Offer25: _bool#440 = 1 -> PriceProv4 = 266
+ Link_VM4_Offer25#1022: _bool#440 = 1 -> VM4_offer_CPU = 4
+ Link_VM4_Offer25#1023: _bool#440 = 1 -> VM4_offer_Memory = 15000
+ Link_VM4_Offer25#1024: _bool#440 = 1 -> VM4_offer_Storage = 2000
  lc1026: _bool#441 = 1 <-> VM_4#243 = 1
  lc1027: _bool#442 = 1 <-> VM4_Type26 = 1
  lc1028: _bool#443 = 1 <-> _and848 = 1
- Link_VM4_Off26: _bool#443 = 1 -> PriceProv4 = 252
- Link_VM4_Off26#1029: _bool#443 = 1 -> VM4_offer_CPU = 4
- Link_VM4_Off26#1030: _bool#443 = 1 -> VM4_offer_Memory = 7500
- Link_VM4_Off26#1031: _bool#443 = 1 -> VM4_offer_Storage = 2000
+ Link_VM4_Offer26: _bool#443 = 1 -> PriceProv4 = 252
+ Link_VM4_Offer26#1029: _bool#443 = 1 -> VM4_offer_CPU = 4
+ Link_VM4_Offer26#1030: _bool#443 = 1 -> VM4_offer_Memory = 7500
+ Link_VM4_Offer26#1031: _bool#443 = 1 -> VM4_offer_Storage = 2000
  lc1033: _bool#444 = 1 <-> VM_4#243 = 1
  lc1034: _bool#445 = 1 <-> VM4_Type27 = 1
  lc1035: _bool#446 = 1 <-> _and852 = 1
- Link_VM4_Off27: _bool#446 = 1 -> PriceProv4 = 252
- Link_VM4_Off27#1036: _bool#446 = 1 -> VM4_offer_CPU = 4
- Link_VM4_Off27#1037: _bool#446 = 1 -> VM4_offer_Memory = 7500
- Link_VM4_Off27#1038: _bool#446 = 1 -> VM4_offer_Storage = 2000
+ Link_VM4_Offer27: _bool#446 = 1 -> PriceProv4 = 252
+ Link_VM4_Offer27#1036: _bool#446 = 1 -> VM4_offer_CPU = 4
+ Link_VM4_Offer27#1037: _bool#446 = 1 -> VM4_offer_Memory = 7500
+ Link_VM4_Offer27#1038: _bool#446 = 1 -> VM4_offer_Storage = 2000
  lc1040: _bool#447 = 1 <-> VM_4#243 = 1
  lc1041: _bool#448 = 1 <-> VM4_Type28 = 1
  lc1042: _bool#449 = 1 <-> _and856 = 1
- Link_VM4_Off28: _bool#449 = 1 -> PriceProv4 = 809
- Link_VM4_Off28#1043: _bool#449 = 1 -> VM4_offer_CPU = 4
- Link_VM4_Off28#1044: _bool#449 = 1 -> VM4_offer_Memory = 30500
- Link_VM4_Off28#1045: _bool#449 = 1 -> VM4_offer_Storage = 3000
+ Link_VM4_Offer28: _bool#449 = 1 -> PriceProv4 = 809
+ Link_VM4_Offer28#1043: _bool#449 = 1 -> VM4_offer_CPU = 4
+ Link_VM4_Offer28#1044: _bool#449 = 1 -> VM4_offer_Memory = 30500
+ Link_VM4_Offer28#1045: _bool#449 = 1 -> VM4_offer_Storage = 3000
  lc1047: _bool#450 = 1 <-> VM_4#243 = 1
  lc1048: _bool#451 = 1 <-> VM4_Type29 = 1
  lc1049: _bool#452 = 1 <-> _and860 = 1
- Link_VM4_Off29: _bool#452 = 1 -> PriceProv4 = 379
- Link_VM4_Off29#1050: _bool#452 = 1 -> VM4_offer_CPU = 4
- Link_VM4_Off29#1051: _bool#452 = 1 -> VM4_offer_Memory = 30500
- Link_VM4_Off29#1052: _bool#452 = 1 -> VM4_offer_Storage = 1000
+ Link_VM4_Offer29: _bool#452 = 1 -> PriceProv4 = 379
+ Link_VM4_Offer29#1050: _bool#452 = 1 -> VM4_offer_CPU = 4
+ Link_VM4_Offer29#1051: _bool#452 = 1 -> VM4_offer_Memory = 30500
+ Link_VM4_Offer29#1052: _bool#452 = 1 -> VM4_offer_Storage = 1000
  lc1054: _bool#453 = 1 <-> VM_4#243 = 1
  lc1055: _bool#454 = 1 <-> VM4_Type30 = 1
  lc1056: _bool#455 = 1 <-> _and864 = 1
- Link_VM4_Off30: _bool#455 = 1 -> PriceProv4 = 146
- Link_VM4_Off30#1057: _bool#455 = 1 -> VM4_offer_CPU = 2
- Link_VM4_Off30#1058: _bool#455 = 1 -> VM4_offer_Memory = 7500
- Link_VM4_Off30#1059: _bool#455 = 1 -> VM4_offer_Storage = 1000
+ Link_VM4_Offer30: _bool#455 = 1 -> PriceProv4 = 146
+ Link_VM4_Offer30#1057: _bool#455 = 1 -> VM4_offer_CPU = 2
+ Link_VM4_Offer30#1058: _bool#455 = 1 -> VM4_offer_Memory = 7500
+ Link_VM4_Offer30#1059: _bool#455 = 1 -> VM4_offer_Storage = 1000
  lc1061: _bool#456 = 1 <-> VM_4#243 = 1
  lc1062: _bool#457 = 1 <-> VM4_Type31 = 1
  lc1063: _bool#458 = 1 <-> _and868 = 1
- Link_VM4_Off31: _bool#458 = 1 -> PriceProv4 = 207
- Link_VM4_Off31#1064: _bool#458 = 1 -> VM4_offer_CPU = 2
- Link_VM4_Off31#1065: _bool#458 = 1 -> VM4_offer_Memory = 15250
- Link_VM4_Off31#1066: _bool#458 = 1 -> VM4_offer_Storage = 1000
+ Link_VM4_Offer31: _bool#458 = 1 -> PriceProv4 = 207
+ Link_VM4_Offer31#1064: _bool#458 = 1 -> VM4_offer_CPU = 2
+ Link_VM4_Offer31#1065: _bool#458 = 1 -> VM4_offer_Memory = 15250
+ Link_VM4_Offer31#1066: _bool#458 = 1 -> VM4_offer_Storage = 1000
  lc1068: _bool#459 = 1 <-> VM_4#243 = 1
  lc1069: _bool#460 = 1 <-> VM4_Type32 = 1
  lc1070: _bool#461 = 1 <-> _and872 = 1
- Link_VM4_Off32: _bool#461 = 1 -> PriceProv4 = 293
- Link_VM4_Off32#1071: _bool#461 = 1 -> VM4_offer_CPU = 2
- Link_VM4_Off32#1072: _bool#461 = 1 -> VM4_offer_Memory = 17100
- Link_VM4_Off32#1073: _bool#461 = 1 -> VM4_offer_Storage = 1000
+ Link_VM4_Offer32: _bool#461 = 1 -> PriceProv4 = 293
+ Link_VM4_Offer32#1071: _bool#461 = 1 -> VM4_offer_CPU = 2
+ Link_VM4_Offer32#1072: _bool#461 = 1 -> VM4_offer_Memory = 17100
+ Link_VM4_Offer32#1073: _bool#461 = 1 -> VM4_offer_Storage = 1000
  lc1075: _bool#462 = 1 <-> VM_4#243 = 1
  lc1076: _bool#463 = 1 <-> VM4_Type33 = 1
  lc1077: _bool#464 = 1 <-> _and876 = 1
- Link_VM4_Off33: _bool#464 = 1 -> PriceProv4 = 220
- Link_VM4_Off33#1078: _bool#464 = 1 -> VM4_offer_CPU = 2
- Link_VM4_Off33#1079: _bool#464 = 1 -> VM4_offer_Memory = 15250
- Link_VM4_Off33#1080: _bool#464 = 1 -> VM4_offer_Storage = 1000
+ Link_VM4_Offer33: _bool#464 = 1 -> PriceProv4 = 220
+ Link_VM4_Offer33#1078: _bool#464 = 1 -> VM4_offer_CPU = 2
+ Link_VM4_Offer33#1079: _bool#464 = 1 -> VM4_offer_Memory = 15250
+ Link_VM4_Offer33#1080: _bool#464 = 1 -> VM4_offer_Storage = 1000
  lc1082: _bool#465 = 1 <-> VM_4#243 = 1
  lc1083: _bool#466 = 1 <-> VM4_Type34 = 1
  lc1084: _bool#467 = 1 <-> _and880 = 1
- Link_VM4_Off34: _bool#467 = 1 -> PriceProv4 = 197
- Link_VM4_Off34#1085: _bool#467 = 1 -> VM4_offer_CPU = 2
- Link_VM4_Off34#1086: _bool#467 = 1 -> VM4_offer_Memory = 1700
- Link_VM4_Off34#1087: _bool#467 = 1 -> VM4_offer_Storage = 1000
+ Link_VM4_Offer34: _bool#467 = 1 -> PriceProv4 = 197
+ Link_VM4_Offer34#1085: _bool#467 = 1 -> VM4_offer_CPU = 2
+ Link_VM4_Offer34#1086: _bool#467 = 1 -> VM4_offer_Memory = 1700
+ Link_VM4_Offer34#1087: _bool#467 = 1 -> VM4_offer_Storage = 1000
  lc1089: _bool#468 = 1 <-> VM_4#243 = 1
  lc1090: _bool#469 = 1 <-> VM4_Type35 = 1
  lc1091: _bool#470 = 1 <-> _and884 = 1
- Link_VM4_Off35: _bool#470 = 1 -> PriceProv4 = 180
- Link_VM4_Off35#1092: _bool#470 = 1 -> VM4_offer_CPU = 2
- Link_VM4_Off35#1093: _bool#470 = 1 -> VM4_offer_Memory = 1700
- Link_VM4_Off35#1094: _bool#470 = 1 -> VM4_offer_Storage = 1000
+ Link_VM4_Offer35: _bool#470 = 1 -> PriceProv4 = 180
+ Link_VM4_Offer35#1092: _bool#470 = 1 -> VM4_offer_CPU = 2
+ Link_VM4_Offer35#1093: _bool#470 = 1 -> VM4_offer_Memory = 1700
+ Link_VM4_Offer35#1094: _bool#470 = 1 -> VM4_offer_Storage = 1000
  lc1096: _bool#471 = 1 <-> VM_4#243 = 1
  lc1097: _bool#472 = 1 <-> VM4_Type36 = 1
  lc1098: _bool#473 = 1 <-> _and888 = 1
- Link_VM4_Off36: _bool#473 = 1 -> PriceProv4 = 275
- Link_VM4_Off36#1099: _bool#473 = 1 -> VM4_offer_CPU = 2
- Link_VM4_Off36#1100: _bool#473 = 1 -> VM4_offer_Memory = 17100
- Link_VM4_Off36#1101: _bool#473 = 1 -> VM4_offer_Storage = 1000
+ Link_VM4_Offer36: _bool#473 = 1 -> PriceProv4 = 275
+ Link_VM4_Offer36#1099: _bool#473 = 1 -> VM4_offer_CPU = 2
+ Link_VM4_Offer36#1100: _bool#473 = 1 -> VM4_offer_Memory = 17100
+ Link_VM4_Offer36#1101: _bool#473 = 1 -> VM4_offer_Storage = 1000
  lc1103: _bool#474 = 1 <-> VM_4#243 = 1
  lc1104: _bool#475 = 1 <-> VM4_Type37 = 1
  lc1105: _bool#476 = 1 <-> _and892 = 1
- Link_VM4_Off37: _bool#476 = 1 -> PriceProv4 = 128
- Link_VM4_Off37#1106: _bool#476 = 1 -> VM4_offer_CPU = 2
- Link_VM4_Off37#1107: _bool#476 = 1 -> VM4_offer_Memory = 3750
- Link_VM4_Off37#1108: _bool#476 = 1 -> VM4_offer_Storage = 2000
+ Link_VM4_Offer37: _bool#476 = 1 -> PriceProv4 = 128
+ Link_VM4_Offer37#1106: _bool#476 = 1 -> VM4_offer_CPU = 2
+ Link_VM4_Offer37#1107: _bool#476 = 1 -> VM4_offer_Memory = 3750
+ Link_VM4_Offer37#1108: _bool#476 = 1 -> VM4_offer_Storage = 2000
  lc1110: _bool#477 = 1 <-> VM_4#243 = 1
  lc1111: _bool#478 = 1 <-> VM4_Type38 = 1
  lc1112: _bool#479 = 1 <-> _and896 = 1
- Link_VM4_Off38: _bool#479 = 1 -> PriceProv4 = 58
- Link_VM4_Off38#1113: _bool#479 = 1 -> VM4_offer_CPU = 1
- Link_VM4_Off38#1114: _bool#479 = 1 -> VM4_offer_Memory = 1700
- Link_VM4_Off38#1115: _bool#479 = 1 -> VM4_offer_Storage = 1000
+ Link_VM4_Offer38: _bool#479 = 1 -> PriceProv4 = 58
+ Link_VM4_Offer38#1113: _bool#479 = 1 -> VM4_offer_CPU = 1
+ Link_VM4_Offer38#1114: _bool#479 = 1 -> VM4_offer_Memory = 1700
+ Link_VM4_Offer38#1115: _bool#479 = 1 -> VM4_offer_Storage = 1000
  lc1117: _bool#480 = 1 <-> VM_4#243 = 1
  lc1118: _bool#481 = 1 <-> VM4_Type39 = 1
  lc1119: _bool#482 = 1 <-> _and900 = 1
- Link_VM4_Off39: _bool#482 = 1 -> PriceProv4 = 93
- Link_VM4_Off39#1120: _bool#482 = 1 -> VM4_offer_CPU = 1
- Link_VM4_Off39#1121: _bool#482 = 1 -> VM4_offer_Memory = 3750
- Link_VM4_Off39#1122: _bool#482 = 1 -> VM4_offer_Storage = 1000
+ Link_VM4_Offer39: _bool#482 = 1 -> PriceProv4 = 93
+ Link_VM4_Offer39#1120: _bool#482 = 1 -> VM4_offer_CPU = 1
+ Link_VM4_Offer39#1121: _bool#482 = 1 -> VM4_offer_Memory = 3750
+ Link_VM4_Offer39#1122: _bool#482 = 1 -> VM4_offer_Storage = 1000
  lc1124: _bool#483 = 1 <-> VM_4#243 = 1
  lc1125: _bool#484 = 1 <-> VM4_Type40 = 1
  lc1126: _bool#485 = 1 <-> _and904 = 1
- Link_VM4_Off40: _bool#485 = 1 -> PriceProv4 = 98
- Link_VM4_Off40#1127: _bool#485 = 1 -> VM4_offer_CPU = 1
- Link_VM4_Off40#1128: _bool#485 = 1 -> VM4_offer_Memory = 3750
- Link_VM4_Off40#1129: _bool#485 = 1 -> VM4_offer_Storage = 1000
+ Link_VM4_Offer40: _bool#485 = 1 -> PriceProv4 = 98
+ Link_VM4_Offer40#1127: _bool#485 = 1 -> VM4_offer_CPU = 1
+ Link_VM4_Offer40#1128: _bool#485 = 1 -> VM4_offer_Memory = 3750
+ Link_VM4_Offer40#1129: _bool#485 = 1 -> VM4_offer_Storage = 1000
  lc1131: _bool#486 = 1 <-> VM_5#244 = 1
  lc1132: _bool#487 = 1 <-> VM5_Type1 = 1
  lc1133: _bool#488 = 1 <-> _and908 = 1
- Link_VM5_Off1: _bool#488 = 1 -> PriceProv5 = 8403
- Link_VM5_Off1#1134: _bool#488 = 1 -> VM5_offer_CPU = 64
- Link_VM5_Off1#1135: _bool#488 = 1 -> VM5_offer_Memory = 976000
- Link_VM5_Off1#1136: _bool#488 = 1 -> VM5_offer_Storage = 1000
+ Link_VM5_Offer1: _bool#488 = 1 -> PriceProv5 = 8403
+ Link_VM5_Offer1#1134: _bool#488 = 1 -> VM5_offer_CPU = 64
+ Link_VM5_Offer1#1135: _bool#488 = 1 -> VM5_offer_Memory = 976000
+ Link_VM5_Offer1#1136: _bool#488 = 1 -> VM5_offer_Storage = 1000
  lc1138: _bool#489 = 1 <-> VM_5#244 = 1
  lc1139: _bool#490 = 1 <-> VM5_Type2 = 1
  lc1140: _bool#491 = 1 <-> _and912 = 1
- Link_VM5_Off2: _bool#491 = 1 -> PriceProv5 = 9152
- Link_VM5_Off2#1141: _bool#491 = 1 -> VM5_offer_CPU = 64
- Link_VM5_Off2#1142: _bool#491 = 1 -> VM5_offer_Memory = 488000
- Link_VM5_Off2#1143: _bool#491 = 1 -> VM5_offer_Storage = 8000
+ Link_VM5_Offer2: _bool#491 = 1 -> PriceProv5 = 9152
+ Link_VM5_Offer2#1141: _bool#491 = 1 -> VM5_offer_CPU = 64
+ Link_VM5_Offer2#1142: _bool#491 = 1 -> VM5_offer_Memory = 488000
+ Link_VM5_Offer2#1143: _bool#491 = 1 -> VM5_offer_Storage = 8000
  lc1145: _bool#492 = 1 <-> VM_5#244 = 1
  lc1146: _bool#493 = 1 <-> VM5_Type3 = 1
  lc1147: _bool#494 = 1 <-> _and916 = 1
- Link_VM5_Off3: _bool#494 = 1 -> PriceProv5 = 10638
- Link_VM5_Off3#1148: _bool#494 = 1 -> VM5_offer_CPU = 64
- Link_VM5_Off3#1149: _bool#494 = 1 -> VM5_offer_Memory = 976000
- Link_VM5_Off3#1150: _bool#494 = 1 -> VM5_offer_Storage = 1000
+ Link_VM5_Offer3: _bool#494 = 1 -> PriceProv5 = 10638
+ Link_VM5_Offer3#1148: _bool#494 = 1 -> VM5_offer_CPU = 64
+ Link_VM5_Offer3#1149: _bool#494 = 1 -> VM5_offer_Memory = 976000
+ Link_VM5_Offer3#1150: _bool#494 = 1 -> VM5_offer_Storage = 1000
  lc1152: _bool#495 = 1 <-> VM_5#244 = 1
  lc1153: _bool#496 = 1 <-> VM5_Type4 = 1
  lc1154: _bool#497 = 1 <-> _and920 = 1
- Link_VM5_Off4: _bool#497 = 1 -> PriceProv5 = 16000
- Link_VM5_Off4#1155: _bool#497 = 1 -> VM5_offer_CPU = 64
- Link_VM5_Off4#1156: _bool#497 = 1 -> VM5_offer_Memory = 1952
- Link_VM5_Off4#1157: _bool#497 = 1 -> VM5_offer_Storage = 1000
+ Link_VM5_Offer4: _bool#497 = 1 -> PriceProv5 = 16000
+ Link_VM5_Offer4#1155: _bool#497 = 1 -> VM5_offer_CPU = 64
+ Link_VM5_Offer4#1156: _bool#497 = 1 -> VM5_offer_Memory = 1952
+ Link_VM5_Offer4#1157: _bool#497 = 1 -> VM5_offer_Storage = 1000
  lc1159: _bool#498 = 1 <-> VM_5#244 = 1
  lc1160: _bool#499 = 1 <-> VM5_Type5 = 1
  lc1161: _bool#500 = 1 <-> _and924 = 1
- Link_VM5_Off5: _bool#500 = 1 -> PriceProv5 = 13005
- Link_VM5_Off5#1162: _bool#500 = 1 -> VM5_offer_CPU = 64
- Link_VM5_Off5#1163: _bool#500 = 1 -> VM5_offer_Memory = 976000
- Link_VM5_Off5#1164: _bool#500 = 1 -> VM5_offer_Storage = 1000
+ Link_VM5_Offer5: _bool#500 = 1 -> PriceProv5 = 13005
+ Link_VM5_Offer5#1162: _bool#500 = 1 -> VM5_offer_CPU = 64
+ Link_VM5_Offer5#1163: _bool#500 = 1 -> VM5_offer_Memory = 976000
+ Link_VM5_Offer5#1164: _bool#500 = 1 -> VM5_offer_Storage = 1000
  lc1166: _bool#501 = 1 <-> VM_5#244 = 1
  lc1167: _bool#502 = 1 <-> VM5_Type6 = 1
  lc1168: _bool#503 = 1 <-> _and928 = 1
- Link_VM5_Off6: _bool#503 = 1 -> PriceProv5 = 4105
- Link_VM5_Off6#1169: _bool#503 = 1 -> VM5_offer_CPU = 32
- Link_VM5_Off6#1170: _bool#503 = 1 -> VM5_offer_Memory = 244000
- Link_VM5_Off6#1171: _bool#503 = 1 -> VM5_offer_Storage = 2000
+ Link_VM5_Offer6: _bool#503 = 1 -> PriceProv5 = 4105
+ Link_VM5_Offer6#1169: _bool#503 = 1 -> VM5_offer_CPU = 32
+ Link_VM5_Offer6#1170: _bool#503 = 1 -> VM5_offer_Memory = 244000
+ Link_VM5_Offer6#1171: _bool#503 = 1 -> VM5_offer_Storage = 2000
  lc1173: _bool#504 = 1 <-> VM_5#244 = 1
  lc1174: _bool#505 = 1 <-> VM5_Type7 = 1
  lc1175: _bool#506 = 1 <-> _and932 = 1
- Link_VM5_Off7: _bool#506 = 1 -> PriceProv5 = 2752
- Link_VM5_Off7#1176: _bool#506 = 1 -> VM5_offer_CPU = 32
- Link_VM5_Off7#1177: _bool#506 = 1 -> VM5_offer_Memory = 244000
- Link_VM5_Off7#1178: _bool#506 = 1 -> VM5_offer_Storage = 4000
+ Link_VM5_Offer7: _bool#506 = 1 -> PriceProv5 = 2752
+ Link_VM5_Offer7#1176: _bool#506 = 1 -> VM5_offer_CPU = 32
+ Link_VM5_Offer7#1177: _bool#506 = 1 -> VM5_offer_Memory = 244000
+ Link_VM5_Offer7#1178: _bool#506 = 1 -> VM5_offer_Storage = 4000
  lc1180: _bool#507 = 1 <-> VM_5#244 = 1
  lc1181: _bool#508 = 1 <-> VM5_Type8 = 1
  lc1182: _bool#509 = 1 <-> _and936 = 1
- Link_VM5_Off8: _bool#509 = 1 -> PriceProv5 = 4576
- Link_VM5_Off8#1183: _bool#509 = 1 -> VM5_offer_CPU = 32
- Link_VM5_Off8#1184: _bool#509 = 1 -> VM5_offer_Memory = 244000
- Link_VM5_Off8#1185: _bool#509 = 1 -> VM5_offer_Storage = 4000
+ Link_VM5_Offer8: _bool#509 = 1 -> PriceProv5 = 4576
+ Link_VM5_Offer8#1183: _bool#509 = 1 -> VM5_offer_CPU = 32
+ Link_VM5_Offer8#1184: _bool#509 = 1 -> VM5_offer_Memory = 244000
+ Link_VM5_Offer8#1185: _bool#509 = 1 -> VM5_offer_Storage = 4000
  lc1187: _bool#510 = 1 <-> VM_5#244 = 1
  lc1188: _bool#511 = 1 <-> VM5_Type9 = 1
  lc1189: _bool#512 = 1 <-> _and940 = 1
- Link_VM5_Off9: _bool#512 = 1 -> PriceProv5 = 6672
- Link_VM5_Off9#1190: _bool#512 = 1 -> VM5_offer_CPU = 32
- Link_VM5_Off9#1191: _bool#512 = 1 -> VM5_offer_Memory = 976000
- Link_VM5_Off9#1192: _bool#512 = 1 -> VM5_offer_Storage = 1000
+ Link_VM5_Offer9: _bool#512 = 1 -> PriceProv5 = 6672
+ Link_VM5_Offer9#1190: _bool#512 = 1 -> VM5_offer_CPU = 32
+ Link_VM5_Offer9#1191: _bool#512 = 1 -> VM5_offer_Memory = 976000
+ Link_VM5_Offer9#1192: _bool#512 = 1 -> VM5_offer_Storage = 1000
  lc1194: _bool#513 = 1 <-> VM_5#244 = 1
  lc1195: _bool#514 = 1 <-> VM5_Type10 = 1
  lc1196: _bool#515 = 1 <-> _and944 = 1
- Link_VM5_Off10: _bool#515 = 1 -> PriceProv5 = 5570
- Link_VM5_Off10#1197: _bool#515 = 1 -> VM5_offer_CPU = 17
- Link_VM5_Off10#1198: _bool#515 = 1 -> VM5_offer_Memory = 117000
- Link_VM5_Off10#1199: _bool#515 = 1 -> VM5_offer_Storage = 24000
+ Link_VM5_Offer10: _bool#515 = 1 -> PriceProv5 = 5570
+ Link_VM5_Offer10#1197: _bool#515 = 1 -> VM5_offer_CPU = 17
+ Link_VM5_Offer10#1198: _bool#515 = 1 -> VM5_offer_Memory = 117000
+ Link_VM5_Offer10#1199: _bool#515 = 1 -> VM5_offer_Storage = 24000
  lc1201: _bool#516 = 1 <-> VM_5#244 = 1
  lc1202: _bool#517 = 1 <-> VM5_Type11 = 1
  lc1203: _bool#518 = 1 <-> _and948 = 1
- Link_VM5_Off11: _bool#518 = 1 -> PriceProv5 = 1373
- Link_VM5_Off11#1204: _bool#518 = 1 -> VM5_offer_CPU = 16
- Link_VM5_Off11#1205: _bool#518 = 1 -> VM5_offer_Memory = 122000
- Link_VM5_Off11#1206: _bool#518 = 1 -> VM5_offer_Storage = 2000
+ Link_VM5_Offer11: _bool#518 = 1 -> PriceProv5 = 1373
+ Link_VM5_Offer11#1204: _bool#518 = 1 -> VM5_offer_CPU = 16
+ Link_VM5_Offer11#1205: _bool#518 = 1 -> VM5_offer_Memory = 122000
+ Link_VM5_Offer11#1206: _bool#518 = 1 -> VM5_offer_Storage = 2000
  lc1208: _bool#519 = 1 <-> VM_5#244 = 1
  lc1209: _bool#520 = 1 <-> VM5_Type12 = 1
  lc1210: _bool#521 = 1 <-> _and952 = 1
- Link_VM5_Off12: _bool#521 = 1 -> PriceProv5 = 1430
- Link_VM5_Off12#1211: _bool#521 = 1 -> VM5_offer_CPU = 16
- Link_VM5_Off12#1212: _bool#521 = 1 -> VM5_offer_Memory = 30000
- Link_VM5_Off12#1213: _bool#521 = 1 -> VM5_offer_Storage = 2000
+ Link_VM5_Offer12: _bool#521 = 1 -> PriceProv5 = 1430
+ Link_VM5_Offer12#1211: _bool#521 = 1 -> VM5_offer_CPU = 16
+ Link_VM5_Offer12#1212: _bool#521 = 1 -> VM5_offer_Memory = 30000
+ Link_VM5_Offer12#1213: _bool#521 = 1 -> VM5_offer_Storage = 2000
  lc1215: _bool#522 = 1 <-> VM_5#244 = 1
  lc1216: _bool#523 = 1 <-> VM5_Type13 = 1
  lc1217: _bool#524 = 1 <-> _and956 = 1
- Link_VM5_Off13: _bool#524 = 1 -> PriceProv5 = 5400
- Link_VM5_Off13#1218: _bool#524 = 1 -> VM5_offer_CPU = 17
- Link_VM5_Off13#1219: _bool#524 = 1 -> VM5_offer_Memory = 117000
- Link_VM5_Off13#1220: _bool#524 = 1 -> VM5_offer_Storage = 24000
+ Link_VM5_Offer13: _bool#524 = 1 -> PriceProv5 = 5400
+ Link_VM5_Offer13#1218: _bool#524 = 1 -> VM5_offer_CPU = 17
+ Link_VM5_Offer13#1219: _bool#524 = 1 -> VM5_offer_Memory = 117000
+ Link_VM5_Offer13#1220: _bool#524 = 1 -> VM5_offer_Storage = 24000
  lc1222: _bool#525 = 1 <-> VM_5#244 = 1
  lc1223: _bool#526 = 1 <-> VM5_Type14 = 1
  lc1224: _bool#527 = 1 <-> _and960 = 1
- Link_VM5_Off14: _bool#527 = 1 -> PriceProv5 = 1654
- Link_VM5_Off14#1225: _bool#527 = 1 -> VM5_offer_CPU = 16
- Link_VM5_Off14#1226: _bool#527 = 1 -> VM5_offer_Memory = 122000
- Link_VM5_Off14#1227: _bool#527 = 1 -> VM5_offer_Storage = 2000
+ Link_VM5_Offer14: _bool#527 = 1 -> PriceProv5 = 1654
+ Link_VM5_Offer14#1225: _bool#527 = 1 -> VM5_offer_CPU = 16
+ Link_VM5_Offer14#1226: _bool#527 = 1 -> VM5_offer_Memory = 122000
+ Link_VM5_Offer14#1227: _bool#527 = 1 -> VM5_offer_Storage = 2000
  lc1229: _bool#528 = 1 <-> VM_5#244 = 1
  lc1230: _bool#529 = 1 <-> VM5_Type15 = 1
  lc1231: _bool#530 = 1 <-> _and964 = 1
- Link_VM5_Off15: _bool#530 = 1 -> PriceProv5 = 5520
- Link_VM5_Off15#1232: _bool#530 = 1 -> VM5_offer_CPU = 17
- Link_VM5_Off15#1233: _bool#530 = 1 -> VM5_offer_Memory = 117000
- Link_VM5_Off15#1234: _bool#530 = 1 -> VM5_offer_Storage = 24000
+ Link_VM5_Offer15: _bool#530 = 1 -> PriceProv5 = 5520
+ Link_VM5_Offer15#1232: _bool#530 = 1 -> VM5_offer_CPU = 17
+ Link_VM5_Offer15#1233: _bool#530 = 1 -> VM5_offer_Memory = 117000
+ Link_VM5_Offer15#1234: _bool#530 = 1 -> VM5_offer_Storage = 24000
  lc1236: _bool#531 = 1 <-> VM_5#244 = 1
  lc1237: _bool#532 = 1 <-> VM5_Type16 = 1
  lc1238: _bool#533 = 1 <-> _and968 = 1
- Link_VM5_Off16: _bool#533 = 1 -> PriceProv5 = 3079
- Link_VM5_Off16#1239: _bool#533 = 1 -> VM5_offer_CPU = 16
- Link_VM5_Off16#1240: _bool#533 = 1 -> VM5_offer_Memory = 122000
- Link_VM5_Off16#1241: _bool#533 = 1 -> VM5_offer_Storage = 1000
+ Link_VM5_Offer16: _bool#533 = 1 -> PriceProv5 = 3079
+ Link_VM5_Offer16#1239: _bool#533 = 1 -> VM5_offer_CPU = 16
+ Link_VM5_Offer16#1240: _bool#533 = 1 -> VM5_offer_Memory = 122000
+ Link_VM5_Offer16#1241: _bool#533 = 1 -> VM5_offer_Storage = 1000
  lc1243: _bool#534 = 1 <-> VM_5#244 = 1
  lc1244: _bool#535 = 1 <-> VM5_Type17 = 1
  lc1245: _bool#536 = 1 <-> _and972 = 1
- Link_VM5_Off17: _bool#536 = 1 -> PriceProv5 = 1637
- Link_VM5_Off17#1246: _bool#536 = 1 -> VM5_offer_CPU = 16
- Link_VM5_Off17#1247: _bool#536 = 1 -> VM5_offer_Memory = 122000
- Link_VM5_Off17#1248: _bool#536 = 1 -> VM5_offer_Storage = 2000
+ Link_VM5_Offer17: _bool#536 = 1 -> PriceProv5 = 1637
+ Link_VM5_Offer17#1246: _bool#536 = 1 -> VM5_offer_CPU = 16
+ Link_VM5_Offer17#1247: _bool#536 = 1 -> VM5_offer_Memory = 122000
+ Link_VM5_Offer17#1248: _bool#536 = 1 -> VM5_offer_Storage = 2000
  lc1250: _bool#537 = 1 <-> VM_5#244 = 1
  lc1251: _bool#538 = 1 <-> VM5_Type18 = 1
  lc1252: _bool#539 = 1 <-> _and976 = 1
- Link_VM5_Off18: _bool#539 = 1 -> PriceProv5 = 1470
- Link_VM5_Off18#1253: _bool#539 = 1 -> VM5_offer_CPU = 8
- Link_VM5_Off18#1254: _bool#539 = 1 -> VM5_offer_Memory = 61000
- Link_VM5_Off18#1255: _bool#539 = 1 -> VM5_offer_Storage = 6000
+ Link_VM5_Offer18: _bool#539 = 1 -> PriceProv5 = 1470
+ Link_VM5_Offer18#1253: _bool#539 = 1 -> VM5_offer_CPU = 8
+ Link_VM5_Offer18#1254: _bool#539 = 1 -> VM5_offer_Memory = 61000
+ Link_VM5_Offer18#1255: _bool#539 = 1 -> VM5_offer_Storage = 6000
  lc1257: _bool#540 = 1 <-> VM_5#244 = 1
  lc1258: _bool#541 = 1 <-> VM5_Type19 = 1
  lc1259: _bool#542 = 1 <-> _and980 = 1
- Link_VM5_Off19: _bool#542 = 1 -> PriceProv5 = 1301
- Link_VM5_Off19#1260: _bool#542 = 1 -> VM5_offer_CPU = 8
- Link_VM5_Off19#1261: _bool#542 = 1 -> VM5_offer_Memory = 68400
- Link_VM5_Off19#1262: _bool#542 = 1 -> VM5_offer_Storage = 2000
+ Link_VM5_Offer19: _bool#542 = 1 -> PriceProv5 = 1301
+ Link_VM5_Offer19#1260: _bool#542 = 1 -> VM5_offer_CPU = 8
+ Link_VM5_Offer19#1261: _bool#542 = 1 -> VM5_offer_Memory = 68400
+ Link_VM5_Offer19#1262: _bool#542 = 1 -> VM5_offer_Storage = 2000
  lc1264: _bool#543 = 1 <-> VM_5#244 = 1
  lc1265: _bool#544 = 1 <-> VM5_Type20 = 1
  lc1266: _bool#545 = 1 <-> _and984 = 1
- Link_VM5_Off20: _bool#545 = 1 -> PriceProv5 = 665
- Link_VM5_Off20#1267: _bool#545 = 1 -> VM5_offer_CPU = 8
- Link_VM5_Off20#1268: _bool#545 = 1 -> VM5_offer_Memory = 61000
- Link_VM5_Off20#1269: _bool#545 = 1 -> VM5_offer_Storage = 1000
+ Link_VM5_Offer20: _bool#545 = 1 -> PriceProv5 = 665
+ Link_VM5_Offer20#1267: _bool#545 = 1 -> VM5_offer_CPU = 8
+ Link_VM5_Offer20#1268: _bool#545 = 1 -> VM5_offer_Memory = 61000
+ Link_VM5_Offer20#1269: _bool#545 = 1 -> VM5_offer_Storage = 1000
  lc1271: _bool#546 = 1 <-> VM_5#244 = 1
  lc1272: _bool#547 = 1 <-> VM5_Type21 = 1
  lc1273: _bool#548 = 1 <-> _and988 = 1
- Link_VM5_Off21: _bool#548 = 1 -> PriceProv5 = 632
- Link_VM5_Off21#1274: _bool#548 = 1 -> VM5_offer_CPU = 8
- Link_VM5_Off21#1275: _bool#548 = 1 -> VM5_offer_Memory = 7000
- Link_VM5_Off21#1276: _bool#548 = 1 -> VM5_offer_Storage = 4000
+ Link_VM5_Offer21: _bool#548 = 1 -> PriceProv5 = 632
+ Link_VM5_Offer21#1274: _bool#548 = 1 -> VM5_offer_CPU = 8
+ Link_VM5_Offer21#1275: _bool#548 = 1 -> VM5_offer_Memory = 7000
+ Link_VM5_Offer21#1276: _bool#548 = 1 -> VM5_offer_Storage = 4000
  lc1278: _bool#549 = 1 <-> VM_5#244 = 1
  lc1279: _bool#550 = 1 <-> VM5_Type22 = 1
  lc1280: _bool#551 = 1 <-> _and992 = 1
- Link_VM5_Off22: _bool#551 = 1 -> PriceProv5 = 1288
- Link_VM5_Off22#1281: _bool#551 = 1 -> VM5_offer_CPU = 8
- Link_VM5_Off22#1282: _bool#551 = 1 -> VM5_offer_Memory = 68400
- Link_VM5_Off22#1283: _bool#551 = 1 -> VM5_offer_Storage = 2000
+ Link_VM5_Offer22: _bool#551 = 1 -> PriceProv5 = 1288
+ Link_VM5_Offer22#1281: _bool#551 = 1 -> VM5_offer_CPU = 8
+ Link_VM5_Offer22#1282: _bool#551 = 1 -> VM5_offer_Memory = 68400
+ Link_VM5_Offer22#1283: _bool#551 = 1 -> VM5_offer_Storage = 2000
  lc1285: _bool#552 = 1 <-> VM_5#244 = 1
  lc1286: _bool#553 = 1 <-> VM5_Type23 = 1
  lc1287: _bool#554 = 1 <-> _and996 = 1
- Link_VM5_Off23: _bool#554 = 1 -> PriceProv5 = 402
- Link_VM5_Off23#1288: _bool#554 = 1 -> VM5_offer_CPU = 4
- Link_VM5_Off23#1289: _bool#554 = 1 -> VM5_offer_Memory = 15000
- Link_VM5_Off23#1290: _bool#554 = 1 -> VM5_offer_Storage = 2000
+ Link_VM5_Offer23: _bool#554 = 1 -> PriceProv5 = 402
+ Link_VM5_Offer23#1288: _bool#554 = 1 -> VM5_offer_CPU = 4
+ Link_VM5_Offer23#1289: _bool#554 = 1 -> VM5_offer_Memory = 15000
+ Link_VM5_Offer23#1290: _bool#554 = 1 -> VM5_offer_Storage = 2000
  lc1292: _bool#555 = 1 <-> VM_5#244 = 1
  lc1293: _bool#556 = 1 <-> VM5_Type24 = 1
  lc1294: _bool#557 = 1 <-> _and1000 = 1
- Link_VM5_Off24: _bool#557 = 1 -> PriceProv5 = 827
- Link_VM5_Off24#1295: _bool#557 = 1 -> VM5_offer_CPU = 4
- Link_VM5_Off24#1296: _bool#557 = 1 -> VM5_offer_Memory = 30500
- Link_VM5_Off24#1297: _bool#557 = 1 -> VM5_offer_Storage = 3000
+ Link_VM5_Offer24: _bool#557 = 1 -> PriceProv5 = 827
+ Link_VM5_Offer24#1295: _bool#557 = 1 -> VM5_offer_CPU = 4
+ Link_VM5_Offer24#1296: _bool#557 = 1 -> VM5_offer_Memory = 30500
+ Link_VM5_Offer24#1297: _bool#557 = 1 -> VM5_offer_Storage = 3000
  lc1299: _bool#558 = 1 <-> VM_5#244 = 1
  lc1300: _bool#559 = 1 <-> VM5_Type25 = 1
  lc1301: _bool#560 = 1 <-> _and1004 = 1
- Link_VM5_Off25: _bool#560 = 1 -> PriceProv5 = 266
- Link_VM5_Off25#1302: _bool#560 = 1 -> VM5_offer_CPU = 4
- Link_VM5_Off25#1303: _bool#560 = 1 -> VM5_offer_Memory = 15000
- Link_VM5_Off25#1304: _bool#560 = 1 -> VM5_offer_Storage = 2000
+ Link_VM5_Offer25: _bool#560 = 1 -> PriceProv5 = 266
+ Link_VM5_Offer25#1302: _bool#560 = 1 -> VM5_offer_CPU = 4
+ Link_VM5_Offer25#1303: _bool#560 = 1 -> VM5_offer_Memory = 15000
+ Link_VM5_Offer25#1304: _bool#560 = 1 -> VM5_offer_Storage = 2000
  lc1306: _bool#561 = 1 <-> VM_5#244 = 1
  lc1307: _bool#562 = 1 <-> VM5_Type26 = 1
  lc1308: _bool#563 = 1 <-> _and1008 = 1
- Link_VM5_Off26: _bool#563 = 1 -> PriceProv5 = 252
- Link_VM5_Off26#1309: _bool#563 = 1 -> VM5_offer_CPU = 4
- Link_VM5_Off26#1310: _bool#563 = 1 -> VM5_offer_Memory = 7500
- Link_VM5_Off26#1311: _bool#563 = 1 -> VM5_offer_Storage = 2000
+ Link_VM5_Offer26: _bool#563 = 1 -> PriceProv5 = 252
+ Link_VM5_Offer26#1309: _bool#563 = 1 -> VM5_offer_CPU = 4
+ Link_VM5_Offer26#1310: _bool#563 = 1 -> VM5_offer_Memory = 7500
+ Link_VM5_Offer26#1311: _bool#563 = 1 -> VM5_offer_Storage = 2000
  lc1313: _bool#564 = 1 <-> VM_5#244 = 1
  lc1314: _bool#565 = 1 <-> VM5_Type27 = 1
  lc1315: _bool#566 = 1 <-> _and1012 = 1
- Link_VM5_Off27: _bool#566 = 1 -> PriceProv5 = 252
- Link_VM5_Off27#1316: _bool#566 = 1 -> VM5_offer_CPU = 4
- Link_VM5_Off27#1317: _bool#566 = 1 -> VM5_offer_Memory = 7500
- Link_VM5_Off27#1318: _bool#566 = 1 -> VM5_offer_Storage = 2000
+ Link_VM5_Offer27: _bool#566 = 1 -> PriceProv5 = 252
+ Link_VM5_Offer27#1316: _bool#566 = 1 -> VM5_offer_CPU = 4
+ Link_VM5_Offer27#1317: _bool#566 = 1 -> VM5_offer_Memory = 7500
+ Link_VM5_Offer27#1318: _bool#566 = 1 -> VM5_offer_Storage = 2000
  lc1320: _bool#567 = 1 <-> VM_5#244 = 1
  lc1321: _bool#568 = 1 <-> VM5_Type28 = 1
  lc1322: _bool#569 = 1 <-> _and1016 = 1
- Link_VM5_Off28: _bool#569 = 1 -> PriceProv5 = 809
- Link_VM5_Off28#1323: _bool#569 = 1 -> VM5_offer_CPU = 4
- Link_VM5_Off28#1324: _bool#569 = 1 -> VM5_offer_Memory = 30500
- Link_VM5_Off28#1325: _bool#569 = 1 -> VM5_offer_Storage = 3000
+ Link_VM5_Offer28: _bool#569 = 1 -> PriceProv5 = 809
+ Link_VM5_Offer28#1323: _bool#569 = 1 -> VM5_offer_CPU = 4
+ Link_VM5_Offer28#1324: _bool#569 = 1 -> VM5_offer_Memory = 30500
+ Link_VM5_Offer28#1325: _bool#569 = 1 -> VM5_offer_Storage = 3000
  lc1327: _bool#570 = 1 <-> VM_5#244 = 1
  lc1328: _bool#571 = 1 <-> VM5_Type29 = 1
  lc1329: _bool#572 = 1 <-> _and1020 = 1
- Link_VM5_Off29: _bool#572 = 1 -> PriceProv5 = 379
- Link_VM5_Off29#1330: _bool#572 = 1 -> VM5_offer_CPU = 4
- Link_VM5_Off29#1331: _bool#572 = 1 -> VM5_offer_Memory = 30500
- Link_VM5_Off29#1332: _bool#572 = 1 -> VM5_offer_Storage = 1000
+ Link_VM5_Offer29: _bool#572 = 1 -> PriceProv5 = 379
+ Link_VM5_Offer29#1330: _bool#572 = 1 -> VM5_offer_CPU = 4
+ Link_VM5_Offer29#1331: _bool#572 = 1 -> VM5_offer_Memory = 30500
+ Link_VM5_Offer29#1332: _bool#572 = 1 -> VM5_offer_Storage = 1000
  lc1334: _bool#573 = 1 <-> VM_5#244 = 1
  lc1335: _bool#574 = 1 <-> VM5_Type30 = 1
  lc1336: _bool#575 = 1 <-> _and1024 = 1
- Link_VM5_Off30: _bool#575 = 1 -> PriceProv5 = 146
- Link_VM5_Off30#1337: _bool#575 = 1 -> VM5_offer_CPU = 2
- Link_VM5_Off30#1338: _bool#575 = 1 -> VM5_offer_Memory = 7500
- Link_VM5_Off30#1339: _bool#575 = 1 -> VM5_offer_Storage = 1000
+ Link_VM5_Offer30: _bool#575 = 1 -> PriceProv5 = 146
+ Link_VM5_Offer30#1337: _bool#575 = 1 -> VM5_offer_CPU = 2
+ Link_VM5_Offer30#1338: _bool#575 = 1 -> VM5_offer_Memory = 7500
+ Link_VM5_Offer30#1339: _bool#575 = 1 -> VM5_offer_Storage = 1000
  lc1341: _bool#576 = 1 <-> VM_5#244 = 1
  lc1342: _bool#577 = 1 <-> VM5_Type31 = 1
  lc1343: _bool#578 = 1 <-> _and1028 = 1
- Link_VM5_Off31: _bool#578 = 1 -> PriceProv5 = 207
- Link_VM5_Off31#1344: _bool#578 = 1 -> VM5_offer_CPU = 2
- Link_VM5_Off31#1345: _bool#578 = 1 -> VM5_offer_Memory = 15250
- Link_VM5_Off31#1346: _bool#578 = 1 -> VM5_offer_Storage = 1000
+ Link_VM5_Offer31: _bool#578 = 1 -> PriceProv5 = 207
+ Link_VM5_Offer31#1344: _bool#578 = 1 -> VM5_offer_CPU = 2
+ Link_VM5_Offer31#1345: _bool#578 = 1 -> VM5_offer_Memory = 15250
+ Link_VM5_Offer31#1346: _bool#578 = 1 -> VM5_offer_Storage = 1000
  lc1348: _bool#579 = 1 <-> VM_5#244 = 1
  lc1349: _bool#580 = 1 <-> VM5_Type32 = 1
  lc1350: _bool#581 = 1 <-> _and1032 = 1
- Link_VM5_Off32: _bool#581 = 1 -> PriceProv5 = 293
- Link_VM5_Off32#1351: _bool#581 = 1 -> VM5_offer_CPU = 2
- Link_VM5_Off32#1352: _bool#581 = 1 -> VM5_offer_Memory = 17100
- Link_VM5_Off32#1353: _bool#581 = 1 -> VM5_offer_Storage = 1000
+ Link_VM5_Offer32: _bool#581 = 1 -> PriceProv5 = 293
+ Link_VM5_Offer32#1351: _bool#581 = 1 -> VM5_offer_CPU = 2
+ Link_VM5_Offer32#1352: _bool#581 = 1 -> VM5_offer_Memory = 17100
+ Link_VM5_Offer32#1353: _bool#581 = 1 -> VM5_offer_Storage = 1000
  lc1355: _bool#582 = 1 <-> VM_5#244 = 1
  lc1356: _bool#583 = 1 <-> VM5_Type33 = 1
  lc1357: _bool#584 = 1 <-> _and1036 = 1
- Link_VM5_Off33: _bool#584 = 1 -> PriceProv5 = 220
- Link_VM5_Off33#1358: _bool#584 = 1 -> VM5_offer_CPU = 2
- Link_VM5_Off33#1359: _bool#584 = 1 -> VM5_offer_Memory = 15250
- Link_VM5_Off33#1360: _bool#584 = 1 -> VM5_offer_Storage = 1000
+ Link_VM5_Offer33: _bool#584 = 1 -> PriceProv5 = 220
+ Link_VM5_Offer33#1358: _bool#584 = 1 -> VM5_offer_CPU = 2
+ Link_VM5_Offer33#1359: _bool#584 = 1 -> VM5_offer_Memory = 15250
+ Link_VM5_Offer33#1360: _bool#584 = 1 -> VM5_offer_Storage = 1000
  lc1362: _bool#585 = 1 <-> VM_5#244 = 1
  lc1363: _bool#586 = 1 <-> VM5_Type34 = 1
  lc1364: _bool#587 = 1 <-> _and1040 = 1
- Link_VM5_Off34: _bool#587 = 1 -> PriceProv5 = 197
- Link_VM5_Off34#1365: _bool#587 = 1 -> VM5_offer_CPU = 2
- Link_VM5_Off34#1366: _bool#587 = 1 -> VM5_offer_Memory = 1700
- Link_VM5_Off34#1367: _bool#587 = 1 -> VM5_offer_Storage = 1000
+ Link_VM5_Offer34: _bool#587 = 1 -> PriceProv5 = 197
+ Link_VM5_Offer34#1365: _bool#587 = 1 -> VM5_offer_CPU = 2
+ Link_VM5_Offer34#1366: _bool#587 = 1 -> VM5_offer_Memory = 1700
+ Link_VM5_Offer34#1367: _bool#587 = 1 -> VM5_offer_Storage = 1000
  lc1369: _bool#588 = 1 <-> VM_5#244 = 1
  lc1370: _bool#589 = 1 <-> VM5_Type35 = 1
  lc1371: _bool#590 = 1 <-> _and1044 = 1
- Link_VM5_Off35: _bool#590 = 1 -> PriceProv5 = 180
- Link_VM5_Off35#1372: _bool#590 = 1 -> VM5_offer_CPU = 2
- Link_VM5_Off35#1373: _bool#590 = 1 -> VM5_offer_Memory = 1700
- Link_VM5_Off35#1374: _bool#590 = 1 -> VM5_offer_Storage = 1000
+ Link_VM5_Offer35: _bool#590 = 1 -> PriceProv5 = 180
+ Link_VM5_Offer35#1372: _bool#590 = 1 -> VM5_offer_CPU = 2
+ Link_VM5_Offer35#1373: _bool#590 = 1 -> VM5_offer_Memory = 1700
+ Link_VM5_Offer35#1374: _bool#590 = 1 -> VM5_offer_Storage = 1000
  lc1376: _bool#591 = 1 <-> VM_5#244 = 1
  lc1377: _bool#592 = 1 <-> VM5_Type36 = 1
  lc1378: _bool#593 = 1 <-> _and1048 = 1
- Link_VM5_Off36: _bool#593 = 1 -> PriceProv5 = 275
- Link_VM5_Off36#1379: _bool#593 = 1 -> VM5_offer_CPU = 2
- Link_VM5_Off36#1380: _bool#593 = 1 -> VM5_offer_Memory = 17100
- Link_VM5_Off36#1381: _bool#593 = 1 -> VM5_offer_Storage = 1000
+ Link_VM5_Offer36: _bool#593 = 1 -> PriceProv5 = 275
+ Link_VM5_Offer36#1379: _bool#593 = 1 -> VM5_offer_CPU = 2
+ Link_VM5_Offer36#1380: _bool#593 = 1 -> VM5_offer_Memory = 17100
+ Link_VM5_Offer36#1381: _bool#593 = 1 -> VM5_offer_Storage = 1000
  lc1383: _bool#594 = 1 <-> VM_5#244 = 1
  lc1384: _bool#595 = 1 <-> VM5_Type37 = 1
  lc1385: _bool#596 = 1 <-> _and1052 = 1
- Link_VM5_Off37: _bool#596 = 1 -> PriceProv5 = 128
- Link_VM5_Off37#1386: _bool#596 = 1 -> VM5_offer_CPU = 2
- Link_VM5_Off37#1387: _bool#596 = 1 -> VM5_offer_Memory = 3750
- Link_VM5_Off37#1388: _bool#596 = 1 -> VM5_offer_Storage = 2000
+ Link_VM5_Offer37: _bool#596 = 1 -> PriceProv5 = 128
+ Link_VM5_Offer37#1386: _bool#596 = 1 -> VM5_offer_CPU = 2
+ Link_VM5_Offer37#1387: _bool#596 = 1 -> VM5_offer_Memory = 3750
+ Link_VM5_Offer37#1388: _bool#596 = 1 -> VM5_offer_Storage = 2000
  lc1390: _bool#597 = 1 <-> VM_5#244 = 1
  lc1391: _bool#598 = 1 <-> VM5_Type38 = 1
  lc1392: _bool#599 = 1 <-> _and1056 = 1
- Link_VM5_Off38: _bool#599 = 1 -> PriceProv5 = 58
- Link_VM5_Off38#1393: _bool#599 = 1 -> VM5_offer_CPU = 1
- Link_VM5_Off38#1394: _bool#599 = 1 -> VM5_offer_Memory = 1700
- Link_VM5_Off38#1395: _bool#599 = 1 -> VM5_offer_Storage = 1000
+ Link_VM5_Offer38: _bool#599 = 1 -> PriceProv5 = 58
+ Link_VM5_Offer38#1393: _bool#599 = 1 -> VM5_offer_CPU = 1
+ Link_VM5_Offer38#1394: _bool#599 = 1 -> VM5_offer_Memory = 1700
+ Link_VM5_Offer38#1395: _bool#599 = 1 -> VM5_offer_Storage = 1000
  lc1397: _bool#600 = 1 <-> VM_5#244 = 1
  lc1398: _bool#601 = 1 <-> VM5_Type39 = 1
  lc1399: _bool#602 = 1 <-> _and1060 = 1
- Link_VM5_Off39: _bool#602 = 1 -> PriceProv5 = 93
- Link_VM5_Off39#1400: _bool#602 = 1 -> VM5_offer_CPU = 1
- Link_VM5_Off39#1401: _bool#602 = 1 -> VM5_offer_Memory = 3750
- Link_VM5_Off39#1402: _bool#602 = 1 -> VM5_offer_Storage = 1000
+ Link_VM5_Offer39: _bool#602 = 1 -> PriceProv5 = 93
+ Link_VM5_Offer39#1400: _bool#602 = 1 -> VM5_offer_CPU = 1
+ Link_VM5_Offer39#1401: _bool#602 = 1 -> VM5_offer_Memory = 3750
+ Link_VM5_Offer39#1402: _bool#602 = 1 -> VM5_offer_Storage = 1000
  lc1404: _bool#603 = 1 <-> VM_5#244 = 1
  lc1405: _bool#604 = 1 <-> VM5_Type40 = 1
  lc1406: _bool#605 = 1 <-> _and1064 = 1
- Link_VM5_Off40: _bool#605 = 1 -> PriceProv5 = 98
- Link_VM5_Off40#1407: _bool#605 = 1 -> VM5_offer_CPU = 1
- Link_VM5_Off40#1408: _bool#605 = 1 -> VM5_offer_Memory = 3750
- Link_VM5_Off40#1409: _bool#605 = 1 -> VM5_offer_Storage = 1000
+ Link_VM5_Offer40: _bool#605 = 1 -> PriceProv5 = 98
+ Link_VM5_Offer40#1407: _bool#605 = 1 -> VM5_offer_CPU = 1
+ Link_VM5_Offer40#1408: _bool#605 = 1 -> VM5_offer_Memory = 3750
+ Link_VM5_Offer40#1409: _bool#605 = 1 -> VM5_offer_Storage = 1000
  Deactivation_1: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1411: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1412: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1413: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1414: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1415: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1416: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1417: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1418: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1419: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1420: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1421: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1422: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1423: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1424: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1425: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1426: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1427: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1428: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1429: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1430: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1431: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1432: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1433: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1434: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1435: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1436: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1437: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1438: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1439: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1440: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1441: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1442: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1443: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1444: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1445: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1446: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1447: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1448: VM_1#240 = 0 -> PriceProv1 = 0
- Deactivation_1#1449: VM_1#240 = 0 -> PriceProv1 = 0
  Deactivation_2: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1451: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1452: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1453: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1454: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1455: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1456: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1457: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1458: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1459: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1460: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1461: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1462: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1463: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1464: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1465: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1466: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1467: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1468: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1469: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1470: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1471: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1472: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1473: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1474: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1475: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1476: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1477: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1478: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1479: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1480: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1481: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1482: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1483: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1484: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1485: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1486: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1487: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1488: VM_2#241 = 0 -> PriceProv2 = 0
- Deactivation_2#1489: VM_2#241 = 0 -> PriceProv2 = 0
  Deactivation_3: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1491: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1492: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1493: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1494: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1495: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1496: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1497: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1498: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1499: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1500: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1501: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1502: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1503: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1504: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1505: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1506: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1507: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1508: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1509: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1510: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1511: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1512: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1513: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1514: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1515: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1516: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1517: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1518: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1519: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1520: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1521: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1522: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1523: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1524: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1525: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1526: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1527: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1528: VM_3#242 = 0 -> PriceProv3 = 0
- Deactivation_3#1529: VM_3#242 = 0 -> PriceProv3 = 0
  Deactivation_4: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1531: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1532: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1533: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1534: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1535: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1536: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1537: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1538: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1539: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1540: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1541: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1542: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1543: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1544: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1545: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1546: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1547: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1548: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1549: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1550: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1551: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1552: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1553: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1554: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1555: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1556: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1557: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1558: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1559: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1560: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1561: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1562: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1563: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1564: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1565: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1566: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1567: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1568: VM_4#243 = 0 -> PriceProv4 = 0
- Deactivation_4#1569: VM_4#243 = 0 -> PriceProv4 = 0
  Deactivation_5: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1571: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1572: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1573: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1574: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1575: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1576: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1577: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1578: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1579: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1580: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1581: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1582: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1583: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1584: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1585: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1586: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1587: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1588: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1589: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1590: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1591: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1592: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1593: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1594: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1595: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1596: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1597: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1598: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1599: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1600: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1601: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1602: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1603: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1604: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1605: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1606: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1607: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1608: VM_5#244 = 0 -> PriceProv5 = 0
- Deactivation_5#1609: VM_5#244 = 0 -> PriceProv5 = 0
- lc1611: _bool#606 = 1 <-> VM1_Type1 = 1
- lc1612: _bool#607 = 1 <-> VM1_Type2 = 1
- lc1613: _bool#608 = 1 <-> VM1_Type3 = 1
- lc1614: _bool#609 = 1 <-> VM1_Type4 = 1
- lc1615: _bool#610 = 1 <-> VM1_Type5 = 1
- lc1616: _bool#611 = 1 <-> VM1_Type6 = 1
- lc1617: _bool#612 = 1 <-> VM1_Type7 = 1
- lc1618: _bool#613 = 1 <-> VM1_Type8 = 1
- lc1619: _bool#614 = 1 <-> VM1_Type9 = 1
- lc1620: _bool#615 = 1 <-> VM1_Type10 = 1
- lc1621: _bool#616 = 1 <-> VM1_Type11 = 1
- lc1622: _bool#617 = 1 <-> VM1_Type12 = 1
- lc1623: _bool#618 = 1 <-> VM1_Type13 = 1
- lc1624: _bool#619 = 1 <-> VM1_Type14 = 1
- lc1625: _bool#620 = 1 <-> VM1_Type15 = 1
- lc1626: _bool#621 = 1 <-> VM1_Type16 = 1
- lc1627: _bool#622 = 1 <-> VM1_Type17 = 1
- lc1628: _bool#623 = 1 <-> VM1_Type18 = 1
- lc1629: _bool#624 = 1 <-> VM1_Type19 = 1
- lc1630: _bool#625 = 1 <-> VM1_Type20 = 1
- lc1631: _bool#626 = 1 <-> VM1_Type21 = 1
- lc1632: _bool#627 = 1 <-> VM1_Type22 = 1
- lc1633: _bool#628 = 1 <-> VM1_Type23 = 1
- lc1634: _bool#629 = 1 <-> VM1_Type24 = 1
- lc1635: _bool#630 = 1 <-> VM1_Type25 = 1
- lc1636: _bool#631 = 1 <-> VM1_Type26 = 1
- lc1637: _bool#632 = 1 <-> VM1_Type27 = 1
- lc1638: _bool#633 = 1 <-> VM1_Type28 = 1
- lc1639: _bool#634 = 1 <-> VM1_Type29 = 1
- lc1640: _bool#635 = 1 <-> VM1_Type30 = 1
- lc1641: _bool#636 = 1 <-> VM1_Type31 = 1
- lc1642: _bool#637 = 1 <-> VM1_Type32 = 1
- lc1643: _bool#638 = 1 <-> VM1_Type33 = 1
- lc1644: _bool#639 = 1 <-> VM1_Type34 = 1
- lc1645: _bool#640 = 1 <-> VM1_Type35 = 1
- lc1646: _bool#641 = 1 <-> VM1_Type36 = 1
- lc1647: _bool#642 = 1 <-> VM1_Type37 = 1
- lc1648: _bool#643 = 1 <-> VM1_Type38 = 1
- lc1649: _bool#644 = 1 <-> VM1_Type39 = 1
- lc1650: _bool#645 = 1 <-> VM1_Type40 = 1
- lc1651: _bool#646 = 1 <-> VM2_Type1 = 1
- lc1652: _bool#647 = 1 <-> VM2_Type2 = 1
- lc1653: _bool#648 = 1 <-> VM2_Type3 = 1
- lc1654: _bool#649 = 1 <-> VM2_Type4 = 1
- lc1655: _bool#650 = 1 <-> VM2_Type5 = 1
- lc1656: _bool#651 = 1 <-> VM2_Type6 = 1
- lc1657: _bool#652 = 1 <-> VM2_Type7 = 1
- lc1658: _bool#653 = 1 <-> VM2_Type8 = 1
- lc1659: _bool#654 = 1 <-> VM2_Type9 = 1
- lc1660: _bool#655 = 1 <-> VM2_Type10 = 1
- lc1661: _bool#656 = 1 <-> VM2_Type11 = 1
- lc1662: _bool#657 = 1 <-> VM2_Type12 = 1
- lc1663: _bool#658 = 1 <-> VM2_Type13 = 1
- lc1664: _bool#659 = 1 <-> VM2_Type14 = 1
- lc1665: _bool#660 = 1 <-> VM2_Type15 = 1
- lc1666: _bool#661 = 1 <-> VM2_Type16 = 1
- lc1667: _bool#662 = 1 <-> VM2_Type17 = 1
- lc1668: _bool#663 = 1 <-> VM2_Type18 = 1
- lc1669: _bool#664 = 1 <-> VM2_Type19 = 1
- lc1670: _bool#665 = 1 <-> VM2_Type20 = 1
- lc1671: _bool#666 = 1 <-> VM2_Type21 = 1
- lc1672: _bool#667 = 1 <-> VM2_Type22 = 1
- lc1673: _bool#668 = 1 <-> VM2_Type23 = 1
- lc1674: _bool#669 = 1 <-> VM2_Type24 = 1
- lc1675: _bool#670 = 1 <-> VM2_Type25 = 1
- lc1676: _bool#671 = 1 <-> VM2_Type26 = 1
- lc1677: _bool#672 = 1 <-> VM2_Type27 = 1
- lc1678: _bool#673 = 1 <-> VM2_Type28 = 1
- lc1679: _bool#674 = 1 <-> VM2_Type29 = 1
- lc1680: _bool#675 = 1 <-> VM2_Type30 = 1
- lc1681: _bool#676 = 1 <-> VM2_Type31 = 1
- lc1682: _bool#677 = 1 <-> VM2_Type32 = 1
- lc1683: _bool#678 = 1 <-> VM2_Type33 = 1
- lc1684: _bool#679 = 1 <-> VM2_Type34 = 1
- lc1685: _bool#680 = 1 <-> VM2_Type35 = 1
- lc1686: _bool#681 = 1 <-> VM2_Type36 = 1
- lc1687: _bool#682 = 1 <-> VM2_Type37 = 1
- lc1688: _bool#683 = 1 <-> VM2_Type38 = 1
- lc1689: _bool#684 = 1 <-> VM2_Type39 = 1
- lc1690: _bool#685 = 1 <-> VM2_Type40 = 1
- lc1691: _bool#686 = 1 <-> VM3_Type1 = 1
- lc1692: _bool#687 = 1 <-> VM3_Type2 = 1
- lc1693: _bool#688 = 1 <-> VM3_Type3 = 1
- lc1694: _bool#689 = 1 <-> VM3_Type4 = 1
- lc1695: _bool#690 = 1 <-> VM3_Type5 = 1
- lc1696: _bool#691 = 1 <-> VM3_Type6 = 1
- lc1697: _bool#692 = 1 <-> VM3_Type7 = 1
- lc1698: _bool#693 = 1 <-> VM3_Type8 = 1
- lc1699: _bool#694 = 1 <-> VM3_Type9 = 1
- lc1700: _bool#695 = 1 <-> VM3_Type10 = 1
- lc1701: _bool#696 = 1 <-> VM3_Type11 = 1
- lc1702: _bool#697 = 1 <-> VM3_Type12 = 1
- lc1703: _bool#698 = 1 <-> VM3_Type13 = 1
- lc1704: _bool#699 = 1 <-> VM3_Type14 = 1
- lc1705: _bool#700 = 1 <-> VM3_Type15 = 1
- lc1706: _bool#701 = 1 <-> VM3_Type16 = 1
- lc1707: _bool#702 = 1 <-> VM3_Type17 = 1
- lc1708: _bool#703 = 1 <-> VM3_Type18 = 1
- lc1709: _bool#704 = 1 <-> VM3_Type19 = 1
- lc1710: _bool#705 = 1 <-> VM3_Type20 = 1
- lc1711: _bool#706 = 1 <-> VM3_Type21 = 1
- lc1712: _bool#707 = 1 <-> VM3_Type22 = 1
- lc1713: _bool#708 = 1 <-> VM3_Type23 = 1
- lc1714: _bool#709 = 1 <-> VM3_Type24 = 1
- lc1715: _bool#710 = 1 <-> VM3_Type25 = 1
- lc1716: _bool#711 = 1 <-> VM3_Type26 = 1
- lc1717: _bool#712 = 1 <-> VM3_Type27 = 1
- lc1718: _bool#713 = 1 <-> VM3_Type28 = 1
- lc1719: _bool#714 = 1 <-> VM3_Type29 = 1
- lc1720: _bool#715 = 1 <-> VM3_Type30 = 1
- lc1721: _bool#716 = 1 <-> VM3_Type31 = 1
- lc1722: _bool#717 = 1 <-> VM3_Type32 = 1
- lc1723: _bool#718 = 1 <-> VM3_Type33 = 1
- lc1724: _bool#719 = 1 <-> VM3_Type34 = 1
- lc1725: _bool#720 = 1 <-> VM3_Type35 = 1
- lc1726: _bool#721 = 1 <-> VM3_Type36 = 1
- lc1727: _bool#722 = 1 <-> VM3_Type37 = 1
- lc1728: _bool#723 = 1 <-> VM3_Type38 = 1
- lc1729: _bool#724 = 1 <-> VM3_Type39 = 1
- lc1730: _bool#725 = 1 <-> VM3_Type40 = 1
- lc1731: _bool#726 = 1 <-> VM4_Type1 = 1
- lc1732: _bool#727 = 1 <-> VM4_Type2 = 1
- lc1733: _bool#728 = 1 <-> VM4_Type3 = 1
- lc1734: _bool#729 = 1 <-> VM4_Type4 = 1
- lc1735: _bool#730 = 1 <-> VM4_Type5 = 1
- lc1736: _bool#731 = 1 <-> VM4_Type6 = 1
- lc1737: _bool#732 = 1 <-> VM4_Type7 = 1
- lc1738: _bool#733 = 1 <-> VM4_Type8 = 1
- lc1739: _bool#734 = 1 <-> VM4_Type9 = 1
- lc1740: _bool#735 = 1 <-> VM4_Type10 = 1
- lc1741: _bool#736 = 1 <-> VM4_Type11 = 1
- lc1742: _bool#737 = 1 <-> VM4_Type12 = 1
- lc1743: _bool#738 = 1 <-> VM4_Type13 = 1
- lc1744: _bool#739 = 1 <-> VM4_Type14 = 1
- lc1745: _bool#740 = 1 <-> VM4_Type15 = 1
- lc1746: _bool#741 = 1 <-> VM4_Type16 = 1
- lc1747: _bool#742 = 1 <-> VM4_Type17 = 1
- lc1748: _bool#743 = 1 <-> VM4_Type18 = 1
- lc1749: _bool#744 = 1 <-> VM4_Type19 = 1
- lc1750: _bool#745 = 1 <-> VM4_Type20 = 1
- lc1751: _bool#746 = 1 <-> VM4_Type21 = 1
- lc1752: _bool#747 = 1 <-> VM4_Type22 = 1
- lc1753: _bool#748 = 1 <-> VM4_Type23 = 1
- lc1754: _bool#749 = 1 <-> VM4_Type24 = 1
- lc1755: _bool#750 = 1 <-> VM4_Type25 = 1
- lc1756: _bool#751 = 1 <-> VM4_Type26 = 1
- lc1757: _bool#752 = 1 <-> VM4_Type27 = 1
- lc1758: _bool#753 = 1 <-> VM4_Type28 = 1
- lc1759: _bool#754 = 1 <-> VM4_Type29 = 1
- lc1760: _bool#755 = 1 <-> VM4_Type30 = 1
- lc1761: _bool#756 = 1 <-> VM4_Type31 = 1
- lc1762: _bool#757 = 1 <-> VM4_Type32 = 1
- lc1763: _bool#758 = 1 <-> VM4_Type33 = 1
- lc1764: _bool#759 = 1 <-> VM4_Type34 = 1
- lc1765: _bool#760 = 1 <-> VM4_Type35 = 1
- lc1766: _bool#761 = 1 <-> VM4_Type36 = 1
- lc1767: _bool#762 = 1 <-> VM4_Type37 = 1
- lc1768: _bool#763 = 1 <-> VM4_Type38 = 1
- lc1769: _bool#764 = 1 <-> VM4_Type39 = 1
- lc1770: _bool#765 = 1 <-> VM4_Type40 = 1
- lc1771: _bool#766 = 1 <-> VM5_Type1 = 1
- lc1772: _bool#767 = 1 <-> VM5_Type2 = 1
- lc1773: _bool#768 = 1 <-> VM5_Type3 = 1
- lc1774: _bool#769 = 1 <-> VM5_Type4 = 1
- lc1775: _bool#770 = 1 <-> VM5_Type5 = 1
- lc1776: _bool#771 = 1 <-> VM5_Type6 = 1
- lc1777: _bool#772 = 1 <-> VM5_Type7 = 1
- lc1778: _bool#773 = 1 <-> VM5_Type8 = 1
- lc1779: _bool#774 = 1 <-> VM5_Type9 = 1
- lc1780: _bool#775 = 1 <-> VM5_Type10 = 1
- lc1781: _bool#776 = 1 <-> VM5_Type11 = 1
- lc1782: _bool#777 = 1 <-> VM5_Type12 = 1
- lc1783: _bool#778 = 1 <-> VM5_Type13 = 1
- lc1784: _bool#779 = 1 <-> VM5_Type14 = 1
- lc1785: _bool#780 = 1 <-> VM5_Type15 = 1
- lc1786: _bool#781 = 1 <-> VM5_Type16 = 1
- lc1787: _bool#782 = 1 <-> VM5_Type17 = 1
- lc1788: _bool#783 = 1 <-> VM5_Type18 = 1
- lc1789: _bool#784 = 1 <-> VM5_Type19 = 1
- lc1790: _bool#785 = 1 <-> VM5_Type20 = 1
- lc1791: _bool#786 = 1 <-> VM5_Type21 = 1
- lc1792: _bool#787 = 1 <-> VM5_Type22 = 1
- lc1793: _bool#788 = 1 <-> VM5_Type23 = 1
- lc1794: _bool#789 = 1 <-> VM5_Type24 = 1
- lc1795: _bool#790 = 1 <-> VM5_Type25 = 1
- lc1796: _bool#791 = 1 <-> VM5_Type26 = 1
- lc1797: _bool#792 = 1 <-> VM5_Type27 = 1
- lc1798: _bool#793 = 1 <-> VM5_Type28 = 1
- lc1799: _bool#794 = 1 <-> VM5_Type29 = 1
- lc1800: _bool#795 = 1 <-> VM5_Type30 = 1
- lc1801: _bool#796 = 1 <-> VM5_Type31 = 1
- lc1802: _bool#797 = 1 <-> VM5_Type32 = 1
- lc1803: _bool#798 = 1 <-> VM5_Type33 = 1
- lc1804: _bool#799 = 1 <-> VM5_Type34 = 1
- lc1805: _bool#800 = 1 <-> VM5_Type35 = 1
- lc1806: _bool#801 = 1 <-> VM5_Type36 = 1
- lc1807: _bool#802 = 1 <-> VM5_Type37 = 1
- lc1808: _bool#803 = 1 <-> VM5_Type38 = 1
- lc1809: _bool#804 = 1 <-> VM5_Type39 = 1
- lc1810: _bool#805 = 1 <-> VM5_Type40 = 1
+ lc1416: _bool#606 = 1 <-> VM1_Type1 = 1
+ lc1417: _bool#607 = 1 <-> VM1_Type2 = 1
+ lc1418: _bool#608 = 1 <-> VM1_Type3 = 1
+ lc1419: _bool#609 = 1 <-> VM1_Type4 = 1
+ lc1420: _bool#610 = 1 <-> VM1_Type5 = 1
+ lc1421: _bool#611 = 1 <-> VM1_Type6 = 1
+ lc1422: _bool#612 = 1 <-> VM1_Type7 = 1
+ lc1423: _bool#613 = 1 <-> VM1_Type8 = 1
+ lc1424: _bool#614 = 1 <-> VM1_Type9 = 1
+ lc1425: _bool#615 = 1 <-> VM1_Type10 = 1
+ lc1426: _bool#616 = 1 <-> VM1_Type11 = 1
+ lc1427: _bool#617 = 1 <-> VM1_Type12 = 1
+ lc1428: _bool#618 = 1 <-> VM1_Type13 = 1
+ lc1429: _bool#619 = 1 <-> VM1_Type14 = 1
+ lc1430: _bool#620 = 1 <-> VM1_Type15 = 1
+ lc1431: _bool#621 = 1 <-> VM1_Type16 = 1
+ lc1432: _bool#622 = 1 <-> VM1_Type17 = 1
+ lc1433: _bool#623 = 1 <-> VM1_Type18 = 1
+ lc1434: _bool#624 = 1 <-> VM1_Type19 = 1
+ lc1435: _bool#625 = 1 <-> VM1_Type20 = 1
+ lc1436: _bool#626 = 1 <-> VM1_Type21 = 1
+ lc1437: _bool#627 = 1 <-> VM1_Type22 = 1
+ lc1438: _bool#628 = 1 <-> VM1_Type23 = 1
+ lc1439: _bool#629 = 1 <-> VM1_Type24 = 1
+ lc1440: _bool#630 = 1 <-> VM1_Type25 = 1
+ lc1441: _bool#631 = 1 <-> VM1_Type26 = 1
+ lc1442: _bool#632 = 1 <-> VM1_Type27 = 1
+ lc1443: _bool#633 = 1 <-> VM1_Type28 = 1
+ lc1444: _bool#634 = 1 <-> VM1_Type29 = 1
+ lc1445: _bool#635 = 1 <-> VM1_Type30 = 1
+ lc1446: _bool#636 = 1 <-> VM1_Type31 = 1
+ lc1447: _bool#637 = 1 <-> VM1_Type32 = 1
+ lc1448: _bool#638 = 1 <-> VM1_Type33 = 1
+ lc1449: _bool#639 = 1 <-> VM1_Type34 = 1
+ lc1450: _bool#640 = 1 <-> VM1_Type35 = 1
+ lc1451: _bool#641 = 1 <-> VM1_Type36 = 1
+ lc1452: _bool#642 = 1 <-> VM1_Type37 = 1
+ lc1453: _bool#643 = 1 <-> VM1_Type38 = 1
+ lc1454: _bool#644 = 1 <-> VM1_Type39 = 1
+ lc1455: _bool#645 = 1 <-> VM1_Type40 = 1
+ lc1456: _bool#646 = 1 <-> VM2_Type1 = 1
+ lc1457: _bool#647 = 1 <-> VM2_Type2 = 1
+ lc1458: _bool#648 = 1 <-> VM2_Type3 = 1
+ lc1459: _bool#649 = 1 <-> VM2_Type4 = 1
+ lc1460: _bool#650 = 1 <-> VM2_Type5 = 1
+ lc1461: _bool#651 = 1 <-> VM2_Type6 = 1
+ lc1462: _bool#652 = 1 <-> VM2_Type7 = 1
+ lc1463: _bool#653 = 1 <-> VM2_Type8 = 1
+ lc1464: _bool#654 = 1 <-> VM2_Type9 = 1
+ lc1465: _bool#655 = 1 <-> VM2_Type10 = 1
+ lc1466: _bool#656 = 1 <-> VM2_Type11 = 1
+ lc1467: _bool#657 = 1 <-> VM2_Type12 = 1
+ lc1468: _bool#658 = 1 <-> VM2_Type13 = 1
+ lc1469: _bool#659 = 1 <-> VM2_Type14 = 1
+ lc1470: _bool#660 = 1 <-> VM2_Type15 = 1
+ lc1471: _bool#661 = 1 <-> VM2_Type16 = 1
+ lc1472: _bool#662 = 1 <-> VM2_Type17 = 1
+ lc1473: _bool#663 = 1 <-> VM2_Type18 = 1
+ lc1474: _bool#664 = 1 <-> VM2_Type19 = 1
+ lc1475: _bool#665 = 1 <-> VM2_Type20 = 1
+ lc1476: _bool#666 = 1 <-> VM2_Type21 = 1
+ lc1477: _bool#667 = 1 <-> VM2_Type22 = 1
+ lc1478: _bool#668 = 1 <-> VM2_Type23 = 1
+ lc1479: _bool#669 = 1 <-> VM2_Type24 = 1
+ lc1480: _bool#670 = 1 <-> VM2_Type25 = 1
+ lc1481: _bool#671 = 1 <-> VM2_Type26 = 1
+ lc1482: _bool#672 = 1 <-> VM2_Type27 = 1
+ lc1483: _bool#673 = 1 <-> VM2_Type28 = 1
+ lc1484: _bool#674 = 1 <-> VM2_Type29 = 1
+ lc1485: _bool#675 = 1 <-> VM2_Type30 = 1
+ lc1486: _bool#676 = 1 <-> VM2_Type31 = 1
+ lc1487: _bool#677 = 1 <-> VM2_Type32 = 1
+ lc1488: _bool#678 = 1 <-> VM2_Type33 = 1
+ lc1489: _bool#679 = 1 <-> VM2_Type34 = 1
+ lc1490: _bool#680 = 1 <-> VM2_Type35 = 1
+ lc1491: _bool#681 = 1 <-> VM2_Type36 = 1
+ lc1492: _bool#682 = 1 <-> VM2_Type37 = 1
+ lc1493: _bool#683 = 1 <-> VM2_Type38 = 1
+ lc1494: _bool#684 = 1 <-> VM2_Type39 = 1
+ lc1495: _bool#685 = 1 <-> VM2_Type40 = 1
+ lc1496: _bool#686 = 1 <-> VM3_Type1 = 1
+ lc1497: _bool#687 = 1 <-> VM3_Type2 = 1
+ lc1498: _bool#688 = 1 <-> VM3_Type3 = 1
+ lc1499: _bool#689 = 1 <-> VM3_Type4 = 1
+ lc1500: _bool#690 = 1 <-> VM3_Type5 = 1
+ lc1501: _bool#691 = 1 <-> VM3_Type6 = 1
+ lc1502: _bool#692 = 1 <-> VM3_Type7 = 1
+ lc1503: _bool#693 = 1 <-> VM3_Type8 = 1
+ lc1504: _bool#694 = 1 <-> VM3_Type9 = 1
+ lc1505: _bool#695 = 1 <-> VM3_Type10 = 1
+ lc1506: _bool#696 = 1 <-> VM3_Type11 = 1
+ lc1507: _bool#697 = 1 <-> VM3_Type12 = 1
+ lc1508: _bool#698 = 1 <-> VM3_Type13 = 1
+ lc1509: _bool#699 = 1 <-> VM3_Type14 = 1
+ lc1510: _bool#700 = 1 <-> VM3_Type15 = 1
+ lc1511: _bool#701 = 1 <-> VM3_Type16 = 1
+ lc1512: _bool#702 = 1 <-> VM3_Type17 = 1
+ lc1513: _bool#703 = 1 <-> VM3_Type18 = 1
+ lc1514: _bool#704 = 1 <-> VM3_Type19 = 1
+ lc1515: _bool#705 = 1 <-> VM3_Type20 = 1
+ lc1516: _bool#706 = 1 <-> VM3_Type21 = 1
+ lc1517: _bool#707 = 1 <-> VM3_Type22 = 1
+ lc1518: _bool#708 = 1 <-> VM3_Type23 = 1
+ lc1519: _bool#709 = 1 <-> VM3_Type24 = 1
+ lc1520: _bool#710 = 1 <-> VM3_Type25 = 1
+ lc1521: _bool#711 = 1 <-> VM3_Type26 = 1
+ lc1522: _bool#712 = 1 <-> VM3_Type27 = 1
+ lc1523: _bool#713 = 1 <-> VM3_Type28 = 1
+ lc1524: _bool#714 = 1 <-> VM3_Type29 = 1
+ lc1525: _bool#715 = 1 <-> VM3_Type30 = 1
+ lc1526: _bool#716 = 1 <-> VM3_Type31 = 1
+ lc1527: _bool#717 = 1 <-> VM3_Type32 = 1
+ lc1528: _bool#718 = 1 <-> VM3_Type33 = 1
+ lc1529: _bool#719 = 1 <-> VM3_Type34 = 1
+ lc1530: _bool#720 = 1 <-> VM3_Type35 = 1
+ lc1531: _bool#721 = 1 <-> VM3_Type36 = 1
+ lc1532: _bool#722 = 1 <-> VM3_Type37 = 1
+ lc1533: _bool#723 = 1 <-> VM3_Type38 = 1
+ lc1534: _bool#724 = 1 <-> VM3_Type39 = 1
+ lc1535: _bool#725 = 1 <-> VM3_Type40 = 1
+ lc1536: _bool#726 = 1 <-> VM4_Type1 = 1
+ lc1537: _bool#727 = 1 <-> VM4_Type2 = 1
+ lc1538: _bool#728 = 1 <-> VM4_Type3 = 1
+ lc1539: _bool#729 = 1 <-> VM4_Type4 = 1
+ lc1540: _bool#730 = 1 <-> VM4_Type5 = 1
+ lc1541: _bool#731 = 1 <-> VM4_Type6 = 1
+ lc1542: _bool#732 = 1 <-> VM4_Type7 = 1
+ lc1543: _bool#733 = 1 <-> VM4_Type8 = 1
+ lc1544: _bool#734 = 1 <-> VM4_Type9 = 1
+ lc1545: _bool#735 = 1 <-> VM4_Type10 = 1
+ lc1546: _bool#736 = 1 <-> VM4_Type11 = 1
+ lc1547: _bool#737 = 1 <-> VM4_Type12 = 1
+ lc1548: _bool#738 = 1 <-> VM4_Type13 = 1
+ lc1549: _bool#739 = 1 <-> VM4_Type14 = 1
+ lc1550: _bool#740 = 1 <-> VM4_Type15 = 1
+ lc1551: _bool#741 = 1 <-> VM4_Type16 = 1
+ lc1552: _bool#742 = 1 <-> VM4_Type17 = 1
+ lc1553: _bool#743 = 1 <-> VM4_Type18 = 1
+ lc1554: _bool#744 = 1 <-> VM4_Type19 = 1
+ lc1555: _bool#745 = 1 <-> VM4_Type20 = 1
+ lc1556: _bool#746 = 1 <-> VM4_Type21 = 1
+ lc1557: _bool#747 = 1 <-> VM4_Type22 = 1
+ lc1558: _bool#748 = 1 <-> VM4_Type23 = 1
+ lc1559: _bool#749 = 1 <-> VM4_Type24 = 1
+ lc1560: _bool#750 = 1 <-> VM4_Type25 = 1
+ lc1561: _bool#751 = 1 <-> VM4_Type26 = 1
+ lc1562: _bool#752 = 1 <-> VM4_Type27 = 1
+ lc1563: _bool#753 = 1 <-> VM4_Type28 = 1
+ lc1564: _bool#754 = 1 <-> VM4_Type29 = 1
+ lc1565: _bool#755 = 1 <-> VM4_Type30 = 1
+ lc1566: _bool#756 = 1 <-> VM4_Type31 = 1
+ lc1567: _bool#757 = 1 <-> VM4_Type32 = 1
+ lc1568: _bool#758 = 1 <-> VM4_Type33 = 1
+ lc1569: _bool#759 = 1 <-> VM4_Type34 = 1
+ lc1570: _bool#760 = 1 <-> VM4_Type35 = 1
+ lc1571: _bool#761 = 1 <-> VM4_Type36 = 1
+ lc1572: _bool#762 = 1 <-> VM4_Type37 = 1
+ lc1573: _bool#763 = 1 <-> VM4_Type38 = 1
+ lc1574: _bool#764 = 1 <-> VM4_Type39 = 1
+ lc1575: _bool#765 = 1 <-> VM4_Type40 = 1
+ lc1576: _bool#766 = 1 <-> VM5_Type1 = 1
+ lc1577: _bool#767 = 1 <-> VM5_Type2 = 1
+ lc1578: _bool#768 = 1 <-> VM5_Type3 = 1
+ lc1579: _bool#769 = 1 <-> VM5_Type4 = 1
+ lc1580: _bool#770 = 1 <-> VM5_Type5 = 1
+ lc1581: _bool#771 = 1 <-> VM5_Type6 = 1
+ lc1582: _bool#772 = 1 <-> VM5_Type7 = 1
+ lc1583: _bool#773 = 1 <-> VM5_Type8 = 1
+ lc1584: _bool#774 = 1 <-> VM5_Type9 = 1
+ lc1585: _bool#775 = 1 <-> VM5_Type10 = 1
+ lc1586: _bool#776 = 1 <-> VM5_Type11 = 1
+ lc1587: _bool#777 = 1 <-> VM5_Type12 = 1
+ lc1588: _bool#778 = 1 <-> VM5_Type13 = 1
+ lc1589: _bool#779 = 1 <-> VM5_Type14 = 1
+ lc1590: _bool#780 = 1 <-> VM5_Type15 = 1
+ lc1591: _bool#781 = 1 <-> VM5_Type16 = 1
+ lc1592: _bool#782 = 1 <-> VM5_Type17 = 1
+ lc1593: _bool#783 = 1 <-> VM5_Type18 = 1
+ lc1594: _bool#784 = 1 <-> VM5_Type19 = 1
+ lc1595: _bool#785 = 1 <-> VM5_Type20 = 1
+ lc1596: _bool#786 = 1 <-> VM5_Type21 = 1
+ lc1597: _bool#787 = 1 <-> VM5_Type22 = 1
+ lc1598: _bool#788 = 1 <-> VM5_Type23 = 1
+ lc1599: _bool#789 = 1 <-> VM5_Type24 = 1
+ lc1600: _bool#790 = 1 <-> VM5_Type25 = 1
+ lc1601: _bool#791 = 1 <-> VM5_Type26 = 1
+ lc1602: _bool#792 = 1 <-> VM5_Type27 = 1
+ lc1603: _bool#793 = 1 <-> VM5_Type28 = 1
+ lc1604: _bool#794 = 1 <-> VM5_Type29 = 1
+ lc1605: _bool#795 = 1 <-> VM5_Type30 = 1
+ lc1606: _bool#796 = 1 <-> VM5_Type31 = 1
+ lc1607: _bool#797 = 1 <-> VM5_Type32 = 1
+ lc1608: _bool#798 = 1 <-> VM5_Type33 = 1
+ lc1609: _bool#799 = 1 <-> VM5_Type34 = 1
+ lc1610: _bool#800 = 1 <-> VM5_Type35 = 1
+ lc1611: _bool#801 = 1 <-> VM5_Type36 = 1
+ lc1612: _bool#802 = 1 <-> VM5_Type37 = 1
+ lc1613: _bool#803 = 1 <-> VM5_Type38 = 1
+ lc1614: _bool#804 = 1 <-> VM5_Type39 = 1
+ lc1615: _bool#805 = 1 <-> VM5_Type40 = 1
 
 Bounds
  0 <= C1_VM1 <= 1

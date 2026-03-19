@@ -56,7 +56,6 @@ class CPLEX_Solver:
                     name=f"C{c + 1}_VM{v + 1}"
                 )
 
-        #exista un model.logical_or, dar nu face ca z3, pentru ca CPLEX gandeste numai in formule, adunari si inmultiri
         # for v in range(self.nr_vms):
         #     for o in range(nr_offers):
         #         self.type_vars[(v, o)] = self.model.binary_var(
@@ -100,10 +99,8 @@ class CPLEX_Solver:
 
     def vm_type(self):
         nr_offers = len(self.offers)
-
         for v in range(self.nr_vms):
             conditii_oferte = [self.type_vars[(v, o)] == 1 for o in range(nr_offers)]
-
             self.model.add(
                 self.model.logical_or(*conditii_oferte) #== (self.vm_active[v] == 1)
             )
@@ -162,6 +159,7 @@ class CPLEX_Solver:
         for v in range(self.nr_vms):
             for o in range(nr_offers):
                 offer = self.offers[o]
+                #c131-133 din off20.lp
                 condition = self.model.logical_and(self.vm_active[v] == 1, self.type_vars[(v, o)] == 1) == 1
                 #Condiție => (CPU = X  /  RAM = Y  /  STO = Z)  and  Preț = P
                 #la fel e si conditie => cpu=x and conditie => ram etc
@@ -175,17 +173,14 @@ class CPLEX_Solver:
                 for eq in consecinte:
                     self.model.add_constraint(
                         self.model.if_then(condition, eq),
-                        ctname=f"Link_VM{v+1}_Off{o+1}"
+                        ctname=f"Link_VM{v+1}_Offer{o+1}"
                     )
 
     def link_deactivation(self):
         #print(self.vm_type(v))
-        nr_offers = len(self.offers)
         for v in range(self.nr_vms):
-            for o in range(nr_offers):
                 self.model.add_constraint(
                     self.model.if_then(
-                        # self.vm_active[v]==0, self.type_vars[(v, o)] == 0),
                         self.vm_active[v] == 0, self.vm_price[v]==0),
                 ctname=f"Deactivation_{v+1}"
                 )
@@ -212,7 +207,6 @@ class CPLEX_Solver:
             self.model.parameters.preprocessing.presolve = 0
             self.model.parameters.preprocessing.symmetry = 0
             self.model.parameters.read.datacheck = 0
-            #pus limita ticks - 5.000.000
             self.model.parameters.dettimelimit = 5000000
 
             start_time = time.time()
