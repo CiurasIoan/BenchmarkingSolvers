@@ -56,13 +56,6 @@ class CPLEX_Solver:
                     name=f"C{c + 1}_VM{v + 1}"
                 )
 
-        # for v in range(self.nr_vms):
-        #     for o in range(nr_offers):
-        #         self.type_vars[(v, o)] = self.model.binary_var(
-        #             name=f"VM{v+1}_Type{o+1}"
-        #         )
-        # print(self.type_vars)
-
         for v in range(self.nr_vms):
             self.vm_active[v] = self.model.binary_var(name=f"VM_{v + 1}")
 
@@ -190,7 +183,7 @@ class CPLEX_Solver:
             self.model.sum(self.vm_price[v] for v in range(self.nr_vms))
         )
 
-    def run(self, output_dir="../Data/Output/CPLEX", base_name="cplex"):
+    def run(self, output_dir="../Data/Output/CPLEX"):
         os.makedirs(output_dir, exist_ok=True)
 
         components_name = os.path.splitext(os.path.basename(self.components_file))[0]
@@ -199,8 +192,11 @@ class CPLEX_Solver:
 
         lp_path = os.path.join(output_dir, f"{dynamic_base_name}.lp")
         sol_path = os.path.join(output_dir, f"{dynamic_base_name}.sol")
+        #test
+        # mps_path = os.path.join(output_dir, f"{dynamic_base_name}.mps")
 
         self.model.export_as_lp(lp_path)
+        # self.model.export_as_mps(mps_path)
         #scriere in sol file
 
         with open(sol_path, "w") as f:
