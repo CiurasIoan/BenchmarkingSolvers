@@ -5,13 +5,13 @@ CPXPARAM_DetTimeLimit                            5000000
 Tried aggregator 0 times.
 Reduced MIP has 1755 rows, 1880 columns, and 4310 nonzeros.
 Reduced MIP has 1450 binaries, 15 generals, 0 SOSs, and 1215 indicators.
-Presolve time = 0.00 sec. (2.14 ticks)
-Found incumbent of value 9152.000000 after 0.05 sec. (22.54 ticks)
+Presolve time = 0.01 sec. (2.14 ticks)
+Found incumbent of value 9152.000000 after 0.14 sec. (22.54 ticks)
 Clique table members: 3250.
 MIP emphasis: balance optimality and feasibility.
 MIP search method: dynamic search.
 Parallel mode: deterministic, using up to 4 threads.
-Root relaxation solution time = 0.01 sec. (3.14 ticks)
+Root relaxation solution time = 0.00 sec. (3.14 ticks)
 
         Nodes                                         Cuts/
    Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
@@ -23,7 +23,7 @@ Root relaxation solution time = 0.01 sec. (3.14 ticks)
       0     0        0.0000    50     9152.0000     Cuts: 133      732  100.00%
       0     0        0.0000    53     9152.0000      Cuts: 58      769  100.00%
       0     2        0.0000    26     9152.0000        0.0000      780  100.00%
-Elapsed time = 0.18 sec. (77.48 ticks, tree = 0.02 MB, solutions = 1)
+Elapsed time = 0.28 sec. (77.48 ticks, tree = 0.02 MB, solutions = 1)
 *   739   228      integral     0     8479.0000        0.0000     3604  100.00%
 *   767   243      integral     0     6688.0000        0.0000     3794  100.00%
 *   866   259      integral     0     4704.0000        0.0000     3949  100.00%
@@ -54,7 +54,7 @@ Reduced presolve eliminated 0 rows and 4 columns.
 Reduced MIP has 1190 rows, 230 columns, and 1345 nonzeros.
 Reduced MIP has 200 binaries, 30 generals, 0 SOSs, and 265 indicators.
 Presolve time = 0.00 sec. (0.12 ticks)
-Represolve time = 0.07 sec. (23.90 ticks)
+Represolve time = 0.04 sec. (23.90 ticks)
    3722     0        0.0000    16     2484.0000      Cuts: 34    19968  100.00%
    3722     0        0.0000    26     2484.0000       Cuts: 6    19981  100.00%
    3722     0        0.0000    28     2484.0000      Cuts: 24    19993  100.00%
@@ -73,7 +73,7 @@ Represolve time = 0.07 sec. (23.90 ticks)
   10224  3465      239.0000     2     2232.0000      221.0000    40192   90.10%
   12087  4237      276.6262    20     2232.0000      249.0719    46527   88.84%
   20008  5766      437.0000     8     2232.0000      379.0000    90785   83.02%
-Elapsed time = 9.82 sec. (3200.67 ticks, tree = 3.27 MB, solutions = 18)
+Elapsed time = 5.18 sec. (3200.67 ticks, tree = 3.27 MB, solutions = 18)
   27971  7790      569.1583    33     2232.0000      500.0000   134763   77.60%
   36357  8435     2191.0000     1     2232.0000      580.0000   214876   74.01%
   45127  8592      774.6214    23     2232.0000      672.6394   294159   69.86%
@@ -84,7 +84,7 @@ Elapsed time = 9.82 sec. (3200.67 ticks, tree = 3.27 MB, solutions = 18)
   84692  7683    infeasible           2232.0000     1426.6173   737284   36.08%
   92483  7137     1744.0000     1     2232.0000     1494.0000   828701   33.06%
  100525  6390     1672.2102    11     2232.0000     1575.0000   920175   29.44%
-Elapsed time = 27.24 sec. (12738.06 ticks, tree = 3.89 MB, solutions = 18)
+Elapsed time = 20.00 sec. (12738.06 ticks, tree = 3.89 MB, solutions = 18)
  108563  5256    infeasible           2232.0000     1666.0000  1006137   25.36%
  117059  4351    infeasible           2232.0000     1773.0000  1094623   20.56%
  125704  2733     2005.0000     1     2232.0000     1902.0000  1182073   14.78%
@@ -98,16 +98,16 @@ Zero-half cuts applied:  2
 Gomory fractional cuts applied:  3
 
 Root node processing (before b&c):
-  Real time             =    0.17 sec. (76.68 ticks)
+  Real time             =    0.28 sec. (76.68 ticks)
 Parallel b&c, 4 threads:
-  Real time             =   33.56 sec. (16154.97 ticks)
-  Sync time (average)   =    2.63 sec.
-  Wait time (average)   =    0.15 sec.
+  Real time             =   24.67 sec. (16154.97 ticks)
+  Sync time (average)   =    1.23 sec.
+  Wait time (average)   =    0.01 sec.
                           ------------
-Total (root+branch&cut) =   33.73 sec. (16231.64 ticks)
+Total (root+branch&cut) =   24.95 sec. (16231.64 ticks)
 Price = 2232.0
-Time = 33.739764
-Wall_Time = 33.734908
+Time = 24.965949
+Wall_Time = 24.960086
 Status = integer optimal solution
 Nodes = 131778
 Gap = 0.0
@@ -157,7 +157,7 @@ VM5_offer_Memory=30500
 VM5_offer_Storage=1000
 
 Solve_details = status  = integer optimal solution
-time    = 33.7349 s.
+time    = 24.9601 s.
 problem = MILP
 gap     = 0%
 
