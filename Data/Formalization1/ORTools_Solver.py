@@ -134,14 +134,18 @@ class ORTools_Solver:
         offers_name = os.path.splitext(os.path.basename(self.offers_file))[0]
         dynamic_base_name = f"{components_name}_{offers_name}"
 
-        proto_path = os.path.join(output_dir, f"{dynamic_base_name}_model.txt")
-        self.model.ExportToFile(proto_path)
+        proto_path = os.path.join(output_dir, f"{dynamic_base_name}_model.proto")
+        # self.model.ExportToFile(proto_path)
+
+        with open(proto_path, "w", encoding="utf-8") as f:
+            f.write(str(self.model.Proto()))
 
         sol_path = os.path.join(output_dir, f"{dynamic_base_name}.sol")
 
         solver = cp_model.CpSolver()
 
         solver.parameters.cp_model_presolve = False
+        solver.parameters.symmetry_level = 0
         solver.parameters.max_time_in_seconds = 5000.0
         solver.parameters.log_search_progress = True
 

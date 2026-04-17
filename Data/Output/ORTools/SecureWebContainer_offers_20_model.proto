@@ -1,0 +1,5318 @@
+variables {
+  name: "C1_VM1"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C1_VM2"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C1_VM3"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C1_VM4"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C1_VM5"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C2_VM1"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C2_VM2"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C2_VM3"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C2_VM4"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C2_VM5"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C3_VM1"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C3_VM2"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C3_VM3"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C3_VM4"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C3_VM5"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C4_VM1"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C4_VM2"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C4_VM3"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C4_VM4"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C4_VM5"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C5_VM1"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C5_VM2"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C5_VM3"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C5_VM4"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "C5_VM5"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM_1"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type1"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type2"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type3"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type4"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type5"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type6"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type7"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type8"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type9"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type10"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type11"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type12"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type13"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type14"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type15"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type16"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type17"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type18"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type19"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM1_Type20"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "PriceProv1"
+  domain: 0
+  domain: 16000
+}
+variables {
+  name: "VM1_offer_CPU"
+  domain: 0
+  domain: 64
+}
+variables {
+  name: "VM1_offer_Memory"
+  domain: 0
+  domain: 976000
+}
+variables {
+  name: "VM1_offer_Storage"
+  domain: 0
+  domain: 24000
+}
+variables {
+  name: "VM_2"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type1"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type2"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type3"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type4"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type5"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type6"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type7"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type8"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type9"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type10"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type11"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type12"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type13"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type14"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type15"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type16"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type17"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type18"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type19"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM2_Type20"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "PriceProv2"
+  domain: 0
+  domain: 16000
+}
+variables {
+  name: "VM2_offer_CPU"
+  domain: 0
+  domain: 64
+}
+variables {
+  name: "VM2_offer_Memory"
+  domain: 0
+  domain: 976000
+}
+variables {
+  name: "VM2_offer_Storage"
+  domain: 0
+  domain: 24000
+}
+variables {
+  name: "VM_3"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type1"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type2"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type3"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type4"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type5"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type6"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type7"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type8"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type9"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type10"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type11"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type12"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type13"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type14"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type15"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type16"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type17"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type18"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type19"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM3_Type20"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "PriceProv3"
+  domain: 0
+  domain: 16000
+}
+variables {
+  name: "VM3_offer_CPU"
+  domain: 0
+  domain: 64
+}
+variables {
+  name: "VM3_offer_Memory"
+  domain: 0
+  domain: 976000
+}
+variables {
+  name: "VM3_offer_Storage"
+  domain: 0
+  domain: 24000
+}
+variables {
+  name: "VM_4"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type1"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type2"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type3"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type4"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type5"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type6"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type7"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type8"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type9"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type10"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type11"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type12"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type13"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type14"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type15"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type16"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type17"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type18"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type19"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM4_Type20"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "PriceProv4"
+  domain: 0
+  domain: 16000
+}
+variables {
+  name: "VM4_offer_CPU"
+  domain: 0
+  domain: 64
+}
+variables {
+  name: "VM4_offer_Memory"
+  domain: 0
+  domain: 976000
+}
+variables {
+  name: "VM4_offer_Storage"
+  domain: 0
+  domain: 24000
+}
+variables {
+  name: "VM_5"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type1"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type2"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type3"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type4"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type5"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type6"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type7"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type8"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type9"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type10"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type11"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type12"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type13"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type14"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type15"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type16"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type17"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type18"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type19"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "VM5_Type20"
+  domain: 0
+  domain: 1
+}
+variables {
+  name: "PriceProv5"
+  domain: 0
+  domain: 16000
+}
+variables {
+  name: "VM5_offer_CPU"
+  domain: 0
+  domain: 64
+}
+variables {
+  name: "VM5_offer_Memory"
+  domain: 0
+  domain: 976000
+}
+variables {
+  name: "VM5_offer_Storage"
+  domain: 0
+  domain: 24000
+}
+constraints {
+  enforcement_literal: 25
+  exactly_one {
+    literals: 26
+    literals: 27
+    literals: 28
+    literals: 29
+    literals: 30
+    literals: 31
+    literals: 32
+    literals: 33
+    literals: 34
+    literals: 35
+    literals: 36
+    literals: 37
+    literals: 38
+    literals: 39
+    literals: 40
+    literals: 41
+    literals: 42
+    literals: 43
+    literals: 44
+    literals: 45
+  }
+}
+constraints {
+  enforcement_literal: -26
+  linear {
+    vars: 26
+    vars: 27
+    vars: 28
+    vars: 29
+    vars: 30
+    vars: 31
+    vars: 32
+    vars: 33
+    vars: 34
+    vars: 35
+    vars: 36
+    vars: 37
+    vars: 38
+    vars: 39
+    vars: 40
+    vars: 41
+    vars: 42
+    vars: 43
+    vars: 44
+    vars: 45
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    domain: 0
+    domain: 0
+  }
+}
+constraints {
+  enforcement_literal: 50
+  exactly_one {
+    literals: 51
+    literals: 52
+    literals: 53
+    literals: 54
+    literals: 55
+    literals: 56
+    literals: 57
+    literals: 58
+    literals: 59
+    literals: 60
+    literals: 61
+    literals: 62
+    literals: 63
+    literals: 64
+    literals: 65
+    literals: 66
+    literals: 67
+    literals: 68
+    literals: 69
+    literals: 70
+  }
+}
+constraints {
+  enforcement_literal: -51
+  linear {
+    vars: 51
+    vars: 52
+    vars: 53
+    vars: 54
+    vars: 55
+    vars: 56
+    vars: 57
+    vars: 58
+    vars: 59
+    vars: 60
+    vars: 61
+    vars: 62
+    vars: 63
+    vars: 64
+    vars: 65
+    vars: 66
+    vars: 67
+    vars: 68
+    vars: 69
+    vars: 70
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    domain: 0
+    domain: 0
+  }
+}
+constraints {
+  enforcement_literal: 75
+  exactly_one {
+    literals: 76
+    literals: 77
+    literals: 78
+    literals: 79
+    literals: 80
+    literals: 81
+    literals: 82
+    literals: 83
+    literals: 84
+    literals: 85
+    literals: 86
+    literals: 87
+    literals: 88
+    literals: 89
+    literals: 90
+    literals: 91
+    literals: 92
+    literals: 93
+    literals: 94
+    literals: 95
+  }
+}
+constraints {
+  enforcement_literal: -76
+  linear {
+    vars: 76
+    vars: 77
+    vars: 78
+    vars: 79
+    vars: 80
+    vars: 81
+    vars: 82
+    vars: 83
+    vars: 84
+    vars: 85
+    vars: 86
+    vars: 87
+    vars: 88
+    vars: 89
+    vars: 90
+    vars: 91
+    vars: 92
+    vars: 93
+    vars: 94
+    vars: 95
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    domain: 0
+    domain: 0
+  }
+}
+constraints {
+  enforcement_literal: 100
+  exactly_one {
+    literals: 101
+    literals: 102
+    literals: 103
+    literals: 104
+    literals: 105
+    literals: 106
+    literals: 107
+    literals: 108
+    literals: 109
+    literals: 110
+    literals: 111
+    literals: 112
+    literals: 113
+    literals: 114
+    literals: 115
+    literals: 116
+    literals: 117
+    literals: 118
+    literals: 119
+    literals: 120
+  }
+}
+constraints {
+  enforcement_literal: -101
+  linear {
+    vars: 101
+    vars: 102
+    vars: 103
+    vars: 104
+    vars: 105
+    vars: 106
+    vars: 107
+    vars: 108
+    vars: 109
+    vars: 110
+    vars: 111
+    vars: 112
+    vars: 113
+    vars: 114
+    vars: 115
+    vars: 116
+    vars: 117
+    vars: 118
+    vars: 119
+    vars: 120
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    domain: 0
+    domain: 0
+  }
+}
+constraints {
+  enforcement_literal: 125
+  exactly_one {
+    literals: 126
+    literals: 127
+    literals: 128
+    literals: 129
+    literals: 130
+    literals: 131
+    literals: 132
+    literals: 133
+    literals: 134
+    literals: 135
+    literals: 136
+    literals: 137
+    literals: 138
+    literals: 139
+    literals: 140
+    literals: 141
+    literals: 142
+    literals: 143
+    literals: 144
+    literals: 145
+  }
+}
+constraints {
+  enforcement_literal: -126
+  linear {
+    vars: 126
+    vars: 127
+    vars: 128
+    vars: 129
+    vars: 130
+    vars: 131
+    vars: 132
+    vars: 133
+    vars: 134
+    vars: 135
+    vars: 136
+    vars: 137
+    vars: 138
+    vars: 139
+    vars: 140
+    vars: 141
+    vars: 142
+    vars: 143
+    vars: 144
+    vars: 145
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    domain: 0
+    domain: 0
+  }
+}
+constraints {
+  name: "BasicAllocation_1"
+  linear {
+    vars: 0
+    vars: 1
+    vars: 2
+    vars: 3
+    vars: 4
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    domain: 1
+    domain: 9223372036854775807
+  }
+}
+constraints {
+  name: "BasicAllocation_2"
+  linear {
+    vars: 5
+    vars: 6
+    vars: 7
+    vars: 8
+    vars: 9
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    domain: 1
+    domain: 9223372036854775807
+  }
+}
+constraints {
+  name: "BasicAllocation_3"
+  linear {
+    vars: 10
+    vars: 11
+    vars: 12
+    vars: 13
+    vars: 14
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    domain: 1
+    domain: 9223372036854775807
+  }
+}
+constraints {
+  name: "BasicAllocation_4"
+  linear {
+    vars: 15
+    vars: 16
+    vars: 17
+    vars: 18
+    vars: 19
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    domain: 1
+    domain: 9223372036854775807
+  }
+}
+constraints {
+  name: "BasicAllocation_5"
+  linear {
+    vars: 20
+    vars: 21
+    vars: 22
+    vars: 23
+    vars: 24
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    coeffs: 1
+    domain: 1
+    domain: 9223372036854775807
+  }
+}
+constraints {
+  name: "Occupancy_1"
+  enforcement_literal: 0
+  bool_and {
+    literals: 25
+  }
+}
+constraints {
+  name: "Occupancy_1"
+  enforcement_literal: 5
+  bool_and {
+    literals: 25
+  }
+}
+constraints {
+  name: "Occupancy_1"
+  enforcement_literal: 10
+  bool_and {
+    literals: 25
+  }
+}
+constraints {
+  name: "Occupancy_1"
+  enforcement_literal: 15
+  bool_and {
+    literals: 25
+  }
+}
+constraints {
+  name: "Occupancy_1"
+  enforcement_literal: 20
+  bool_and {
+    literals: 25
+  }
+}
+constraints {
+  name: "Occupancy_2"
+  enforcement_literal: 1
+  bool_and {
+    literals: 50
+  }
+}
+constraints {
+  name: "Occupancy_2"
+  enforcement_literal: 6
+  bool_and {
+    literals: 50
+  }
+}
+constraints {
+  name: "Occupancy_2"
+  enforcement_literal: 11
+  bool_and {
+    literals: 50
+  }
+}
+constraints {
+  name: "Occupancy_2"
+  enforcement_literal: 16
+  bool_and {
+    literals: 50
+  }
+}
+constraints {
+  name: "Occupancy_2"
+  enforcement_literal: 21
+  bool_and {
+    literals: 50
+  }
+}
+constraints {
+  name: "Occupancy_3"
+  enforcement_literal: 2
+  bool_and {
+    literals: 75
+  }
+}
+constraints {
+  name: "Occupancy_3"
+  enforcement_literal: 7
+  bool_and {
+    literals: 75
+  }
+}
+constraints {
+  name: "Occupancy_3"
+  enforcement_literal: 12
+  bool_and {
+    literals: 75
+  }
+}
+constraints {
+  name: "Occupancy_3"
+  enforcement_literal: 17
+  bool_and {
+    literals: 75
+  }
+}
+constraints {
+  name: "Occupancy_3"
+  enforcement_literal: 22
+  bool_and {
+    literals: 75
+  }
+}
+constraints {
+  name: "Occupancy_4"
+  enforcement_literal: 3
+  bool_and {
+    literals: 100
+  }
+}
+constraints {
+  name: "Occupancy_4"
+  enforcement_literal: 8
+  bool_and {
+    literals: 100
+  }
+}
+constraints {
+  name: "Occupancy_4"
+  enforcement_literal: 13
+  bool_and {
+    literals: 100
+  }
+}
+constraints {
+  name: "Occupancy_4"
+  enforcement_literal: 18
+  bool_and {
+    literals: 100
+  }
+}
+constraints {
+  name: "Occupancy_4"
+  enforcement_literal: 23
+  bool_and {
+    literals: 100
+  }
+}
+constraints {
+  name: "Occupancy_5"
+  enforcement_literal: 4
+  bool_and {
+    literals: 125
+  }
+}
+constraints {
+  name: "Occupancy_5"
+  enforcement_literal: 9
+  bool_and {
+    literals: 125
+  }
+}
+constraints {
+  name: "Occupancy_5"
+  enforcement_literal: 14
+  bool_and {
+    literals: 125
+  }
+}
+constraints {
+  name: "Occupancy_5"
+  enforcement_literal: 19
+  bool_and {
+    literals: 125
+  }
+}
+constraints {
+  name: "Occupancy_5"
+  enforcement_literal: 24
+  bool_and {
+    literals: 125
+  }
+}
+constraints {
+  name: "Capacity_CPU_VM1"
+  linear {
+    vars: 0
+    vars: 5
+    vars: 10
+    vars: 15
+    vars: 20
+    vars: 47
+    coeffs: 4
+    coeffs: 2
+    coeffs: 4
+    coeffs: 8
+    coeffs: 1
+    coeffs: -1
+    domain: -9223372036854775808
+    domain: 0
+  }
+}
+constraints {
+  name: "Capacity_Memory_VM1"
+  linear {
+    vars: 0
+    vars: 5
+    vars: 10
+    vars: 15
+    vars: 20
+    vars: 48
+    coeffs: 2048
+    coeffs: 512
+    coeffs: 2048
+    coeffs: 16000
+    coeffs: 256
+    coeffs: -1
+    domain: -9223372036854775808
+    domain: 0
+  }
+}
+constraints {
+  name: "Capacity_Storage_VM1"
+  linear {
+    vars: 0
+    vars: 5
+    vars: 10
+    vars: 15
+    vars: 20
+    vars: 49
+    coeffs: 500
+    coeffs: 1000
+    coeffs: 1000
+    coeffs: 2000
+    coeffs: 250
+    coeffs: -1
+    domain: -9223372036854775808
+    domain: 0
+  }
+}
+constraints {
+  name: "Capacity_CPU_VM2"
+  linear {
+    vars: 1
+    vars: 6
+    vars: 11
+    vars: 16
+    vars: 21
+    vars: 72
+    coeffs: 4
+    coeffs: 2
+    coeffs: 4
+    coeffs: 8
+    coeffs: 1
+    coeffs: -1
+    domain: -9223372036854775808
+    domain: 0
+  }
+}
+constraints {
+  name: "Capacity_Memory_VM2"
+  linear {
+    vars: 1
+    vars: 6
+    vars: 11
+    vars: 16
+    vars: 21
+    vars: 73
+    coeffs: 2048
+    coeffs: 512
+    coeffs: 2048
+    coeffs: 16000
+    coeffs: 256
+    coeffs: -1
+    domain: -9223372036854775808
+    domain: 0
+  }
+}
+constraints {
+  name: "Capacity_Storage_VM2"
+  linear {
+    vars: 1
+    vars: 6
+    vars: 11
+    vars: 16
+    vars: 21
+    vars: 74
+    coeffs: 500
+    coeffs: 1000
+    coeffs: 1000
+    coeffs: 2000
+    coeffs: 250
+    coeffs: -1
+    domain: -9223372036854775808
+    domain: 0
+  }
+}
+constraints {
+  name: "Capacity_CPU_VM3"
+  linear {
+    vars: 2
+    vars: 7
+    vars: 12
+    vars: 17
+    vars: 22
+    vars: 97
+    coeffs: 4
+    coeffs: 2
+    coeffs: 4
+    coeffs: 8
+    coeffs: 1
+    coeffs: -1
+    domain: -9223372036854775808
+    domain: 0
+  }
+}
+constraints {
+  name: "Capacity_Memory_VM3"
+  linear {
+    vars: 2
+    vars: 7
+    vars: 12
+    vars: 17
+    vars: 22
+    vars: 98
+    coeffs: 2048
+    coeffs: 512
+    coeffs: 2048
+    coeffs: 16000
+    coeffs: 256
+    coeffs: -1
+    domain: -9223372036854775808
+    domain: 0
+  }
+}
+constraints {
+  name: "Capacity_Storage_VM3"
+  linear {
+    vars: 2
+    vars: 7
+    vars: 12
+    vars: 17
+    vars: 22
+    vars: 99
+    coeffs: 500
+    coeffs: 1000
+    coeffs: 1000
+    coeffs: 2000
+    coeffs: 250
+    coeffs: -1
+    domain: -9223372036854775808
+    domain: 0
+  }
+}
+constraints {
+  name: "Capacity_CPU_VM4"
+  linear {
+    vars: 3
+    vars: 8
+    vars: 13
+    vars: 18
+    vars: 23
+    vars: 122
+    coeffs: 4
+    coeffs: 2
+    coeffs: 4
+    coeffs: 8
+    coeffs: 1
+    coeffs: -1
+    domain: -9223372036854775808
+    domain: 0
+  }
+}
+constraints {
+  name: "Capacity_Memory_VM4"
+  linear {
+    vars: 3
+    vars: 8
+    vars: 13
+    vars: 18
+    vars: 23
+    vars: 123
+    coeffs: 2048
+    coeffs: 512
+    coeffs: 2048
+    coeffs: 16000
+    coeffs: 256
+    coeffs: -1
+    domain: -9223372036854775808
+    domain: 0
+  }
+}
+constraints {
+  name: "Capacity_Storage_VM4"
+  linear {
+    vars: 3
+    vars: 8
+    vars: 13
+    vars: 18
+    vars: 23
+    vars: 124
+    coeffs: 500
+    coeffs: 1000
+    coeffs: 1000
+    coeffs: 2000
+    coeffs: 250
+    coeffs: -1
+    domain: -9223372036854775808
+    domain: 0
+  }
+}
+constraints {
+  name: "Capacity_CPU_VM5"
+  linear {
+    vars: 4
+    vars: 9
+    vars: 14
+    vars: 19
+    vars: 24
+    vars: 147
+    coeffs: 4
+    coeffs: 2
+    coeffs: 4
+    coeffs: 8
+    coeffs: 1
+    coeffs: -1
+    domain: -9223372036854775808
+    domain: 0
+  }
+}
+constraints {
+  name: "Capacity_Memory_VM5"
+  linear {
+    vars: 4
+    vars: 9
+    vars: 14
+    vars: 19
+    vars: 24
+    vars: 148
+    coeffs: 2048
+    coeffs: 512
+    coeffs: 2048
+    coeffs: 16000
+    coeffs: 256
+    coeffs: -1
+    domain: -9223372036854775808
+    domain: 0
+  }
+}
+constraints {
+  name: "Capacity_Storage_VM5"
+  linear {
+    vars: 4
+    vars: 9
+    vars: 14
+    vars: 19
+    vars: 24
+    vars: 149
+    coeffs: 500
+    coeffs: 1000
+    coeffs: 1000
+    coeffs: 2000
+    coeffs: 250
+    coeffs: -1
+    domain: -9223372036854775808
+    domain: 0
+  }
+}
+constraints {
+  enforcement_literal: 26
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 8403
+    domain: 8403
+  }
+}
+constraints {
+  enforcement_literal: 26
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 64
+    domain: 64
+  }
+}
+constraints {
+  enforcement_literal: 26
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 976000
+    domain: 976000
+  }
+}
+constraints {
+  enforcement_literal: 26
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 27
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 9152
+    domain: 9152
+  }
+}
+constraints {
+  enforcement_literal: 27
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 64
+    domain: 64
+  }
+}
+constraints {
+  enforcement_literal: 27
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 488000
+    domain: 488000
+  }
+}
+constraints {
+  enforcement_literal: 27
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 8000
+    domain: 8000
+  }
+}
+constraints {
+  enforcement_literal: 28
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 16000
+    domain: 16000
+  }
+}
+constraints {
+  enforcement_literal: 28
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 64
+    domain: 64
+  }
+}
+constraints {
+  enforcement_literal: 28
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 1952
+    domain: 1952
+  }
+}
+constraints {
+  enforcement_literal: 28
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 29
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 4105
+    domain: 4105
+  }
+}
+constraints {
+  enforcement_literal: 29
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 32
+    domain: 32
+  }
+}
+constraints {
+  enforcement_literal: 29
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 244000
+    domain: 244000
+  }
+}
+constraints {
+  enforcement_literal: 29
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 30
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 4576
+    domain: 4576
+  }
+}
+constraints {
+  enforcement_literal: 30
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 32
+    domain: 32
+  }
+}
+constraints {
+  enforcement_literal: 30
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 244000
+    domain: 244000
+  }
+}
+constraints {
+  enforcement_literal: 30
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 4000
+    domain: 4000
+  }
+}
+constraints {
+  enforcement_literal: 31
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 1373
+    domain: 1373
+  }
+}
+constraints {
+  enforcement_literal: 31
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 16
+    domain: 16
+  }
+}
+constraints {
+  enforcement_literal: 31
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 122000
+    domain: 122000
+  }
+}
+constraints {
+  enforcement_literal: 31
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 32
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 1430
+    domain: 1430
+  }
+}
+constraints {
+  enforcement_literal: 32
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 16
+    domain: 16
+  }
+}
+constraints {
+  enforcement_literal: 32
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 30000
+    domain: 30000
+  }
+}
+constraints {
+  enforcement_literal: 32
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 33
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 5400
+    domain: 5400
+  }
+}
+constraints {
+  enforcement_literal: 33
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 17
+    domain: 17
+  }
+}
+constraints {
+  enforcement_literal: 33
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 117000
+    domain: 117000
+  }
+}
+constraints {
+  enforcement_literal: 33
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 24000
+    domain: 24000
+  }
+}
+constraints {
+  enforcement_literal: 34
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 3079
+    domain: 3079
+  }
+}
+constraints {
+  enforcement_literal: 34
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 16
+    domain: 16
+  }
+}
+constraints {
+  enforcement_literal: 34
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 122000
+    domain: 122000
+  }
+}
+constraints {
+  enforcement_literal: 34
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 35
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 1470
+    domain: 1470
+  }
+}
+constraints {
+  enforcement_literal: 35
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 8
+    domain: 8
+  }
+}
+constraints {
+  enforcement_literal: 35
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 61000
+    domain: 61000
+  }
+}
+constraints {
+  enforcement_literal: 35
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 6000
+    domain: 6000
+  }
+}
+constraints {
+  enforcement_literal: 36
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 1301
+    domain: 1301
+  }
+}
+constraints {
+  enforcement_literal: 36
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 8
+    domain: 8
+  }
+}
+constraints {
+  enforcement_literal: 36
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 68400
+    domain: 68400
+  }
+}
+constraints {
+  enforcement_literal: 36
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 37
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 1288
+    domain: 1288
+  }
+}
+constraints {
+  enforcement_literal: 37
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 8
+    domain: 8
+  }
+}
+constraints {
+  enforcement_literal: 37
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 68400
+    domain: 68400
+  }
+}
+constraints {
+  enforcement_literal: 37
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 38
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 402
+    domain: 402
+  }
+}
+constraints {
+  enforcement_literal: 38
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 4
+    domain: 4
+  }
+}
+constraints {
+  enforcement_literal: 38
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 15000
+    domain: 15000
+  }
+}
+constraints {
+  enforcement_literal: 38
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 39
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 827
+    domain: 827
+  }
+}
+constraints {
+  enforcement_literal: 39
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 4
+    domain: 4
+  }
+}
+constraints {
+  enforcement_literal: 39
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 30500
+    domain: 30500
+  }
+}
+constraints {
+  enforcement_literal: 39
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 3000
+    domain: 3000
+  }
+}
+constraints {
+  enforcement_literal: 40
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 379
+    domain: 379
+  }
+}
+constraints {
+  enforcement_literal: 40
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 4
+    domain: 4
+  }
+}
+constraints {
+  enforcement_literal: 40
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 30500
+    domain: 30500
+  }
+}
+constraints {
+  enforcement_literal: 40
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 41
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 146
+    domain: 146
+  }
+}
+constraints {
+  enforcement_literal: 41
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 2
+    domain: 2
+  }
+}
+constraints {
+  enforcement_literal: 41
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 7500
+    domain: 7500
+  }
+}
+constraints {
+  enforcement_literal: 41
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 42
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 128
+    domain: 128
+  }
+}
+constraints {
+  enforcement_literal: 42
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 2
+    domain: 2
+  }
+}
+constraints {
+  enforcement_literal: 42
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 3750
+    domain: 3750
+  }
+}
+constraints {
+  enforcement_literal: 42
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 43
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 58
+    domain: 58
+  }
+}
+constraints {
+  enforcement_literal: 43
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 1
+    domain: 1
+  }
+}
+constraints {
+  enforcement_literal: 43
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 1700
+    domain: 1700
+  }
+}
+constraints {
+  enforcement_literal: 43
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 44
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 93
+    domain: 93
+  }
+}
+constraints {
+  enforcement_literal: 44
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 1
+    domain: 1
+  }
+}
+constraints {
+  enforcement_literal: 44
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 3750
+    domain: 3750
+  }
+}
+constraints {
+  enforcement_literal: 44
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 45
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 98
+    domain: 98
+  }
+}
+constraints {
+  enforcement_literal: 45
+  linear {
+    vars: 47
+    coeffs: 1
+    domain: 1
+    domain: 1
+  }
+}
+constraints {
+  enforcement_literal: 45
+  linear {
+    vars: 48
+    coeffs: 1
+    domain: 3750
+    domain: 3750
+  }
+}
+constraints {
+  enforcement_literal: 45
+  linear {
+    vars: 49
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 51
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 8403
+    domain: 8403
+  }
+}
+constraints {
+  enforcement_literal: 51
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 64
+    domain: 64
+  }
+}
+constraints {
+  enforcement_literal: 51
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 976000
+    domain: 976000
+  }
+}
+constraints {
+  enforcement_literal: 51
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 52
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 9152
+    domain: 9152
+  }
+}
+constraints {
+  enforcement_literal: 52
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 64
+    domain: 64
+  }
+}
+constraints {
+  enforcement_literal: 52
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 488000
+    domain: 488000
+  }
+}
+constraints {
+  enforcement_literal: 52
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 8000
+    domain: 8000
+  }
+}
+constraints {
+  enforcement_literal: 53
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 16000
+    domain: 16000
+  }
+}
+constraints {
+  enforcement_literal: 53
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 64
+    domain: 64
+  }
+}
+constraints {
+  enforcement_literal: 53
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 1952
+    domain: 1952
+  }
+}
+constraints {
+  enforcement_literal: 53
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 54
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 4105
+    domain: 4105
+  }
+}
+constraints {
+  enforcement_literal: 54
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 32
+    domain: 32
+  }
+}
+constraints {
+  enforcement_literal: 54
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 244000
+    domain: 244000
+  }
+}
+constraints {
+  enforcement_literal: 54
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 55
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 4576
+    domain: 4576
+  }
+}
+constraints {
+  enforcement_literal: 55
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 32
+    domain: 32
+  }
+}
+constraints {
+  enforcement_literal: 55
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 244000
+    domain: 244000
+  }
+}
+constraints {
+  enforcement_literal: 55
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 4000
+    domain: 4000
+  }
+}
+constraints {
+  enforcement_literal: 56
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 1373
+    domain: 1373
+  }
+}
+constraints {
+  enforcement_literal: 56
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 16
+    domain: 16
+  }
+}
+constraints {
+  enforcement_literal: 56
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 122000
+    domain: 122000
+  }
+}
+constraints {
+  enforcement_literal: 56
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 57
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 1430
+    domain: 1430
+  }
+}
+constraints {
+  enforcement_literal: 57
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 16
+    domain: 16
+  }
+}
+constraints {
+  enforcement_literal: 57
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 30000
+    domain: 30000
+  }
+}
+constraints {
+  enforcement_literal: 57
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 58
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 5400
+    domain: 5400
+  }
+}
+constraints {
+  enforcement_literal: 58
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 17
+    domain: 17
+  }
+}
+constraints {
+  enforcement_literal: 58
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 117000
+    domain: 117000
+  }
+}
+constraints {
+  enforcement_literal: 58
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 24000
+    domain: 24000
+  }
+}
+constraints {
+  enforcement_literal: 59
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 3079
+    domain: 3079
+  }
+}
+constraints {
+  enforcement_literal: 59
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 16
+    domain: 16
+  }
+}
+constraints {
+  enforcement_literal: 59
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 122000
+    domain: 122000
+  }
+}
+constraints {
+  enforcement_literal: 59
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 60
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 1470
+    domain: 1470
+  }
+}
+constraints {
+  enforcement_literal: 60
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 8
+    domain: 8
+  }
+}
+constraints {
+  enforcement_literal: 60
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 61000
+    domain: 61000
+  }
+}
+constraints {
+  enforcement_literal: 60
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 6000
+    domain: 6000
+  }
+}
+constraints {
+  enforcement_literal: 61
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 1301
+    domain: 1301
+  }
+}
+constraints {
+  enforcement_literal: 61
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 8
+    domain: 8
+  }
+}
+constraints {
+  enforcement_literal: 61
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 68400
+    domain: 68400
+  }
+}
+constraints {
+  enforcement_literal: 61
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 62
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 1288
+    domain: 1288
+  }
+}
+constraints {
+  enforcement_literal: 62
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 8
+    domain: 8
+  }
+}
+constraints {
+  enforcement_literal: 62
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 68400
+    domain: 68400
+  }
+}
+constraints {
+  enforcement_literal: 62
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 63
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 402
+    domain: 402
+  }
+}
+constraints {
+  enforcement_literal: 63
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 4
+    domain: 4
+  }
+}
+constraints {
+  enforcement_literal: 63
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 15000
+    domain: 15000
+  }
+}
+constraints {
+  enforcement_literal: 63
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 64
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 827
+    domain: 827
+  }
+}
+constraints {
+  enforcement_literal: 64
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 4
+    domain: 4
+  }
+}
+constraints {
+  enforcement_literal: 64
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 30500
+    domain: 30500
+  }
+}
+constraints {
+  enforcement_literal: 64
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 3000
+    domain: 3000
+  }
+}
+constraints {
+  enforcement_literal: 65
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 379
+    domain: 379
+  }
+}
+constraints {
+  enforcement_literal: 65
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 4
+    domain: 4
+  }
+}
+constraints {
+  enforcement_literal: 65
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 30500
+    domain: 30500
+  }
+}
+constraints {
+  enforcement_literal: 65
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 66
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 146
+    domain: 146
+  }
+}
+constraints {
+  enforcement_literal: 66
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 2
+    domain: 2
+  }
+}
+constraints {
+  enforcement_literal: 66
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 7500
+    domain: 7500
+  }
+}
+constraints {
+  enforcement_literal: 66
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 67
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 128
+    domain: 128
+  }
+}
+constraints {
+  enforcement_literal: 67
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 2
+    domain: 2
+  }
+}
+constraints {
+  enforcement_literal: 67
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 3750
+    domain: 3750
+  }
+}
+constraints {
+  enforcement_literal: 67
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 68
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 58
+    domain: 58
+  }
+}
+constraints {
+  enforcement_literal: 68
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 1
+    domain: 1
+  }
+}
+constraints {
+  enforcement_literal: 68
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 1700
+    domain: 1700
+  }
+}
+constraints {
+  enforcement_literal: 68
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 69
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 93
+    domain: 93
+  }
+}
+constraints {
+  enforcement_literal: 69
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 1
+    domain: 1
+  }
+}
+constraints {
+  enforcement_literal: 69
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 3750
+    domain: 3750
+  }
+}
+constraints {
+  enforcement_literal: 69
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 70
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 98
+    domain: 98
+  }
+}
+constraints {
+  enforcement_literal: 70
+  linear {
+    vars: 72
+    coeffs: 1
+    domain: 1
+    domain: 1
+  }
+}
+constraints {
+  enforcement_literal: 70
+  linear {
+    vars: 73
+    coeffs: 1
+    domain: 3750
+    domain: 3750
+  }
+}
+constraints {
+  enforcement_literal: 70
+  linear {
+    vars: 74
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 76
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 8403
+    domain: 8403
+  }
+}
+constraints {
+  enforcement_literal: 76
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 64
+    domain: 64
+  }
+}
+constraints {
+  enforcement_literal: 76
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 976000
+    domain: 976000
+  }
+}
+constraints {
+  enforcement_literal: 76
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 77
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 9152
+    domain: 9152
+  }
+}
+constraints {
+  enforcement_literal: 77
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 64
+    domain: 64
+  }
+}
+constraints {
+  enforcement_literal: 77
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 488000
+    domain: 488000
+  }
+}
+constraints {
+  enforcement_literal: 77
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 8000
+    domain: 8000
+  }
+}
+constraints {
+  enforcement_literal: 78
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 16000
+    domain: 16000
+  }
+}
+constraints {
+  enforcement_literal: 78
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 64
+    domain: 64
+  }
+}
+constraints {
+  enforcement_literal: 78
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 1952
+    domain: 1952
+  }
+}
+constraints {
+  enforcement_literal: 78
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 79
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 4105
+    domain: 4105
+  }
+}
+constraints {
+  enforcement_literal: 79
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 32
+    domain: 32
+  }
+}
+constraints {
+  enforcement_literal: 79
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 244000
+    domain: 244000
+  }
+}
+constraints {
+  enforcement_literal: 79
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 80
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 4576
+    domain: 4576
+  }
+}
+constraints {
+  enforcement_literal: 80
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 32
+    domain: 32
+  }
+}
+constraints {
+  enforcement_literal: 80
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 244000
+    domain: 244000
+  }
+}
+constraints {
+  enforcement_literal: 80
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 4000
+    domain: 4000
+  }
+}
+constraints {
+  enforcement_literal: 81
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 1373
+    domain: 1373
+  }
+}
+constraints {
+  enforcement_literal: 81
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 16
+    domain: 16
+  }
+}
+constraints {
+  enforcement_literal: 81
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 122000
+    domain: 122000
+  }
+}
+constraints {
+  enforcement_literal: 81
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 82
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 1430
+    domain: 1430
+  }
+}
+constraints {
+  enforcement_literal: 82
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 16
+    domain: 16
+  }
+}
+constraints {
+  enforcement_literal: 82
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 30000
+    domain: 30000
+  }
+}
+constraints {
+  enforcement_literal: 82
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 83
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 5400
+    domain: 5400
+  }
+}
+constraints {
+  enforcement_literal: 83
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 17
+    domain: 17
+  }
+}
+constraints {
+  enforcement_literal: 83
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 117000
+    domain: 117000
+  }
+}
+constraints {
+  enforcement_literal: 83
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 24000
+    domain: 24000
+  }
+}
+constraints {
+  enforcement_literal: 84
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 3079
+    domain: 3079
+  }
+}
+constraints {
+  enforcement_literal: 84
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 16
+    domain: 16
+  }
+}
+constraints {
+  enforcement_literal: 84
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 122000
+    domain: 122000
+  }
+}
+constraints {
+  enforcement_literal: 84
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 85
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 1470
+    domain: 1470
+  }
+}
+constraints {
+  enforcement_literal: 85
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 8
+    domain: 8
+  }
+}
+constraints {
+  enforcement_literal: 85
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 61000
+    domain: 61000
+  }
+}
+constraints {
+  enforcement_literal: 85
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 6000
+    domain: 6000
+  }
+}
+constraints {
+  enforcement_literal: 86
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 1301
+    domain: 1301
+  }
+}
+constraints {
+  enforcement_literal: 86
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 8
+    domain: 8
+  }
+}
+constraints {
+  enforcement_literal: 86
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 68400
+    domain: 68400
+  }
+}
+constraints {
+  enforcement_literal: 86
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 87
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 1288
+    domain: 1288
+  }
+}
+constraints {
+  enforcement_literal: 87
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 8
+    domain: 8
+  }
+}
+constraints {
+  enforcement_literal: 87
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 68400
+    domain: 68400
+  }
+}
+constraints {
+  enforcement_literal: 87
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 88
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 402
+    domain: 402
+  }
+}
+constraints {
+  enforcement_literal: 88
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 4
+    domain: 4
+  }
+}
+constraints {
+  enforcement_literal: 88
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 15000
+    domain: 15000
+  }
+}
+constraints {
+  enforcement_literal: 88
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 89
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 827
+    domain: 827
+  }
+}
+constraints {
+  enforcement_literal: 89
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 4
+    domain: 4
+  }
+}
+constraints {
+  enforcement_literal: 89
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 30500
+    domain: 30500
+  }
+}
+constraints {
+  enforcement_literal: 89
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 3000
+    domain: 3000
+  }
+}
+constraints {
+  enforcement_literal: 90
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 379
+    domain: 379
+  }
+}
+constraints {
+  enforcement_literal: 90
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 4
+    domain: 4
+  }
+}
+constraints {
+  enforcement_literal: 90
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 30500
+    domain: 30500
+  }
+}
+constraints {
+  enforcement_literal: 90
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 91
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 146
+    domain: 146
+  }
+}
+constraints {
+  enforcement_literal: 91
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 2
+    domain: 2
+  }
+}
+constraints {
+  enforcement_literal: 91
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 7500
+    domain: 7500
+  }
+}
+constraints {
+  enforcement_literal: 91
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 92
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 128
+    domain: 128
+  }
+}
+constraints {
+  enforcement_literal: 92
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 2
+    domain: 2
+  }
+}
+constraints {
+  enforcement_literal: 92
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 3750
+    domain: 3750
+  }
+}
+constraints {
+  enforcement_literal: 92
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 93
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 58
+    domain: 58
+  }
+}
+constraints {
+  enforcement_literal: 93
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 1
+    domain: 1
+  }
+}
+constraints {
+  enforcement_literal: 93
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 1700
+    domain: 1700
+  }
+}
+constraints {
+  enforcement_literal: 93
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 94
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 93
+    domain: 93
+  }
+}
+constraints {
+  enforcement_literal: 94
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 1
+    domain: 1
+  }
+}
+constraints {
+  enforcement_literal: 94
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 3750
+    domain: 3750
+  }
+}
+constraints {
+  enforcement_literal: 94
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 95
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 98
+    domain: 98
+  }
+}
+constraints {
+  enforcement_literal: 95
+  linear {
+    vars: 97
+    coeffs: 1
+    domain: 1
+    domain: 1
+  }
+}
+constraints {
+  enforcement_literal: 95
+  linear {
+    vars: 98
+    coeffs: 1
+    domain: 3750
+    domain: 3750
+  }
+}
+constraints {
+  enforcement_literal: 95
+  linear {
+    vars: 99
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 101
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 8403
+    domain: 8403
+  }
+}
+constraints {
+  enforcement_literal: 101
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 64
+    domain: 64
+  }
+}
+constraints {
+  enforcement_literal: 101
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 976000
+    domain: 976000
+  }
+}
+constraints {
+  enforcement_literal: 101
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 102
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 9152
+    domain: 9152
+  }
+}
+constraints {
+  enforcement_literal: 102
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 64
+    domain: 64
+  }
+}
+constraints {
+  enforcement_literal: 102
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 488000
+    domain: 488000
+  }
+}
+constraints {
+  enforcement_literal: 102
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 8000
+    domain: 8000
+  }
+}
+constraints {
+  enforcement_literal: 103
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 16000
+    domain: 16000
+  }
+}
+constraints {
+  enforcement_literal: 103
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 64
+    domain: 64
+  }
+}
+constraints {
+  enforcement_literal: 103
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 1952
+    domain: 1952
+  }
+}
+constraints {
+  enforcement_literal: 103
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 104
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 4105
+    domain: 4105
+  }
+}
+constraints {
+  enforcement_literal: 104
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 32
+    domain: 32
+  }
+}
+constraints {
+  enforcement_literal: 104
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 244000
+    domain: 244000
+  }
+}
+constraints {
+  enforcement_literal: 104
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 105
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 4576
+    domain: 4576
+  }
+}
+constraints {
+  enforcement_literal: 105
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 32
+    domain: 32
+  }
+}
+constraints {
+  enforcement_literal: 105
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 244000
+    domain: 244000
+  }
+}
+constraints {
+  enforcement_literal: 105
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 4000
+    domain: 4000
+  }
+}
+constraints {
+  enforcement_literal: 106
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 1373
+    domain: 1373
+  }
+}
+constraints {
+  enforcement_literal: 106
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 16
+    domain: 16
+  }
+}
+constraints {
+  enforcement_literal: 106
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 122000
+    domain: 122000
+  }
+}
+constraints {
+  enforcement_literal: 106
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 107
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 1430
+    domain: 1430
+  }
+}
+constraints {
+  enforcement_literal: 107
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 16
+    domain: 16
+  }
+}
+constraints {
+  enforcement_literal: 107
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 30000
+    domain: 30000
+  }
+}
+constraints {
+  enforcement_literal: 107
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 108
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 5400
+    domain: 5400
+  }
+}
+constraints {
+  enforcement_literal: 108
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 17
+    domain: 17
+  }
+}
+constraints {
+  enforcement_literal: 108
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 117000
+    domain: 117000
+  }
+}
+constraints {
+  enforcement_literal: 108
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 24000
+    domain: 24000
+  }
+}
+constraints {
+  enforcement_literal: 109
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 3079
+    domain: 3079
+  }
+}
+constraints {
+  enforcement_literal: 109
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 16
+    domain: 16
+  }
+}
+constraints {
+  enforcement_literal: 109
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 122000
+    domain: 122000
+  }
+}
+constraints {
+  enforcement_literal: 109
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 110
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 1470
+    domain: 1470
+  }
+}
+constraints {
+  enforcement_literal: 110
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 8
+    domain: 8
+  }
+}
+constraints {
+  enforcement_literal: 110
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 61000
+    domain: 61000
+  }
+}
+constraints {
+  enforcement_literal: 110
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 6000
+    domain: 6000
+  }
+}
+constraints {
+  enforcement_literal: 111
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 1301
+    domain: 1301
+  }
+}
+constraints {
+  enforcement_literal: 111
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 8
+    domain: 8
+  }
+}
+constraints {
+  enforcement_literal: 111
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 68400
+    domain: 68400
+  }
+}
+constraints {
+  enforcement_literal: 111
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 112
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 1288
+    domain: 1288
+  }
+}
+constraints {
+  enforcement_literal: 112
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 8
+    domain: 8
+  }
+}
+constraints {
+  enforcement_literal: 112
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 68400
+    domain: 68400
+  }
+}
+constraints {
+  enforcement_literal: 112
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 113
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 402
+    domain: 402
+  }
+}
+constraints {
+  enforcement_literal: 113
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 4
+    domain: 4
+  }
+}
+constraints {
+  enforcement_literal: 113
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 15000
+    domain: 15000
+  }
+}
+constraints {
+  enforcement_literal: 113
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 114
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 827
+    domain: 827
+  }
+}
+constraints {
+  enforcement_literal: 114
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 4
+    domain: 4
+  }
+}
+constraints {
+  enforcement_literal: 114
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 30500
+    domain: 30500
+  }
+}
+constraints {
+  enforcement_literal: 114
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 3000
+    domain: 3000
+  }
+}
+constraints {
+  enforcement_literal: 115
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 379
+    domain: 379
+  }
+}
+constraints {
+  enforcement_literal: 115
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 4
+    domain: 4
+  }
+}
+constraints {
+  enforcement_literal: 115
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 30500
+    domain: 30500
+  }
+}
+constraints {
+  enforcement_literal: 115
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 116
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 146
+    domain: 146
+  }
+}
+constraints {
+  enforcement_literal: 116
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 2
+    domain: 2
+  }
+}
+constraints {
+  enforcement_literal: 116
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 7500
+    domain: 7500
+  }
+}
+constraints {
+  enforcement_literal: 116
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 117
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 128
+    domain: 128
+  }
+}
+constraints {
+  enforcement_literal: 117
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 2
+    domain: 2
+  }
+}
+constraints {
+  enforcement_literal: 117
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 3750
+    domain: 3750
+  }
+}
+constraints {
+  enforcement_literal: 117
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 118
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 58
+    domain: 58
+  }
+}
+constraints {
+  enforcement_literal: 118
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 1
+    domain: 1
+  }
+}
+constraints {
+  enforcement_literal: 118
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 1700
+    domain: 1700
+  }
+}
+constraints {
+  enforcement_literal: 118
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 119
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 93
+    domain: 93
+  }
+}
+constraints {
+  enforcement_literal: 119
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 1
+    domain: 1
+  }
+}
+constraints {
+  enforcement_literal: 119
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 3750
+    domain: 3750
+  }
+}
+constraints {
+  enforcement_literal: 119
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 120
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 98
+    domain: 98
+  }
+}
+constraints {
+  enforcement_literal: 120
+  linear {
+    vars: 122
+    coeffs: 1
+    domain: 1
+    domain: 1
+  }
+}
+constraints {
+  enforcement_literal: 120
+  linear {
+    vars: 123
+    coeffs: 1
+    domain: 3750
+    domain: 3750
+  }
+}
+constraints {
+  enforcement_literal: 120
+  linear {
+    vars: 124
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 126
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 8403
+    domain: 8403
+  }
+}
+constraints {
+  enforcement_literal: 126
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 64
+    domain: 64
+  }
+}
+constraints {
+  enforcement_literal: 126
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 976000
+    domain: 976000
+  }
+}
+constraints {
+  enforcement_literal: 126
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 127
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 9152
+    domain: 9152
+  }
+}
+constraints {
+  enforcement_literal: 127
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 64
+    domain: 64
+  }
+}
+constraints {
+  enforcement_literal: 127
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 488000
+    domain: 488000
+  }
+}
+constraints {
+  enforcement_literal: 127
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 8000
+    domain: 8000
+  }
+}
+constraints {
+  enforcement_literal: 128
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 16000
+    domain: 16000
+  }
+}
+constraints {
+  enforcement_literal: 128
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 64
+    domain: 64
+  }
+}
+constraints {
+  enforcement_literal: 128
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 1952
+    domain: 1952
+  }
+}
+constraints {
+  enforcement_literal: 128
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 129
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 4105
+    domain: 4105
+  }
+}
+constraints {
+  enforcement_literal: 129
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 32
+    domain: 32
+  }
+}
+constraints {
+  enforcement_literal: 129
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 244000
+    domain: 244000
+  }
+}
+constraints {
+  enforcement_literal: 129
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 130
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 4576
+    domain: 4576
+  }
+}
+constraints {
+  enforcement_literal: 130
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 32
+    domain: 32
+  }
+}
+constraints {
+  enforcement_literal: 130
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 244000
+    domain: 244000
+  }
+}
+constraints {
+  enforcement_literal: 130
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 4000
+    domain: 4000
+  }
+}
+constraints {
+  enforcement_literal: 131
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 1373
+    domain: 1373
+  }
+}
+constraints {
+  enforcement_literal: 131
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 16
+    domain: 16
+  }
+}
+constraints {
+  enforcement_literal: 131
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 122000
+    domain: 122000
+  }
+}
+constraints {
+  enforcement_literal: 131
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 132
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 1430
+    domain: 1430
+  }
+}
+constraints {
+  enforcement_literal: 132
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 16
+    domain: 16
+  }
+}
+constraints {
+  enforcement_literal: 132
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 30000
+    domain: 30000
+  }
+}
+constraints {
+  enforcement_literal: 132
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 133
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 5400
+    domain: 5400
+  }
+}
+constraints {
+  enforcement_literal: 133
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 17
+    domain: 17
+  }
+}
+constraints {
+  enforcement_literal: 133
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 117000
+    domain: 117000
+  }
+}
+constraints {
+  enforcement_literal: 133
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 24000
+    domain: 24000
+  }
+}
+constraints {
+  enforcement_literal: 134
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 3079
+    domain: 3079
+  }
+}
+constraints {
+  enforcement_literal: 134
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 16
+    domain: 16
+  }
+}
+constraints {
+  enforcement_literal: 134
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 122000
+    domain: 122000
+  }
+}
+constraints {
+  enforcement_literal: 134
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 135
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 1470
+    domain: 1470
+  }
+}
+constraints {
+  enforcement_literal: 135
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 8
+    domain: 8
+  }
+}
+constraints {
+  enforcement_literal: 135
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 61000
+    domain: 61000
+  }
+}
+constraints {
+  enforcement_literal: 135
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 6000
+    domain: 6000
+  }
+}
+constraints {
+  enforcement_literal: 136
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 1301
+    domain: 1301
+  }
+}
+constraints {
+  enforcement_literal: 136
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 8
+    domain: 8
+  }
+}
+constraints {
+  enforcement_literal: 136
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 68400
+    domain: 68400
+  }
+}
+constraints {
+  enforcement_literal: 136
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 137
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 1288
+    domain: 1288
+  }
+}
+constraints {
+  enforcement_literal: 137
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 8
+    domain: 8
+  }
+}
+constraints {
+  enforcement_literal: 137
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 68400
+    domain: 68400
+  }
+}
+constraints {
+  enforcement_literal: 137
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 138
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 402
+    domain: 402
+  }
+}
+constraints {
+  enforcement_literal: 138
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 4
+    domain: 4
+  }
+}
+constraints {
+  enforcement_literal: 138
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 15000
+    domain: 15000
+  }
+}
+constraints {
+  enforcement_literal: 138
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 139
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 827
+    domain: 827
+  }
+}
+constraints {
+  enforcement_literal: 139
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 4
+    domain: 4
+  }
+}
+constraints {
+  enforcement_literal: 139
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 30500
+    domain: 30500
+  }
+}
+constraints {
+  enforcement_literal: 139
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 3000
+    domain: 3000
+  }
+}
+constraints {
+  enforcement_literal: 140
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 379
+    domain: 379
+  }
+}
+constraints {
+  enforcement_literal: 140
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 4
+    domain: 4
+  }
+}
+constraints {
+  enforcement_literal: 140
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 30500
+    domain: 30500
+  }
+}
+constraints {
+  enforcement_literal: 140
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 141
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 146
+    domain: 146
+  }
+}
+constraints {
+  enforcement_literal: 141
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 2
+    domain: 2
+  }
+}
+constraints {
+  enforcement_literal: 141
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 7500
+    domain: 7500
+  }
+}
+constraints {
+  enforcement_literal: 141
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 142
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 128
+    domain: 128
+  }
+}
+constraints {
+  enforcement_literal: 142
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 2
+    domain: 2
+  }
+}
+constraints {
+  enforcement_literal: 142
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 3750
+    domain: 3750
+  }
+}
+constraints {
+  enforcement_literal: 142
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 2000
+    domain: 2000
+  }
+}
+constraints {
+  enforcement_literal: 143
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 58
+    domain: 58
+  }
+}
+constraints {
+  enforcement_literal: 143
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 1
+    domain: 1
+  }
+}
+constraints {
+  enforcement_literal: 143
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 1700
+    domain: 1700
+  }
+}
+constraints {
+  enforcement_literal: 143
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 144
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 93
+    domain: 93
+  }
+}
+constraints {
+  enforcement_literal: 144
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 1
+    domain: 1
+  }
+}
+constraints {
+  enforcement_literal: 144
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 3750
+    domain: 3750
+  }
+}
+constraints {
+  enforcement_literal: 144
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  enforcement_literal: 145
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 98
+    domain: 98
+  }
+}
+constraints {
+  enforcement_literal: 145
+  linear {
+    vars: 147
+    coeffs: 1
+    domain: 1
+    domain: 1
+  }
+}
+constraints {
+  enforcement_literal: 145
+  linear {
+    vars: 148
+    coeffs: 1
+    domain: 3750
+    domain: 3750
+  }
+}
+constraints {
+  enforcement_literal: 145
+  linear {
+    vars: 149
+    coeffs: 1
+    domain: 1000
+    domain: 1000
+  }
+}
+constraints {
+  name: "Deactivation_VM1"
+  enforcement_literal: -26
+  linear {
+    vars: 46
+    coeffs: 1
+    domain: 0
+    domain: 0
+  }
+}
+constraints {
+  name: "Deactivation_VM2"
+  enforcement_literal: -51
+  linear {
+    vars: 71
+    coeffs: 1
+    domain: 0
+    domain: 0
+  }
+}
+constraints {
+  name: "Deactivation_VM3"
+  enforcement_literal: -76
+  linear {
+    vars: 96
+    coeffs: 1
+    domain: 0
+    domain: 0
+  }
+}
+constraints {
+  name: "Deactivation_VM4"
+  enforcement_literal: -101
+  linear {
+    vars: 121
+    coeffs: 1
+    domain: 0
+    domain: 0
+  }
+}
+constraints {
+  name: "Deactivation_VM5"
+  enforcement_literal: -126
+  linear {
+    vars: 146
+    coeffs: 1
+    domain: 0
+    domain: 0
+  }
+}
+objective {
+  vars: 46
+  vars: 71
+  vars: 96
+  vars: 121
+  vars: 146
+  scaling_factor: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+}
