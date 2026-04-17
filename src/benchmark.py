@@ -3,6 +3,7 @@ from Data.Formalization1.CPLEX_Solver import CPLEX_Solver
 from Data.Formalization1.Z3_Solver import Z3_Solver
 from Data.Formalization1.Gurobi_Solver_LP import parsing
 from Data.Formalization1.Gurobi_Solver import Gurobi_Solver
+from Data.Formalization1.ORTools_Solver import ORTools_Solver
 
 import os
 
@@ -32,13 +33,21 @@ import os
 #     run_test()
 
 
-# gurobi_lp
-lp_generate_de_cplex = "../Data/Output/CPLEX/SecureWebContainer_offers_20.lp"
-parsing(lp_generate_de_cplex)
+# # gurobi_lp
+# lp_generate_de_cplex = "../Data/Output/CPLEX/SecureWebContainer_offers_20.lp"
+# parsing(lp_generate_de_cplex)
 
-# #gurobi clasic
+#gurobi clasic
 # res = Gurobi_Solver.solve(
 #     "../Data/Case_Studies/SecureWebContainer.json",
 #     "../Data/Offers/offers_20.json"
 # )
 # print(res)
+
+#ORTOOLS
+res = ORTools_Solver.solve(
+    "../Data/Case_Studies/SecureWebContainer.json",
+    "../Data/Offers/offers_500.json"
+)
+print(res)
+
