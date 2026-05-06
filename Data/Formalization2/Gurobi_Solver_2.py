@@ -1,10 +1,10 @@
-from docplex.mp.model import Model
-from docplex.mp.progress import ProgressListener
+from gurobipy import *
+import gurobipy as gp
 import time
 import os
 import json
 
-class CPLEX_Solver:
+class Gurobi_Solver:
     def __init__(self, components_file, offers_file, nr_vms=0):
         self.components_file = components_file
         self.offers_file = offers_file
@@ -13,12 +13,19 @@ class CPLEX_Solver:
         self.components = []
         self.offers = []
 
-        self.model = Model("CPLEX_deployment")
+        self.model = Model("Gurobi_deployment")
+
+        self.model.update()
 
         # Variabile
         self.alloc_vars = {}   # (c, v) -> bin --> alocarea ofertei cumparate pe masina
         self.type_vars = {}    # (v, o) -> bin ---> ce tip de oferta punem pe masina
         self.vm_price = {}     # v -> float
+        self.vm_active = {}
+        self.CPU = {}
+        self.Memory = {}
+        self.Storage = {}
+        self.vm_type = {}
 
     def load_data(self):
         with open(self.offers_file, "r") as f:
@@ -47,101 +54,93 @@ class CPLEX_Solver:
     def build_variables(self):
         nr_comp = len(self.components)
         nr_offers = len(self.offers)
-        self.vm_active = {}  #occupancy
-        self.alloc_vars = {}
 
         for c in range(nr_comp):
             for v in range(self.nr_vms):
-                self.alloc_vars[(c, v)] = self.model.binary_var(
-                    name=f"C{c + 1}_VM{v + 1}"
-                )
+                self.alloc_vars[(c, v)] = self.model.addVar(vtype=GRB.BINARY, name=f"C{c + 1}_VM{v + 1}")
 
         for v in range(self.nr_vms):
-            self.vm_active[v] = self.model.binary_var(name=f"VM_{v + 1}")
+            self.vm_active[v] = self.model.addVar(vtype=GRB.BINARY, name=f"VM_{v + 1}")
+            self.vm_price[v] = self.model.addVar(vtype=GRB.CONTINUOUS, lb=0, name=f"PriceProv{v + 1}")
+            self.CPU[v] = self.model.addVar(vtype=GRB.INTEGER, lb=0, name=f"VM{v + 1}_offer_CPU")
+            self.Memory[v] = self.model.addVar(vtype=GRB.INTEGER, lb=0, name=f"VM{v + 1}_offer_Memory")
+            self.Storage[v] = self.model.addVar(vtype=GRB.INTEGER, lb=0, name=f"VM{v + 1}_offer_Storage")
 
-        for v in range(self.nr_vms):
+            self.vm_type[v] = self.model.addVar(lb=0, ub=nr_offers, vtype=GRB.INTEGER, name=f"VM{v + 1}_Type")
+
+
             temp_vars = []
             for o in range(nr_offers):
-                var = self.model.binary_var(name=f"VM{v + 1}_Type{o + 1}")
+                var = self.model.addVar(vtype=GRB.BINARY, name=f"vm{v + 1}_type {o + 1}")
                 self.type_vars[(v, o)] = var
                 temp_vars.append(var)
 
-            self.model.add_constraint(
-                self.model.logical_or(*temp_vars) == self.vm_active[v],
-                ctname=f"VM{v + 1}"
-            )
+            #alege maxim o oferta doar daca vm-ul e activ
+            self.model.addConstr(gp.quicksum(temp_vars) == self.vm_active[v])
 
-        for v in range(self.nr_vms):
-            self.vm_price[v] = self.model.continuous_var(
-                lb=0, name=f"PriceProv{v + 1}"
-            )
+            # calculam id ul pe baza binarelor
+            # Ex: Dacă binarul 5 e 1 (și restul 0), atunci vm_type = 5 * 1 = 5
+            self.model.addConstr(
+                self.vm_type[v] == gp.quicksum((o + 1) * temp_vars[o] for o in range(nr_offers)), name=f"Type_VM{v+1}")
 
-        print(self.vm_active)
-
-        self.CPU = {}
-        self.Memory = {}
-        self.Storage = {}
-
-        for v in range(self.nr_vms):
-            self.CPU[v] = self.model.integer_var(lb=0, name=f"VM{v + 1}_offer_CPU")
-            self.Memory[v] = self.model.integer_var(lb=0, name=f"VM{v + 1}_offer_Memory")
-            self.Storage[v] = self.model.integer_var(lb=0, name=f"VM{v + 1}_offer_Storage")
-
-    def vm_type(self):
-        nr_offers = len(self.offers)
-        for v in range(self.nr_vms):
-            conditii_oferte = [self.type_vars[(v, o)] == 1 for o in range(nr_offers)]
-            self.model.add(
-                self.model.logical_or(*conditii_oferte) #== (self.vm_active[v] == 1)
-            )
-
+            #self.model.addSOS(GRB.SOS_TYPE1, temp_vars)  # setul SOS1 pentru gurobi
     def basic_allocation(self):
         nr_comp = len(self.components)
         for c in range(nr_comp):
-            self.model.add_constraint(
-                self.model.sum(self.alloc_vars[(c, v)] for v in range(self.nr_vms)) == 1,
-                ctname=f"BasicAllocation_{c}"
+            self.model.addConstr(
+                gp.quicksum(self.alloc_vars[(c, v)] for v in range(self.nr_vms)) >= 1,
+                name=f"BasicAllocation_{c}"
             )
 
+    # def occupancy(self):
+    #     nr_comp = len(self.components)
+    #     for v in range(self.nr_vms):
+    #         self.model.addGenConstrOr(
+    #             self.vm_active[v],
+    #             [self.alloc_vars[(c, v)] for c in range(nr_comp)],
+    #             name=f"Occupancy_VM{v + 1}"
+    #         )
     def occupancy(self):
         nr_comp = len(self.components)
-
         for v in range(self.nr_vms):
-            self.model.add_constraint(
-                #self.model.if_then(self.model.sum(self.alloc_vars[(c, v)] for c in range(nr_comp)) >= 1, self.vm_active[v] == 1), ctname=f"Occupancy_{v}"
-                self.model.if_then(self.model.sum(self.alloc_vars[(c, v)] for c in range(nr_comp)) >= 1 , self.vm_active[v] == 1), ctname=f"Occupancy_{v}"
-
-            )
+            for c in range(nr_comp):
+                self.model.addGenConstrIndicator(
+                    self.alloc_vars[(c, v)], 1, self.vm_active[v]==1,
+                    name=f"Occupancy_VM{v + 1}"
+                )
+                # self.model.addConstr(
+                #     self.alloc_vars[(c, v)] <= self.vm_active[v],
+                #     name=f"Occupancy_C{c + 1}_VM{v + 1}"
+                # )
 
     def capacity(self):
         nr_comp = len(self.components)
-        nr_offers = len(self.offers)
         for v in range(self.nr_vms):
-                self.model.add_constraint(
-                    self.model.sum(
+                self.model.addConstr(
+                    gp.quicksum(
                         self.alloc_vars[(c, v)] * self.components[c]["cpu"]
                         for c in range(nr_comp)
                     )
                     <= self.CPU[v],
-                    ctname=f"Capacity_CPU_VM{v + 1}"
+                    name=f"Capacity_CPU_VM{v + 1}"
                 )
 
-                self.model.add_constraint(
-                    self.model.sum(
+                self.model.addConstr(
+                    gp.quicksum(
                         self.alloc_vars[(c, v)] * self.components[c]["memory"]
                         for c in range(nr_comp)
                     )
                     <= self.Memory[v],
-                    ctname=f"Capacity_Memory_VM{v + 1}"
+                    name=f"Capacity_Memory_VM{v + 1}"
                 )
 
-                self.model.add_constraint(
-                    self.model.sum(
+                self.model.addConstr(
+                    gp.quicksum(
                         self.alloc_vars[(c, v)] * self.components[c]["storage"]
                         for c in range(nr_comp)
                     )
                     <= self.Storage[v],
-                    ctname=f"Capacity_Storage_VM{v + 1}"
+                    name=f"Capacity_Storage_VM{v + 1}"
                 )
 
     def link(self):
@@ -149,38 +148,25 @@ class CPLEX_Solver:
         for v in range(self.nr_vms):
             for o in range(nr_offers):
                 offer = self.offers[o]
-                #c131-133 din off20.lp
-                condition = self.model.logical_and(self.vm_active[v] == 1, self.type_vars[(v, o)] == 1) == 1
-                #Condiție => (CPU = X  /  RAM = Y  /  STO = Z)  and  Preț = P
-                #la fel e si conditie => cpu=x and conditie => ram etc
+                is_chosen =  o
                 consecinte = [
-                    self.vm_price[v] == offer["price"],   # pk = Ptk
-                    self.CPU[v]      == offer["cpu"],     # r_cpu = F_cpu
-                    self.Memory[v]   == offer["memory"],  # r_mem = F_mem
-                    self.Storage[v]  == offer["storage"]  # r_sto = F_sto
+                    (self.vm_price[v] == offer["price"], f"Link"),
+                    (self.CPU[v] == offer["cpu"], f"Link"),
+                    (self.Memory[v] == offer["memory"], f"Link"),
+                    (self.Storage[v] == offer["storage"], f"Link")
                 ]
+                for ecuatie, nume_constr in consecinte:
+                    self.model.addGenConstrIndicator(is_chosen, 1, ecuatie, name=nume_constr)
 
-                for eq in consecinte:
-                    self.model.add_constraint(
-                        self.model.if_then(condition, eq),
-                        ctname=f"Link_VM{v+1}_Offer{o+1}"
-                    )
-
-    def link_deactivation(self):
-        #print(self.vm_type(v))
         for v in range(self.nr_vms):
-                self.model.add_constraint(
-                    self.model.if_then(
-                        self.vm_active[v] == 0, self.vm_price[v]==0),
-                ctname=f"Deactivation_{v+1}"
-                )
+            self.model.addGenConstrIndicator(self.vm_active[v], 0, self.vm_price[v] == 0, name=f"Link_Deactivation_{v+1}")
 
     def objective(self):
-        self.model.minimize(
-            self.model.sum(self.vm_price[v] for v in range(self.nr_vms))
-        )
+        self.model.setObjective(
+            gp.quicksum(self.vm_price[v] for v in range(self.nr_vms)), GRB.MINIMIZE)
 
-    def run(self, output_dir="../Data/Output/CPLEX"):
+
+    def run(self, output_dir="../Data/Output/Gurobi2"):
         os.makedirs(output_dir, exist_ok=True)
 
         components_name = os.path.splitext(os.path.basename(self.components_file))[0]
@@ -189,37 +175,27 @@ class CPLEX_Solver:
 
         lp_path = os.path.join(output_dir, f"{dynamic_base_name}.lp")
         sol_path = os.path.join(output_dir, f"{dynamic_base_name}.sol")
-        #test
-        # mps_path = os.path.join(output_dir, f"{dynamic_base_name}.mps")
 
-        self.model.export_as_lp(lp_path)
-        # self.model.export_as_mps(mps_path)
+        self.model.write(lp_path)
+        self.model.Params.Presolve = 0
+        self.model.Params.Symmetry = 0
+        self.model.Params.TimeLimit = 5000
+        self.model.Params.LogFile = sol_path
+        self.model.Params.LogToConsole = 0
+        # self.model.Params.Cuts = 0
+
+        start_time = time.time()
+        self.model.optimize()
+        duration = time.time() - start_time
+
         #scriere in sol file
-
-        with open(sol_path, "w") as f:
-            self.model.parameters.preprocessing.presolve = 0
-            self.model.parameters.preprocessing.symmetry = 0
-            self.model.parameters.read.datacheck = 0
-            self.model.parameters.dettimelimit = 5000000
-
-            start_time = time.time()
-            solution = self.model.solve(log_output=f)
-            solve_details = self.model.solve_details
-
-
-
-            duration = time.time() - start_time
-
-            if solution:
-                f.write(f"Price = {solution.objective_value}\n")
+        with open(sol_path, "a") as f:
+            if self.model.Status == GRB.OPTIMAL or self.model.Status == GRB.SUBOPTIMAL:
+                f.write(f"Price = {self.model.ObjVal}\n")
                 f.write(f"Time = {duration:.6f}\n")
-                f.write(f"Wall_Time = {solve_details.time:.6f}\n")
-                f.write(f"Status = {self.model.solve_details.status}\n")
-                f.write(f"Nodes = {solve_details.nb_nodes_processed}\n")
-                f.write(f"Gap = {self.model.solve_details.mip_relative_gap}\n\n")
-
-                f.write(f"Solution = {self.model.solution}\n")
-                f.write(f"Solve_details = {self.model.solve_details}\n")
+                f.write(f"Status = {self.model.Status}\n")
+                f.write(f"Nodes = {self.model.NodeCount}\n")
+                f.write(f"Gap = {self.model.MIPGap}\n\n")
 
                 # MATRICEA
                 a_mat = []
@@ -228,21 +204,17 @@ class CPLEX_Solver:
                 for c in range(nr_comp):
                     row = []
                     for v in range(self.nr_vms):
-                        var_name = f"C{c + 1}_VM{v + 1}"
-                        row.append(int(round(solution.get_value(var_name))))
+                        val = int(round(self.alloc_vars[(c, v)].X))
+                        row.append(val)
                     a_mat.append(row)
 
-                # VECTORUL
                 t_vec = []
                 nr_offers = len(self.offers)
 
+                #vectorul
+                # VECTORUL t
                 for v in range(self.nr_vms):
-                    t_val = 0
-                    for o in range(nr_offers):
-                        var_name = f"VM{v + 1}_Type{o + 1}"
-                        if int(round(solution.get_value(var_name))) == 1:
-                            t_val = o + 1
-                            break
+                    t_val = int(round(self.vm_type[v].X))
                     t_vec.append(t_val)
 
                 f.write("\nMatrice components x VM\n")
@@ -291,10 +263,10 @@ class CPLEX_Solver:
                 for v in range(self.nr_vms):
                     # extragere date
 
-                    vm_cpu = solution.get_value(self.CPU[v])
-                    vm_mem = solution.get_value(self.Memory[v])
-                    vm_sto = solution.get_value(self.Storage[v])
-                    vm_prc = solution.get_value(self.vm_price[v])
+                    vm_cpu = self.CPU[v].X
+                    vm_mem = self.Memory[v].X
+                    vm_sto = self.Storage[v].X
+                    vm_prc = self.vm_price[v].X
                     t_val = t_vec[v]
 
                     vm_details.append({
@@ -328,7 +300,7 @@ class CPLEX_Solver:
                 f.write("No solution found.\n")
 
     def solve(application_file, offers_file):
-        solver = CPLEX_Solver(
+        solver = Gurobi_Solver(
             components_file=application_file,
             offers_file=offers_file
         )
@@ -339,10 +311,7 @@ class CPLEX_Solver:
         solver.occupancy()
         solver.capacity()
         solver.link()
-        solver.link_deactivation()
         solver.objective()
-        solver.vm_type()
-
 
         result = solver.run()
         return result

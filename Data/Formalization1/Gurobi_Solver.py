@@ -15,6 +15,8 @@ class Gurobi_Solver:
 
         self.model = Model("Gurobi_deployment")
 
+        self.model.update()
+
         # Variabile
         self.alloc_vars = {}   # (c, v) -> bin --> alocarea ofertei cumparate pe masina
         self.type_vars = {}    # (v, o) -> bin ---> ce tip de oferta punem pe masina
@@ -58,7 +60,7 @@ class Gurobi_Solver:
 
         for v in range(self.nr_vms):
             self.vm_active[v] = self.model.addVar(vtype=GRB.BINARY, name=f"VM_{v + 1}")
-            self.vm_price[v] = self.model.addVar(vtype=GRB.CONTINUOUS, lb=0, name=f"PriceProv{v + 1}")
+            self.vm_price[v] = self.model.addVar(vtype=GRB.CONTINUOUS, lb=0,obj=1.0, name=f"PriceProv{v + 1}")
             self.CPU[v] = self.model.addVar(vtype=GRB.INTEGER, lb=0, name=f"VM{v + 1}_offer_CPU")
             self.Memory[v] = self.model.addVar(vtype=GRB.INTEGER, lb=0, name=f"VM{v + 1}_offer_Memory")
             self.Storage[v] = self.model.addVar(vtype=GRB.INTEGER, lb=0, name=f"VM{v + 1}_offer_Storage")
@@ -70,7 +72,12 @@ class Gurobi_Solver:
                 temp_vars.append(var)
 
             #constraint pentru calcul pret
-            self.model.addGenConstrOr(self.vm_active[v], temp_vars, name=f"VM_Active_Logic_{v + 1}")
+            self.model.addConstr(gp.quicksum(temp_vars) == self.vm_active[v])
+
+            #self.model.addGenConstrOr(self.vm_active[v], temp_vars, name=f"VM_Active_Logic_{v + 1}")
+
+            self.model.addSOS(GRB.SOS_TYPE1, temp_vars) #setul SOS1 pentru gurobi
+
 
     def basic_allocation(self):
         nr_comp = len(self.components)
@@ -150,8 +157,8 @@ class Gurobi_Solver:
             self.model.addGenConstrIndicator(self.vm_active[v], 0, self.vm_price[v] == 0, name=f"Link_Deactivation_{v+1}")
 
     def objective(self):
-        self.model.setObjective(
-            gp.quicksum(self.vm_price[v] for v in range(self.nr_vms)), GRB.MINIMIZE)
+        self.model.ModelSense = GRB.MINIMIZE
+        #gp.quicksum(self.vm_price[v] for v in range(self.nr_vms)), GRB.MINIMIZE)
 
 
     def run(self, output_dir="../Data/Output/Gurobi"):
@@ -165,11 +172,12 @@ class Gurobi_Solver:
         sol_path = os.path.join(output_dir, f"{dynamic_base_name}.sol")
 
         self.model.write(lp_path)
-        # self.model.Params.Presolve = 0
+        self.model.Params.Presolve = 0
         self.model.Params.Symmetry = 0
         self.model.Params.TimeLimit = 5000
         self.model.Params.LogFile = sol_path
         self.model.Params.LogToConsole = 0
+        # self.model.Params.Cuts = 0
 
         start_time = time.time()
         self.model.optimize()

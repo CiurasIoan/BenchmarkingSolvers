@@ -32,7 +32,7 @@ class ORTools_Solver:
                     "cpu": int(o.get("cpu", 0)),
                     "memory": int(o.get("memory", 0)),
                     "storage": int(o.get("storage", 0)),
-                    "price": int(o.get("price", 0))  # CP-SAT cere int!
+                    "price": int(o.get("price", 0))
                 })
 
         with open(self.components_file, "r") as f:
@@ -61,47 +61,49 @@ class ORTools_Solver:
         for c in range(nr_comp):
             for v in range(self.nr_vms):
                 # CP-SAT: NewBoolVar
-                self.alloc_vars[(c, v)] = self.model.NewBoolVar(f"C{c + 1}_VM{v + 1}")
+                self.alloc_vars[(c, v)] = self.model.new_bool_var(f"C{c + 1}_VM{v + 1}")
 
         for v in range(self.nr_vms):
-            self.vm_active[v] = self.model.NewBoolVar(f"VM_{v + 1}")
+            self.vm_active[v] = self.model.new_bool_var(f"VM_{v + 1}")
 
             temp_vars = []
             for o in range(nr_offers):
-                var = self.model.NewBoolVar(f"VM{v + 1}_Type{o + 1}")
+                var = self.model.new_bool_var(f"VM{v + 1}_Type{o + 1}")
                 self.type_vars[(v, o)] = var
                 temp_vars.append(var)
 
             # daca e activ, alege exact 1 tip
-            self.model.AddExactlyOne(temp_vars).OnlyEnforceIf(self.vm_active[v])
-            self.model.Add(sum(temp_vars) == 0).OnlyEnforceIf(self.vm_active[v].Not())
+            self.model.add_exactly_one(temp_vars).OnlyEnforceIf(self.vm_active[v])
+            print("---> ",             self.model.add_exactly_one(temp_vars).OnlyEnforceIf(self.vm_active[v]))
+            self.model.add(sum(temp_vars) == 0).OnlyEnforceIf(self.vm_active[v].Not())
 
-            self.vm_price[v] = self.model.NewIntVar(0, max_price, f"PriceProv{v + 1}")
-            self.CPU[v] = self.model.NewIntVar(0, max_cpu, f"VM{v + 1}_offer_CPU")
-            self.Memory[v] = self.model.NewIntVar(0, max_mem, f"VM{v + 1}_offer_Memory")
-            self.Storage[v] = self.model.NewIntVar(0, max_sto, f"VM{v + 1}_offer_Storage")
+            self.vm_price[v] = self.model.new_int_var(0, max_price, f"PriceProv{v + 1}")
+            self.CPU[v] = self.model.new_int_var(0, max_cpu, f"VM{v + 1}_offer_CPU")
+            self.Memory[v] = self.model.new_int_var(0, max_mem, f"VM{v + 1}_offer_Memory")
+            self.Storage[v] = self.model.new_int_var(0, max_sto, f"VM{v + 1}_offer_Storage")
 
     def basic_allocation(self):
         nr_comp = len(self.components)
         for c in range(nr_comp):
-            self.model.Add(sum(self.alloc_vars[(c, v)] for v in range(self.nr_vms)) >= 1).WithName(f"BasicAllocation_{c+1}")
+            self.model.add(sum(self.alloc_vars[(c, v)] for v in range(self.nr_vms)) == 1).WithName(f"BasicAllocation_{c+1}")
 
+#implication
     def occupancy(self):
         nr_comp = len(self.components)
         for v in range(self.nr_vms):
             for c in range(nr_comp):
-                self.model.AddImplication(self.alloc_vars[(c, v)], self.vm_active[v]).WithName(f"Occupancy_{v+1}")
+                self.model.add_implication(self.alloc_vars[(c, v)], self.vm_active[v]).WithName(f"Occupancy_{v+1}")
 
     def capacity(self):
         nr_comp = len(self.components)
         for v in range(self.nr_vms):
-            self.model.Add(
+            self.model.add(
                 sum(self.alloc_vars[(c, v)] * self.components[c]["cpu"] for c in range(nr_comp)) <= self.CPU[v]
             ).WithName(f"Capacity_CPU_VM{v + 1}")
-            self.model.Add(
+            self.model.add(
                 sum(self.alloc_vars[(c, v)] * self.components[c]["memory"] for c in range(nr_comp)) <= self.Memory[v],
             ).WithName(f"Capacity_Memory_VM{v + 1}")
-            self.model.Add(
+            self.model.add(
                 sum(self.alloc_vars[(c, v)] * self.components[c]["storage"] for c in range(nr_comp)) <= self.Storage[v],
             ).WithName(f"Capacity_Storage_VM{v + 1}")
 
@@ -112,20 +114,17 @@ class ORTools_Solver:
                 offer = self.offers[o]
                 is_chosen = self.type_vars[(v, o)]
 
-                self.model.Add(self.vm_price[v] == offer["price"]).OnlyEnforceIf(is_chosen)
-                self.model.Add(self.CPU[v] == offer["cpu"]).OnlyEnforceIf(is_chosen)
-                self.model.Add(self.Memory[v] == offer["memory"]).OnlyEnforceIf(is_chosen)
-                self.model.Add(self.Storage[v] == offer["storage"]).OnlyEnforceIf(is_chosen)
+                self.model.add(self.vm_price[v] == offer["price"]).OnlyEnforceIf(is_chosen)
+                self.model.add(self.CPU[v] == offer["cpu"]).OnlyEnforceIf(is_chosen)
+                self.model.add(self.Memory[v] == offer["memory"]).OnlyEnforceIf(is_chosen)
+                self.model.add(self.Storage[v] == offer["storage"]).OnlyEnforceIf(is_chosen)
 
     def link_deactivation(self):
         for v in range(self.nr_vms):
-            self.model.Add(self.vm_price[v] == 0).WithName(f"Deactivation_VM{v+1}").OnlyEnforceIf(self.vm_active[v].Not())
-            # self.model.Add(self.CPU[v] == 0).OnlyEnforceIf(self.vm_active[v].Not())
-            # self.model.Add(self.Memory[v] == 0).OnlyEnforceIf(self.vm_active[v].Not())
-            # self.model.Add(self.Storage[v] == 0).OnlyEnforceIf(self.vm_active[v].Not())
+            self.model.add(self.vm_price[v] == 0).WithName(f"Deactivation_VM{v+1}").OnlyEnforceIf(self.vm_active[v].Not())
 
     def objective(self):
-        self.model.Minimize(sum(self.vm_price[v] for v in range(self.nr_vms)))
+        self.model.minimize(sum(self.vm_price[v] for v in range(self.nr_vms)))
 
     def run(self, output_dir="../Data/Output/ORTools"):
         os.makedirs(output_dir, exist_ok=True)
