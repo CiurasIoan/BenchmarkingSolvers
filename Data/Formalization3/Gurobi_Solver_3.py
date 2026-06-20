@@ -9,7 +9,6 @@ class Gurobi_Solver:
         self.components_file = components_file
         self.offers_file = offers_file
         self.nr_vms = 0
-
         self.components = []
         self.offers = []
 

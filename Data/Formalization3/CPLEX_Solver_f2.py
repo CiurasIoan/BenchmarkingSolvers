@@ -143,7 +143,6 @@ class CPLEX_Solver:
         self.model.minimize(
             self.model.sum(self.vm_price[v] for v in range(self.nr_vms))
         )
-
     def build_general_constraints(self):
         self.build_variables()
         self.basic_allocation()
