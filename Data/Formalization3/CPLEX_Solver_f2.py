@@ -35,7 +35,7 @@ class CPLEX_Solver:
             for c in raw.get("components", []):
                 self.components.append({
                     "cpu": c.get("Compute", {}).get("CPU", 0),
-                    "memory": c.get("Memory", {}).get("Memory", 0),
+                    "memory": c.get("Compute", {}).get("Memory", 0),
                     "storage": c.get("Storage", {}).get("StorageSize", 0)
                 })
 
@@ -45,62 +45,83 @@ class CPLEX_Solver:
         nr_comp = len(self.components)
         nr_offers = len(self.offers)
 
+        self.alloc_vars = {}
+        self.type_vars = {}
+        self.vm_active = {}
+        self.vm_price = {}
+
+        # Component -> VM assignment
         for c in range(nr_comp):
             for v in range(self.nr_vms):
-                self.alloc_vars[(c, v)] = self.model.binary_var(
-                    name=f"C{c + 1}_VM{v + 1}"
-                )
+                self.alloc_vars[(c, v)] = self.model.binary_var(name=f"C{c + 1}_VM{v + 1}")
 
+        # VM type selection
         for v in range(self.nr_vms):
             for o in range(nr_offers):
-                self.type_vars[(v, o)] = self.model.binary_var(
-                    name=f"VM{v + 1}_Offer{o + 1}"
-                )
+                self.type_vars[(v, o)] = self.model.binary_var(name=f"VM{v + 1}_Offer{o + 1}")
 
+        # VM activation
         for v in range(self.nr_vms):
-            self.vm_price[v] = self.model.continuous_var(
-                lb=0, name=f"PriceProv{v + 1}"
-            )
-
-        self.vm_active = {}
-        for v in range(self.nr_vms):
-            self.vm_active[v] = self.model.binary_var(name=f"v_{v}")
-
-        self.CPU = {}
-        self.Memory = {}
-        self.Storage = {}
-
-        for v in range(self.nr_vms):
-            self.CPU[v] = self.model.integer_var(lb=0, name=f"VM{v + 1}_offer_CPU")
-            self.Memory[v] = self.model.integer_var(lb=0, name=f"VM{v + 1}_offer_Memory")
-            self.Storage[v] = self.model.integer_var(lb=0, name=f"VM{v + 1}_offer_Storage")
+            self.vm_active[v] = self.model.binary_var(name=f"v_{v + 1}")
+            self.vm_price[v] = self.model.continuous_var(name=f"Price_VM{v + 1}", lb=0)
 
     def basic_allocation(self):
         nr_comp = len(self.components)
+
         for c in range(nr_comp):
             self.model.add_constraint(
                 self.model.sum(
-                    self.alloc_vars[(c, v)] for v in range(self.nr_vms)
+                    self.alloc_vars[(c, v)]
+                    for v in range(self.nr_vms)
                 ) >= 1,
-                ctname=f"BasicAllocation_{c}"
+                ctname=f"BasicAllocation_{c+1}"
             )
 
     def occupancy(self):
         nr_comp = len(self.components)
 
         for v in range(self.nr_vms):
+            assigned = self.model.sum(
+                self.alloc_vars[(c, v)]
+                for c in range(nr_comp)
+            )
+
+            # If VM active => at least one component assigned
             self.model.add_constraint(
-                self.model.sum(self.alloc_vars[(c, v)] for c in range(nr_comp))
-                <= nr_comp * self.vm_active[v],
-                ctname=f"Occupancy_{v}"
+                assigned >= self.vm_active[v],
+                ctname=f"OccupancyLB_{v+1}"
+            )
+
+            # If components assigned => VM active
+            self.model.add_constraint(
+                assigned <= nr_comp * self.vm_active[v],
+                ctname=f"OccupancyUB_{v+1}"
+            )
+
+    def vm_type(self):
+        nr_offers = len(self.offers)
+        for v in range(self.nr_vms):
+            #inactive VM -> no type; active VM -> exactly one type
+            self.model.add_constraint(
+                self.model.sum(
+                    self.type_vars[(v, o)]
+                    for o in range(nr_offers)
+                ) == self.vm_active[v],
+                ctname=f"Vm_Type_{v+1}"
+            )
+
+            self.model.add_constraint(
+                self.vm_price[v] == self.model.sum(
+                    self.type_vars[(v, o)] * self.offers[o]["price"]
+                    for o in range(nr_offers)
+                ),
+                ctname=f"PriceProv_{v + 1}"
             )
 
     def capacity(self):
         nr_comp = len(self.components)
         nr_offers = len(self.offers)
-
         resources = ["cpu", "memory", "storage"]
-
         for v in range(self.nr_vms):
             for res in resources:
                 lhs = self.model.sum(
@@ -115,69 +136,48 @@ class CPLEX_Solver:
 
                 self.model.add_constraint(
                     lhs <= rhs,
-                    ctname=f"Capacity_{res}_VM{v}"
+                    ctname=f"Capacity_{res}_VM{v + 1}"
                 )
-
-    def link(self):
-        nr_offers = len(self.offers)
-
-        for v in range(self.nr_vms):
-            self.model.add_constraint(
-                self.vm_price[v] ==
-                self.model.sum(
-                    self.type_vars[(v, o)] * self.offers[o]["price"]
-                    for o in range(nr_offers)
-                ),
-                ctname=f"LinkPrice_{v}"
-            )
-
-    def link_deactivation(self):
-        nr_offers = len(self.offers)
-
-        for v in range(self.nr_vms):
-            self.model.add_constraint(
-                self.model.sum(self.type_vars[(v, o)] for o in range(nr_offers))
-                <= nr_offers * self.vm_active[v],
-                ctname=f"Deactivation_{v}"
-            )
 
     def objective(self):
         self.model.minimize(
             self.model.sum(self.vm_price[v] for v in range(self.nr_vms))
         )
 
-    def run(self, output_dir="../Data/Output/CPLEX", base_name="cplex"):
+    def build_general_constraints(self):
+        self.build_variables()
+        self.basic_allocation()
+        self.occupancy()
+        self.vm_type()
+        self.capacity()
+        self.objective()
+
+    def run(self, output_dir="../Data/Output/CPLEX_3"):
         os.makedirs(output_dir, exist_ok=True)
 
         components_name = os.path.splitext(os.path.basename(self.components_file))[0]
         offers_name = os.path.splitext(os.path.basename(self.offers_file))[0]
-        dynamic_base_name = f"{components_name}_{offers_name}"
+        dynamic_base_name = f"{components_name}_{offers_name}_pre0_sym0"
 
         lp_path = os.path.join(output_dir, f"{dynamic_base_name}.lp")
         sol_path = os.path.join(output_dir, f"{dynamic_base_name}.sol")
-        out_path = os.path.join(output_dir, f"{dynamic_base_name}.out")
+
 
         self.model.export_as_lp(lp_path)
+        # scriere in sol file
 
-        # OUTPUT sus
-        start_time = time.time()
-        duration = time.time() - start_time
-        solution = self.model.solve()
-        solve_details = self.model.solve_details
-
-        #scriere in fisier out
-        with open(out_path, "w") as log_file:
-            solution = self.model.solve(log_output=log_file)
-
-            log_file.write("\n")
-            log_file.write("FINAL SOLUTION\n")
-            if solution:
-                log_file.write(str(solution))
-            else:
-                log_file.write("No solution found (Infeasible or Unbounded).")
-
-        # scriere in fisier solutie
         with open(sol_path, "w") as f:
+            self.model.parameters.preprocessing.presolve = 0
+            self.model.parameters.preprocessing.symmetry = 0
+            self.model.parameters.read.datacheck = 0
+            self.model.parameters.dettimelimit = 5000000
+
+            start_time = time.time()
+            solution = self.model.solve(log_output=f)
+            solve_details = self.model.solve_details
+
+            duration = time.time() - start_time
+
             if solution:
                 f.write(f"Price = {solution.objective_value}\n")
                 f.write(f"Time = {duration:.6f}\n")
@@ -207,8 +207,7 @@ class CPLEX_Solver:
                 for v in range(self.nr_vms):
                     t_val = 0
                     for o in range(nr_offers):
-                        var_name = f"VM{v + 1}_Offer{o + 1}"
-                        if int(round(solution.get_value(var_name))) == 1:
+                        if int(round(solution.get_value(self.type_vars[(v, o)]))) == 1:
                             t_val = o + 1
                             break
                     t_vec.append(t_val)
@@ -222,27 +221,63 @@ class CPLEX_Solver:
 
                 # VM detalii
                 vm_details = []
+                f.write("\nComponent Requirements\n")
+                f.write(f"{'C ID':<6} {'Name':<15} {'Req CPU':<10} {'Req Memory':<12} {'Req Storage':<12}\n")
+                f.write("-" * 60 + "\n")
 
-                # extragere date
+                for v in range(self.nr_vms):
 
-                vm_cpu = solution.get_value(self.CPU[v])
-                vm_mem = solution.get_value(self.Memory[v])
-                vm_sto = solution.get_value(self.Storage[v])
-                vm_prc = solution.get_value(self.vm_price[v])
+                    total_req_cpu = 0
+                    total_req_mem = 0
+                    total_req_sto = 0
+                    is_used = False
 
-                vm_details.append({
-                    "id": v + 1,
-                    "type": t_val,
-                    "cpu": int(vm_cpu),
-                    "mem": int(vm_mem),
-                    "sto": int(vm_sto),
-                    "price": vm_prc
-                })
+                    c_names = []
+                    c_ids = []
+
+                    for c in range(nr_comp):
+                        if a_mat[c][v] == 1:
+                            is_used = True
+                            total_req_cpu += self.components[c]["cpu"]
+                            total_req_mem += self.components[c]["memory"]
+                            total_req_sto += self.components[c]["storage"]
+
+                            c_ids.append(str(self.components[c].get("id", c + 1)))
+                            c_names.append(self.components[c].get("name", f"Comp_{c + 1}"))
+
+                    if is_used:
+                        ids_str = ", ".join(c_ids)
+                        names_str = ", ".join(c_names)
+                        f.write(
+                            f"{ids_str:<6} {names_str:<15} {total_req_cpu:<10} {total_req_mem:<12} {total_req_sto:<12}\n")
+
+                f.write("-" * 60 + "\n")
+
                 f.write("\nVM Detailed Specs\n")
                 f.write(f"{'VM ID':<6} {'Type':<6} {'Price':<10} {'CPU':<8} {'Memory':<10} {'Storage':<10}\n")
                 f.write("-" * 60 + "\n")
+                for v in range(self.nr_vms):
+                    t_val = t_vec[v]
+                    if t_val > 0:  # Adică VM-ul este activ
+                        off_idx = t_val - 1
+                        vm_cpu = self.offers[off_idx]["cpu"]
+                        vm_mem = self.offers[off_idx]["memory"]
+                        vm_sto = self.offers[off_idx]["storage"]
+                        vm_prc = self.offers[off_idx]["price"]
+                    else:
+                        vm_cpu = vm_mem = vm_sto = vm_prc = 0
+
+                    vm_details.append({
+                        "id": v + 1,
+                        "type": t_val,
+                        "cpu": int(vm_cpu),
+                        "mem": int(vm_mem),
+                        "sto": int(vm_sto),
+                        "price": vm_prc
+                    })
 
                 total_cost_check = 0
+
                 for vm in vm_details:
                     if vm["type"] > 0:
                         f.write(
@@ -273,8 +308,7 @@ class CPLEX_Solver:
         solver.basic_allocation()
         solver.occupancy()
         solver.capacity()
-        solver.link()
-        solver.link_deactivation()
+        solver.vm_type()
         solver.objective()
 
         result = solver.run()
